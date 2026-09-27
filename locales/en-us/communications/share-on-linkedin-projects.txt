@@ -1,0 +1,15 @@
+Title: Digital Health Guide
+Link: https://digital-health-guide.github.io/
+Tags: #DigitalHealth #HealthTech #NHS #SocialCare #ServiceDesign
+Keywords: digital health, clinical safety, service design, health informatics
+Author: Joel Parker Henderson (joel@joelparkerhenderson.com)
+
+Summary: Digital Health Guide is a free handbook for people who lead digital delivery in health and social care organizations. It brings established standards and proven practice together into one shared foundation for the decisions leaders face every day. It keeps growing as that practice evolves.
+
+Benefits: Leaders get practical guidance they can use right away. A director preparing a business case finds language that survives scrutiny at the board. A clinical safety officer finds a review process built to protect patients, not just to pass audit. A programme lead finds a way to sequence delivery so risk gets managed early, not discovered late. A team setting objectives finds a way to measure progress that changes real behavior instead of being gamed for a green status.
+
+Why it matters: Digital programs in health and care face many similar challenges: safety risks surface late, business cases stall in committee, initiatives lose momentum. This handbook exists to help give every team a stronger starting point and better follow-through.
+
+Please share: You can send it to colleague drafting a board paper, briefing a new director, or standing up a service for the first time. Share it in a team channel or a community of practice where people compare notes on delivery. This project gives all the stakeulders a solid starting point.
+
+Constructive feedback welcome: This project is a work in progress, and I welcome advice and coaching. Try it and see what you think. Please let me know if something is missing, or wrong, or deserves a sharper answer. Your help here will help many more people who are using this project.
