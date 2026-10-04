@@ -40,17 +40,20 @@ jobs:
         working-directory: digital-health-guide.github.io
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: digital-health-guide.github.io/package.json
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: digital-health-guide.github.io/package-lock.json
-      - run: npm ci
+          cache: pnpm
+          cache-dependency-path: digital-health-guide.github.io/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
       # Re-vendor the book's Markdown from this repository so content/ is never stale.
-      - run: npm run sync
+      - run: pnpm run sync
         env:
           BOOK: ${{ github.workspace }}
-      - run: npm run build
+      - run: pnpm run build
       - uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.SITE_DEPLOY_KEY }}

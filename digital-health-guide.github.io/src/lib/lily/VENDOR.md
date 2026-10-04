@@ -2,7 +2,7 @@
 
 These files are copied verbatim from the Lily Design System (MIT licence) by
 `bin/sync-lily.mjs`. Do not edit them here — change them upstream and re-run
-`npm run sync:lily`.
+`pnpm run sync:lily`.
 
 - Source: <https://github.com/LilyDesignSystem>
 - Commit: `ba711d8252b8d35d48f3c67e97e419463a464b91`

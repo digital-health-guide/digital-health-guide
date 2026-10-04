@@ -17,10 +17,10 @@ There is no runtime JavaScript requirement for reading: the prerendered HTML is 
 ## Working locally
 
 ```sh
-npm install
-npm run dev        # dev server with live reload
-npm run build      # prerender the whole site into build/
-npm run preview    # serve build/ exactly as GitHub Pages will
+pnpm install
+pnpm run dev        # dev server with live reload
+pnpm run build      # prerender the whole site into build/
+pnpm run preview    # serve build/ exactly as GitHub Pages will
 ```
 
 ## Keeping content in sync
@@ -28,11 +28,11 @@ npm run preview    # serve build/ exactly as GitHub Pages will
 Both the book and the design system are vendored, so the site builds anywhere without the sibling checkouts present.
 
 ```sh
-npm run sync       # copy the book's Markdown into content/ and the icon into static/
-npm run sync:lily  # copy the Lily components, helpers, and themes
+pnpm run sync       # copy the book's Markdown into content/ and the icon into static/
+pnpm run sync:lily  # copy the Lily components, helpers, and themes
 ```
 
-`npm run sync` reads the sibling checkout `../digital-health-guide` by default; set `BOOK=/path/to/digital-health-guide` to point elsewhere. `npm run sync:lily` reads `~/git/lilydesignsystem/lily-design-system` by default; set `LILY=/path/to/lily-design-system` to override. Both scripts overwrite what they manage, so re-running them is the way to pick up upstream changes. Commit the result.
+`pnpm run sync` reads the sibling checkout `../digital-health-guide` by default; set `BOOK=/path/to/digital-health-guide` to point elsewhere. `pnpm run sync:lily` reads `~/git/lilydesignsystem/lily-design-system` by default; set `LILY=/path/to/lily-design-system` to override. Both scripts overwrite what they manage, so re-running them is the way to pick up upstream changes. Commit the result.
 
 The vendored Lily files and their upstream commit are recorded in [`src/lib/lily/VENDOR.md`](src/lib/lily/VENDOR.md). Do not edit them here — change them upstream and re-sync. `picker-bar`'s own source imports its four wrapped pickers as real `@lilydesignsystem/svelte-*` package specifiers (that is how the upstream package is built); since this site vendors from a sibling checkout rather than installing those packages for real, [`vite.config.js`](vite.config.js) aliases those specifiers at the vendored barrels instead.
 

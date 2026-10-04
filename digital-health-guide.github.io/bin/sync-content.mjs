@@ -2,7 +2,7 @@
 // Vendor the book's Markdown into content/ so this site builds standalone.
 //
 // Source: $BOOK if set, else the sibling checkout ../digital-health-guide.
-// Run after the book changes:  npm run sync
+// Run after the book changes:  pnpm run sync
 
 import { cp, mkdir, rm, readdir, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
