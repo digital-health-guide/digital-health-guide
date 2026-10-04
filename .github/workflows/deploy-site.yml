@@ -1,0 +1,60 @@
+name: Deploy site
+
+# Builds the SvelteKit site in digital-health-guide.github.io/ and publishes it
+# to the gh-pages branch of the digital-health-guide/digital-health-guide.github.io
+# repository, which serves https://digital-health-guide.github.io/.
+#
+# One-time setup:
+#   1. Create an SSH key pair. Add the public key as a deploy key (with write
+#      access) on the digital-health-guide.github.io repository.
+#   2. Add the private key as the SITE_DEPLOY_KEY secret on this repository.
+#   3. In the digital-health-guide.github.io repository, set Pages > Source to
+#      "Deploy from a branch": gh-pages, / (root).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - 'assets/**'
+      - 'GLOSSARY.md'
+      - 'INDEX.md'
+      - 'STYLE_GUIDE.md'
+      - 'digital-health-guide.github.io/**'
+      - '.github/workflows/deploy-site.yml'
+  workflow_dispatch:
+
+# Allow one concurrent deployment; a newer push supersedes an in-flight one.
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: digital-health-guide.github.io
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: digital-health-guide.github.io/package-lock.json
+      - run: npm ci
+      # Re-vendor the book's Markdown from this repository so content/ is never stale.
+      - run: npm run sync
+        env:
+          BOOK: ${{ github.workspace }}
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.SITE_DEPLOY_KEY }}
+          external_repository: digital-health-guide/digital-health-guide.github.io
+          publish_branch: gh-pages
+          publish_dir: digital-health-guide.github.io/build
+          force_orphan: true
