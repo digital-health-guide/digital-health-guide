@@ -4,7 +4,7 @@
 //
 // `en-gb` is the default locale: it is the book's source of truth. Every
 // locale, the default included, is served under `/<slug>/`. The old unprefixed
-// URLs (`/`, `/chapters/…`) redirect to the `/en-gb/` equivalents.
+// URLs (`/`, `/topics/…`) redirect to the `/en-gb/` equivalents.
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, bn-001, cy-001, de-001, en-001, en-gb,

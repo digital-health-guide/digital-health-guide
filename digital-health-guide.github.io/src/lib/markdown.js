@@ -16,34 +16,34 @@ const plainText = (html) =>
 		.replace(/&#39;/g, "'")
 		.trim();
 
-// "see Chapter 3.4 — Discovery Phases" and "See Chapters 1.9, 3.0" are the book's
-// house style for cross-references. Link the numbers to the chapter pages.
-function chapterReferences(chapterHref) {
+// "see Topic 3.4 — Discovery Phases" and "See Topics 1.9, 3.0" are the book's
+// house style for cross-references. Link the numbers to the topic pages.
+function topicReferences(topicHref) {
 	return {
-		name: 'chapterRef',
+		name: 'topicRef',
 		level: 'inline',
 		start(src) {
-			const match = /Chapters? \d/.exec(src);
+			const match = /Topics? \d/.exec(src);
 			return match ? match.index : undefined;
 		},
 		tokenizer(src) {
-			const match = /^(Chapters?) (\d{1,2}\.\d{1,2}(?:\s*,\s*\d{1,2}\.\d{1,2})*)/.exec(src);
+			const match = /^(Topics?) (\d{1,2}\.\d{1,2}(?:\s*,\s*\d{1,2}\.\d{1,2})*)/.exec(src);
 			if (!match) return undefined;
 			// Never nest a link inside a link.
 			if (this.lexer.state.inLink) return undefined;
 			const numbers = match[2].split(',').map((n) => n.trim());
-			if (!numbers.some((n) => chapterHref(n))) return undefined;
-			return { type: 'chapterRef', raw: match[0], word: match[1], numbers };
+			if (!numbers.some((n) => topicHref(n))) return undefined;
+			return { type: 'topicRef', raw: match[0], word: match[1], numbers };
 		},
 		renderer(token) {
 			if (token.numbers.length === 1) {
-				const href = chapterHref(token.numbers[0]);
+				const href = topicHref(token.numbers[0]);
 				return href
 					? `<a href="${href}">${token.word} ${token.numbers[0]}</a>`
 					: `${token.word} ${token.numbers[0]}`;
 			}
 			const linked = token.numbers.map((n) => {
-				const href = chapterHref(n);
+				const href = topicHref(n);
 				return href ? `<a href="${href}">${n}</a>` : n;
 			});
 			return `${token.word} ${linked.join(', ')}`;
@@ -58,13 +58,13 @@ function chapterReferences(chapterHref) {
  * @param {object} options
  * @param {string} options.file content path, used to resolve relative links
  * @param {string} [options.route] the page's own route, so it never links to itself
- * @param {(number: string) => string | null} options.chapterHref chapter number to route
+ * @param {(number: string) => string | null} options.topicHref topic number to route
  * @returns {{ html: string, title: string, headings: Array<{depth: number, id: string, text: string}>, summary: string }}
  */
-export function renderMarkdown(markdown, { file, route, locale, chapterHref = () => null }) {
-	// A chapter that mentions its own number links nowhere useful.
+export function renderMarkdown(markdown, { file, route, locale, topicHref = () => null }) {
+	// A topic that mentions its own number links nowhere useful.
 	const href = (number) => {
-		const target = chapterHref(number);
+		const target = topicHref(number);
 		return target && target !== route ? target : null;
 	};
 	const t = stringsFor(locale);
@@ -80,7 +80,7 @@ export function renderMarkdown(markdown, { file, route, locale, chapterHref = ()
 
 	const marked = new Marked({ gfm: true });
 	marked.use({
-		extensions: [chapterReferences(href)],
+		extensions: [topicReferences(href)],
 		renderer: {
 			heading({ tokens, depth }) {
 				const html = this.parser.parseInline(tokens);

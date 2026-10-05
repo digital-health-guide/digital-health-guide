@@ -55,7 +55,7 @@ for (const dir of dirs) {
 	}
 }
 
-// Each locale: its own index.md (table of contents) and chapters/<slug>/index.md.
+// Each locale: its own index.md (table of contents) and <topics-dir>/<slug>/index.md.
 for (const { slug } of LOCALES) {
 	const localeDir = join(localesDir, slug);
 	if (!existsSync(join(localeDir, 'index.md'))) {
@@ -67,18 +67,19 @@ for (const { slug } of LOCALES) {
 	await cp(join(localeDir, 'index.md'), join(contentDir, slug, 'index.md'));
 	count += 1;
 
-	const chaptersFrom = join(localeDir, 'chapters');
-	if (!existsSync(chaptersFrom)) {
-		console.warn(`skip (missing): locales/${slug}/chapters/`);
-		continue;
-	}
-	for (const entry of await readdir(chaptersFrom, { withFileTypes: true })) {
-		if (!entry.isDirectory()) continue;
-		const from = join(chaptersFrom, entry.name, 'index.md');
-		if (!existsSync(from)) continue;
-		await mkdir(join(contentDir, slug, 'chapters', entry.name), { recursive: true });
-		await cp(from, join(contentDir, slug, 'chapters', entry.name, 'index.md'));
-		count += 1;
+	// The topics directory is named per locale ("topics", "capítulos", …):
+	// it is the subdirectory holding the "NN-NN-<slug>/index.md" topic folders.
+	for (const dir of await readdir(localeDir, { withFileTypes: true })) {
+		if (!dir.isDirectory()) continue;
+		const topicsFrom = join(localeDir, dir.name);
+		for (const entry of await readdir(topicsFrom, { withFileTypes: true })) {
+			if (!entry.isDirectory() || !/^\d{2}-\d{2}-/.test(entry.name)) continue;
+			const from = join(topicsFrom, entry.name, 'index.md');
+			if (!existsSync(from)) continue;
+			await mkdir(join(contentDir, slug, dir.name, entry.name), { recursive: true });
+			await cp(from, join(contentDir, slug, dir.name, entry.name, 'index.md'));
+			count += 1;
+		}
 	}
 }
 

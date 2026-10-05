@@ -10,12 +10,12 @@
 </script>
 
 {#each alternates as alt (alt.locale)}
-	<link rel="alternate" hreflang={HREFLANG_BY_SLUG[alt.locale]} href={`${SITE_URL}${alt.route}`} />
+	<link rel="alternate" hreflang={HREFLANG_BY_SLUG[alt.locale]} href={`${SITE_URL}${encodeURI(alt.route)}`} />
 {/each}
 {#if alternates.some((a) => a.locale === 'en-gb')}
 	<link
 		rel="alternate"
 		hreflang="x-default"
-		href={`${SITE_URL}${alternates.find((a) => a.locale === 'en-gb').route}`}
+		href={`${SITE_URL}${encodeURI(alternates.find((a) => a.locale === "en-gb").route)}`}
 	/>
 {/if}

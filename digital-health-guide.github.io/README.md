@@ -10,7 +10,7 @@ The book is the source of truth; this repository only renders it. Every page her
 
 - **[SvelteKit](https://svelte.dev/docs/kit)** with **[adapter-static](https://svelte.dev/docs/kit/adapter-static)** — every route is prerendered to plain HTML, which is all GitHub Pages serves.
 - **[Lily Design System](https://github.com/LilyDesignSystem)** — the Svelte headless components and helpers supply the semantics and accessibility; a Lily theme stylesheet supplies the design tokens and component styling. The header's **PickerBar** (`@lilydesignsystem/svelte-picker-bar`) composes the theme, language, text-size, and share pickers into one row.
-- **[marked](https://marked.js.org/)** — Markdown rendering at build time, with the link rewriting and chapter cross-referencing described below.
+- **[marked](https://marked.js.org/)** — Markdown rendering at build time, with the link rewriting and topic cross-referencing described below.
 
 There is no runtime JavaScript requirement for reading: the prerendered HTML is complete. Client-side JavaScript adds the picker bar (theme, language, text size, share) and instant navigation.
 
@@ -38,9 +38,9 @@ The vendored Lily files and their upstream commit are recorded in [`src/lib/lily
 
 ## Locales
 
-The book publishes fourteen locales from [`locales/`](https://github.com/digital-health-guide/digital-health-guide/tree/main/locales): **en-gb** (British English, the book's source of truth — served at `/en-gb/`), **en-us** (American spelling), **en-gb-oxendict** (Oxford spelling), **en-001** (international English), **ar-001** (العربية, Arabic, a full translation, right-to-left), **bn-001** (বাংলা, Bengali, a full translation), **cy-001** (Cymraeg/Welsh, a full translation), **de-001** (Deutsch, German, a full translation), **es-001** (Español, a full translation), **ja-001** (日本語, Japanese, a full translation), **ru-001** (Русский, Russian, a full translation), **fr-001** (Français, a full translation), **zh-001** (中文, Simplified Chinese, a full translation), and **hi-001** (हिन्दी, Hindi, a full translation). Every locale is served under its own `/<locale>/` prefix. The world locales also answer to their two-letter language code (`/en/` renders `/en-001/`, `/ja/` renders `/ja-001/`, …), with the `-001` URL as the canonical. The old unprefixed URLs (`/`, `/chapters/…`) and the retired slugs (`de-de`, `hi-in`, `ja-jp`, `zh-cn`) redirect to their new homes; the shared reference pages (`/glossary/`, …) stay unprefixed.
+The book publishes fourteen locales from [`locales/`](https://github.com/digital-health-guide/digital-health-guide/tree/main/locales): **en-gb** (British English, the book's source of truth — served at `/en-gb/`), **en-us** (American spelling), **en-gb-oxendict** (Oxford spelling), **en-001** (international English), **ar-001** (العربية, Arabic, a full translation, right-to-left), **bn-001** (বাংলা, Bengali, a full translation), **cy-001** (Cymraeg/Welsh, a full translation), **de-001** (Deutsch, German, a full translation), **es-001** (Español, a full translation), **ja-001** (日本語, Japanese, a full translation), **ru-001** (Русский, Russian, a full translation), **fr-001** (Français, a full translation), **zh-001** (中文, Simplified Chinese, a full translation), and **hi-001** (हिन्दी, Hindi, a full translation). Every locale is served under its own `/<locale>/` prefix. The world locales also answer to their two-letter language code (`/en/` renders `/en-001/`, `/ja/` renders `/ja-001/`, …), with the `-001` URL as the canonical. The old unprefixed URLs (`/`, `/topics/…`) and the retired slugs (`de-de`, `hi-in`, `ja-jp`, `zh-cn`) redirect to their new homes; the shared reference pages (`/glossary/`, …) stay unprefixed.
 
-The header's language picker switches locale in place: from any chapter, it lands on the *same* chapter in the new locale, not that locale's home page (see `equivalentRoute` in [`src/lib/book.js`](src/lib/book.js)). Reference material — the glossary, subject index, style guide, and spec — is not translated, so it has exactly one route shared by every locale; the picker leaves it alone.
+The header's language picker switches locale in place: from any topic, it lands on the *same* topic in the new locale, not that locale's home page (see `equivalentRoute` in [`src/lib/book.js`](src/lib/book.js)). Reference material — the glossary, subject index, style guide, and spec — is not translated, so it has exactly one route shared by every locale; the picker leaves it alone.
 
 Site chrome (breadcrumbs, "On this page", "Previous"/"Next", the footer, and the picker bar's own labels) is currently English-only even on translated pages — only the book's own content is localized. Translating the chrome too is tracked as follow-up work, not yet done.
 
@@ -49,9 +49,9 @@ Site chrome (breadcrumbs, "On this page", "Previous"/"Next", the footer, and the
 | Book file | Site route |
 | --- | --- |
 | `locales/en-gb/index.md` | `/en-gb/` |
-| `locales/en-gb/chapters/PP-CC-slug/index.md` | `/en-gb/chapters/PP-CC-slug/` |
+| `locales/en-gb/topics/PP-CC-slug/index.md` | `/en-gb/topics/PP-CC-slug/` |
 | `locales/<locale>/index.md` | `/<locale>/` |
-| `locales/<locale>/chapters/PP-CC-slug/index.md` | `/<locale>/chapters/PP-CC-slug/` |
+| `locales/<locale>/<topics-dir>/PP-CC-slug/index.md` | `/<locale>/<topics-dir>/PP-CC-slug/` |
 | `GLOSSARY.md` | `/glossary/` |
 | `INDEX.md` | `/subject-index/` |
 | `STYLE_GUIDE.md` | `/style-guide/` |
@@ -60,14 +60,14 @@ Site chrome (breadcrumbs, "On this page", "Previous"/"Next", the footer, and the
 
 While rendering, the build:
 
-- **rewrites Markdown links** — `chapters/01-06-clinical-safety/` and `../../GLOSSARY.md` become site routes, so the same Markdown reads correctly on GitHub and on the web;
-- **links chapter cross-references** — the book's house style "see Chapter 3.4 — Discovery Phases" (English locales; the same pattern in translated locales is left as plain text, since matching every language's grammar and mutation rules correctly is out of scope) becomes a link to the chapter page (never to the page you are already on, and never inside another link);
+- **rewrites Markdown links** — `topics/01-06-clinical-safety/` and `../../GLOSSARY.md` become site routes, so the same Markdown reads correctly on GitHub and on the web;
+- **links topic cross-references** — the book's house style "see Topic 3.4 — Discovery Phases" (English locales; the same pattern in translated locales is left as plain text, since matching every language's grammar and mutation rules correctly is out of scope) becomes a link to the topic page (never to the page you are already on, and never inside another link);
 - **adds heading anchors** — every `##` and `###` gets a stable GitHub-style slug id, listed in the "On this page" panel;
-- **derives prev/next** from chapter directory order within the current locale, and writes `sitemap.xml` and `hreflang` alternate links across all twelve locales.
+- **derives prev/next** from topic directory order within the current locale, and writes `sitemap.xml` and `hreflang` alternate links across all twelve locales.
 
-Chapter numbers come from the directory slug (`01-00-introduction` → 1.0), not from parsing the heading text — the heading reads "Chapter 1.0 — …" in English locales and "Pennod 1.0 — …" in Welsh, so this is the one thing that works for every locale without hard-coding a translation of the word "Chapter".
+Topic numbers come from the directory slug (`01-00-introduction` → 1.0), not from parsing the heading text — the heading reads "Topic 1.0 — …" in English locales and "Pwnc 1.0 — …" in Welsh, so this is the one thing that works for every locale without hard-coding a translation of the word "Topic".
 
-There is no sidebar. Navigation is the book's own table of contents on each locale's home page — rendered from that locale's `index.md`, so the site and the book cannot drift apart — plus the header links, the breadcrumb, and prev/next at the foot of each chapter.
+There is no sidebar. Navigation is the book's own table of contents on each locale's home page — rendered from that locale's `index.md`, so the site and the book cannot drift apart — plus the header links, the breadcrumb, and prev/next at the foot of each topic.
 
 If a link in the book points at a file that does not exist, the build fails rather than publishing a broken page.
 

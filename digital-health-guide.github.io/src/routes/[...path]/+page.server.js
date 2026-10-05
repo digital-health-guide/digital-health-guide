@@ -1,5 +1,5 @@
 import { error, redirect } from '@sveltejs/kit';
-import { routes, sharedRoutes } from '#lib/book.js';
+import { topicRouteByNumber, routes, sharedRoutes } from '#lib/book.js';
 import { loadDoc } from '#lib/pageData.js';
 import { DEFAULT_LOCALE, LOCALE_ALIASES, RETIRED_LOCALES, localePrefix } from '#lib/locales.js';
 
@@ -14,16 +14,21 @@ export function entries() {
 	return [
 		...sharedRoutes().map(({ route }) => ({ path: strip(route) })),
 		...routes(DEFAULT_LOCALE).map(({ route }) => ({ path: strip(route.slice(prefix.length)) })),
-		// Two-letter aliases: the home page and every chapter.
+		// Old unprefixed URLs, "/chapters/<slug>/" (the book's directory became topics/).
+		...routes(DEFAULT_LOCALE).map(({ route }) => ({
+			path: strip(route.slice(prefix.length).replace('/topics/', '/chapters/'))
+		})),
+		// Two-letter aliases: the home page and every topic.
 		...Object.entries(LOCALE_ALIASES).flatMap(([alias, slug]) =>
 			[`/${slug}/`, ...routes(slug).map(({ route }) => route)].map((route) => ({
 				path: strip(`/${alias}${route.slice(localePrefix(slug).length)}`)
 			}))
 		),
-		// Retired locale slugs: the home page and every chapter.
-		...Object.entries(RETIRED_LOCALES).flatMap(([from, to]) =>
-			[`/${to}/`, ...routes(to).map(({ route }) => route)].map((route) => ({
-				path: strip(`/${from}${route.slice(localePrefix(to).length)}`)
+		// Retired locale slugs: the home page and every topic, at the old URLs,
+		// which carried the English "chapters/<slug>" path.
+		...Object.keys(RETIRED_LOCALES).flatMap((from) =>
+			[`/`, ...routes(DEFAULT_LOCALE).map(({ route }) => route.slice(prefix.length).replace('/topics/', '/chapters/'))].map((route) => ({
+				path: strip(`/${from}${route}`)
 			}))
 		)
 	];
@@ -39,13 +44,24 @@ export function load({ params }) {
 		if (data) return data;
 	}
 	if (first in RETIRED_LOCALES) {
-		const target = `/${RETIRED_LOCALES[first]}/${rest.join('/')}`.replace(/\/+$/, '') + '/';
-		if (loadDoc(target)) redirect(308, target);
+		const to = RETIRED_LOCALES[first];
+		// Old topic URLs were "/<locale>/chapters/<english-slug>/"; the topic
+		// number leads the slug in every locale.
+		const number = rest[0] === 'chapters' ? /^\d{2}-\d{2}/.exec(rest[1] ?? '')?.[0] : null;
+		const target = number
+			? topicRouteByNumber(to, number)
+			: `/${to}/${rest.join('/')}`.replace(/\/+$/, '') + '/';
+		// Redirect locations must be ASCII, so percent-encode translated slugs.
+		if (target && loadDoc(target)) redirect(308, encodeURI(target));
 	}
 	const data = loadDoc(route);
 	if (data) return data;
+	// Old "/chapters/<slug>/" URLs of the default locale (unprefixed, and before the rename).
+	const legacy = first === 'chapters' ? /^\d{2}-\d{2}/.exec(rest[0] ?? '')?.[0] : null;
+	const legacyTarget = legacy && topicRouteByNumber(DEFAULT_LOCALE, legacy);
+	if (legacyTarget) redirect(308, encodeURI(legacyTarget));
 	// Old URLs of the default locale were unprefixed.
 	const prefixed = `${localePrefix(DEFAULT_LOCALE)}${route}`;
-	if (loadDoc(prefixed)) redirect(308, prefixed);
+	if (loadDoc(prefixed)) redirect(308, encodeURI(prefixed));
 	error(404, `No page at ${route}`);
 }

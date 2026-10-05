@@ -1,6 +1,6 @@
 # Spelling standard — Oxford spelling (`en-GB-oxendict`)
 
-**Status:** Authoritative for the whole book. Every chapter and every reference file follows the spelling rules on this page. Where any artifact disagrees, this page and [`spec/index.md`](index.md) win.
+**Status:** Authoritative for the whole book. Every topic and every reference file follows the spelling rules on this page. Where any artifact disagrees, this page and [`spec/index.md`](index.md) win.
 
 This book is written in **Oxford spelling** — British English that uses the `-ize`/`-ization` endings for the relevant Greek‑derived words, while keeping every other British convention. It is also called *Oxford English Dictionary spelling* or *Oxford style*, and it is the spelling implied by the IETF language tag **`en-GB-oxendict`**. It reflects that the `-ize` ending "corresponds more closely to the Greek etymon, ‑ίζω (‑ízō)."
 
@@ -47,9 +47,9 @@ When converting or authoring, change spelling **only** in body prose and the boo
 
 1. **URLs and link targets.** Wikipedia article slugs and other URLs may contain British `‑isation` spellings (e.g. `…/wiki/Benefits_realisation_management`). Changing them **breaks the link**. Protect every `http(s)://…` and every `](…)` target.
 2. **Formal titles, journal‑article titles and reference citations.** Leave the `## References` and `## Key sources` sections, and any cited document/report/programme title, exactly as published — e.g. the NHS **"Digitising Social Care"** programme keeps its spelling; the Wikipedia display text of an inline link keeps the article's own spelling.
-3. **Inline code and file paths.** Anything in `` `backticks` `` — including chapter filenames such as `03-10-emergency-preparedness-response.md` — is left unchanged during prose conversion. When a filename genuinely needs to change (see below), rename the file and update every pointer in the same change.
+3. **Inline code and file paths.** Anything in `` `backticks` `` — including topic filenames such as `03-10-emergency-preparedness-response.md` — is left unchanged during prose conversion. When a filename genuinely needs to change (see below), rename the file and update every pointer in the same change.
 
-**Filenames follow Oxford spelling too.** Chapter slugs use the same `‑ize`/`‑ization` forms as the prose — e.g. `02-02-work-prioritization.md` and `06-02-benefits-realization-value.md`, not the British `‑isation`. Renaming a slug is a structural change: rename the file (with `git mv`) and update every pointer — the `README.md` table of contents, the manifest in `spec/index.md` (§4) and `spec/README.md`, and any inbound links — in the same commit, then re‑run the consistency gate. The slug still need not letter‑match the chapter title (the book lets `03-10-…` differ from "Chapter 3.10"); Oxford spelling only governs the spelling of the words that do appear in the slug.
+**Filenames follow Oxford spelling too.** Topic slugs use the same `‑ize`/`‑ization` forms as the prose — e.g. `02-02-work-prioritization.md` and `06-02-benefits-realization-value.md`, not the British `‑isation`. Renaming a slug is a structural change: rename the file (with `git mv`) and update every pointer — the `README.md` table of contents, the manifest in `spec/index.md` (§4) and `spec/README.md`, and any inbound links — in the same commit, then re‑run the consistency gate. The slug still need not letter‑match the topic title (the book lets `03-10-…` differ from "Topic 3.10"); Oxford spelling only governs the spelling of the words that do appear in the slug.
 
 ## Definition of done (spelling)
 

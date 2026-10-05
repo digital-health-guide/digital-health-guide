@@ -10,107 +10,107 @@ The premise is simple: **in health and care, _how_ you work is a clinical-safety
 
 ## How to use this book
 
-The chapters are ordered but self-contained; each ends with a maturity model and a checklist so you can assess where you are and decide what to do next. Read Part I first to fix the vocabulary and the non-negotiables — safety, regulation, data, ethics, and inclusion — then jump to whichever part answers your current problem.
+The topics are ordered but self-contained; each ends with a maturity model and a checklist so you can assess where you are and decide what to do next. Read Part I first to fix the vocabulary and the non-negotiables — safety, regulation, data, ethics, and inclusion — then jump to whichever part answers your current problem.
 
 ## Contents
 
 - 1 Foundations
-  - [1.0 Ways of Working in Digital Health & Care](chapters/01-00-introduction/)
-  - [1.1 The Operating Model](chapters/01-01-operating-model/)
-  - [1.2 Digital Strategy & Roadmapping](chapters/01-02-digital-strategy-roadmapping/)
-  - [1.3 Evidence-Driven Decisions](chapters/01-03-evidence-driven-decisions/)
-  - [1.4 Hazard Ratios](chapters/01-04-hazard-ratios/)
-  - [1.5 Regulation & Compliance Landscape](chapters/01-05-regulation-compliance/)
-  - [1.6 Clinical Safety & Risk Management](chapters/01-06-clinical-safety/)
-  - [1.7 Information Governance, Data Protection & Cyber Security](chapters/01-07-information-governance-cyber/)
-  - [1.8 Data Ethics, Consent & Public Trust](chapters/01-08-data-ethics-consent-trust/)
-  - [1.9 Digital Inclusion & Accessibility](chapters/01-09-digital-inclusion-accessibility/)
-  - [1.10 Safeguarding in Digital Services](chapters/01-10-safeguarding-digital-services/)
+  - [1.0 Ways of Working in Digital Health & Care](topics/01-00-introduction/)
+  - [1.1 The Operating Model](topics/01-01-operating-model/)
+  - [1.2 Digital Strategy & Roadmapping](topics/01-02-digital-strategy-roadmapping/)
+  - [1.3 Evidence-Driven Decisions](topics/01-03-evidence-driven-decisions/)
+  - [1.4 Hazard Ratios](topics/01-04-hazard-ratios/)
+  - [1.5 Regulation & Compliance Landscape](topics/01-05-regulation-compliance/)
+  - [1.6 Clinical Safety & Risk Management](topics/01-06-clinical-safety/)
+  - [1.7 Information Governance, Data Protection & Cyber Security](topics/01-07-information-governance-cyber/)
+  - [1.8 Data Ethics, Consent & Public Trust](topics/01-08-data-ethics-consent-trust/)
+  - [1.9 Digital Inclusion & Accessibility](topics/01-09-digital-inclusion-accessibility/)
+  - [1.10 Safeguarding in Digital Services](topics/01-10-safeguarding-digital-services/)
 - 2 Managing the Flow of Work
-  - [2.0 Work Intake](chapters/02-00-work-intake/)
-  - [2.1 Work Triage](chapters/02-01-work-triage/)
-  - [2.2 Work Prioritization](chapters/02-02-work-prioritization/)
+  - [2.0 Work Intake](topics/02-00-work-intake/)
+  - [2.1 Work Triage](topics/02-01-work-triage/)
+  - [2.2 Work Prioritization](topics/02-02-work-prioritization/)
 - 3 The Delivery Lifecycle
-  - [3.0 User Research & Service Design](chapters/03-00-user-research-service-design/)
-  - [3.1 Content Design & Health Literacy](chapters/03-01-content-design-health-literacy/)
-  - [3.2 Design Systems & Prototyping](chapters/03-02-design-systems-prototyping/)
-  - [3.3 Patient & Citizen-Facing Digital Services](chapters/03-03-patient-citizen-facing-services/)
-  - [3.4 Discovery Phases](chapters/03-04-discovery-phases/)
-  - [3.5 Delivery Lifecycles](chapters/03-05-delivery-lifecycles/)
-  - [3.6 DevOps & Engineering Excellence](chapters/03-06-devops-engineering-excellence/)
-  - [3.7 Testing & Quality Assurance](chapters/03-07-testing-quality-assurance/)
-  - [3.8 Service Management & Live Operations](chapters/03-08-service-management-operations/)
-  - [3.9 Business Continuity & Disaster Recovery](chapters/03-09-business-continuity-disaster-recovery/)
-  - [3.10 Emergency Preparedness, Resilience & Response](chapters/03-10-emergency-preparedness-response/)
-  - [3.11 Telehealth, Remote Consultation & Virtual Wards](chapters/03-11-telehealth-virtual-wards/)
+  - [3.0 User Research & Service Design](topics/03-00-user-research-service-design/)
+  - [3.1 Content Design & Health Literacy](topics/03-01-content-design-health-literacy/)
+  - [3.2 Design Systems & Prototyping](topics/03-02-design-systems-prototyping/)
+  - [3.3 Patient & Citizen-Facing Digital Services](topics/03-03-patient-citizen-facing-services/)
+  - [3.4 Discovery Phases](topics/03-04-discovery-phases/)
+  - [3.5 Delivery Lifecycles](topics/03-05-delivery-lifecycles/)
+  - [3.6 DevOps & Engineering Excellence](topics/03-06-devops-engineering-excellence/)
+  - [3.7 Testing & Quality Assurance](topics/03-07-testing-quality-assurance/)
+  - [3.8 Service Management & Live Operations](topics/03-08-service-management-operations/)
+  - [3.9 Business Continuity & Disaster Recovery](topics/03-09-business-continuity-disaster-recovery/)
+  - [3.10 Emergency Preparedness, Resilience & Response](topics/03-10-emergency-preparedness-response/)
+  - [3.11 Telehealth, Remote Consultation & Virtual Wards](topics/03-11-telehealth-virtual-wards/)
 - 4 Technology, Architecture & Data
-  - [4.0 Technical Architecture, Cloud & Legacy](chapters/04-00-technical-architecture-cloud-legacy/)
-  - [4.1 Platforms & Shared Services](chapters/04-01-platforms-shared-services/)
-  - [4.2 Identity & Access Management](chapters/04-02-identity-access-management/)
-  - [4.3 Interoperability & Data Standards](chapters/04-03-interoperability-data-standards/)
-  - [4.4 Connected Devices, IoT & Clinical Engineering](chapters/04-04-connected-devices-iot/)
-  - [4.5 Data, Analytics & Population Health Management](chapters/04-05-data-analytics-population-health/)
-  - [4.6 Electronic Patient Records & Clinical Systems](chapters/04-06-electronic-patient-records/)
-  - [4.7 Clinical Decision Support & Clinical Informatics](chapters/04-07-clinical-decision-support/)
-  - [4.8 Electronic Prescribing & Medicines Management](chapters/04-08-electronic-prescribing-medicines/)
-  - [4.9 Data Quality & Master Data Management](chapters/04-09-data-quality-mdm/)
-  - [4.10 Secure Data Environments & Research Data Access](chapters/04-10-secure-data-environments/)
-  - [4.11 Genomics & Precision-Medicine Data](chapters/04-11-genomics-precision-medicine/)
+  - [4.0 Technical Architecture, Cloud & Legacy](topics/04-00-technical-architecture-cloud-legacy/)
+  - [4.1 Platforms & Shared Services](topics/04-01-platforms-shared-services/)
+  - [4.2 Identity & Access Management](topics/04-02-identity-access-management/)
+  - [4.3 Interoperability & Data Standards](topics/04-03-interoperability-data-standards/)
+  - [4.4 Connected Devices, IoT & Clinical Engineering](topics/04-04-connected-devices-iot/)
+  - [4.5 Data, Analytics & Population Health Management](topics/04-05-data-analytics-population-health/)
+  - [4.6 Electronic Patient Records & Clinical Systems](topics/04-06-electronic-patient-records/)
+  - [4.7 Clinical Decision Support & Clinical Informatics](topics/04-07-clinical-decision-support/)
+  - [4.8 Electronic Prescribing & Medicines Management](topics/04-08-electronic-prescribing-medicines/)
+  - [4.9 Data Quality & Master Data Management](topics/04-09-data-quality-mdm/)
+  - [4.10 Secure Data Environments & Research Data Access](topics/04-10-secure-data-environments/)
+  - [4.11 Genomics & Precision-Medicine Data](topics/04-11-genomics-precision-medicine/)
 - 5 Modes of Delivery
-  - [5.0 Product-Led Work](chapters/05-00-product-led-work/)
-  - [5.1 Project-Led Work](chapters/05-01-project-led-work/)
-  - [5.2 Programme-Led Work](chapters/05-02-programme-led-work/)
-  - [5.3 Enterprise Project Portfolio Management (EPPM)](chapters/05-03-eppm/)
-  - [5.4 Enterprise Resource Planning (ERP)](chapters/05-04-erp/)
+  - [5.0 Product-Led Work](topics/05-00-product-led-work/)
+  - [5.1 Project-Led Work](topics/05-01-project-led-work/)
+  - [5.2 Programme-Led Work](topics/05-02-programme-led-work/)
+  - [5.3 Enterprise Project Portfolio Management (EPPM)](topics/05-03-eppm/)
+  - [5.4 Enterprise Resource Planning (ERP)](topics/05-04-erp/)
 - 6 Money, Value & Governance
-  - [6.0 Financial Management & Business Cases](chapters/06-00-financial-management-business-cases/)
-  - [6.1 Health Economics](chapters/06-01-health-economics/)
-  - [6.2 Benefits Realization & Value Management](chapters/06-02-benefits-realization-value/)
-  - [6.3 Procurement & Commercial](chapters/06-03-procurement-commercial/)
-  - [6.4 Governance & Assurance](chapters/06-04-governance-assurance/)
-  - [6.5 Technology Cost Management & Cloud FinOps](chapters/06-05-technology-cost-finops/)
-  - [6.6 Vendor & Service Integration Management (SIAM)](chapters/06-06-vendor-siam/)
+  - [6.0 Financial Management & Business Cases](topics/06-00-financial-management-business-cases/)
+  - [6.1 Health Economics](topics/06-01-health-economics/)
+  - [6.2 Benefits Realization & Value Management](topics/06-02-benefits-realization-value/)
+  - [6.3 Procurement & Commercial](topics/06-03-procurement-commercial/)
+  - [6.4 Governance & Assurance](topics/06-04-governance-assurance/)
+  - [6.5 Technology Cost Management & Cloud FinOps](topics/06-05-technology-cost-finops/)
+  - [6.6 Vendor & Service Integration Management (SIAM)](topics/06-06-vendor-siam/)
 - 7 People, Teams & Workforce
-  - [7.0 Team Structures, Roles & Responsibilities](chapters/07-00-team-structures-roles/)
-  - [7.1 Agile Delivery Practices & Team Health](chapters/07-01-agile-delivery-team-health/)
-  - [7.2 Workforce Planning](chapters/07-02-workforce-planning/)
-  - [7.3 Workforce Strategy](chapters/07-03-workforce-strategy/)
-  - [7.4 Digital Skills & Capability Building](chapters/07-04-digital-skills-capability/)
-  - [7.5 People & Organizational Development](chapters/07-05-people-org-development/)
-  - [7.6 Workforce Equality, Diversity & Inclusion](chapters/07-06-workforce-edi/)
+  - [7.0 Team Structures, Roles & Responsibilities](topics/07-00-team-structures-roles/)
+  - [7.1 Agile Delivery Practices & Team Health](topics/07-01-agile-delivery-team-health/)
+  - [7.2 Workforce Planning](topics/07-02-workforce-planning/)
+  - [7.3 Workforce Strategy](topics/07-03-workforce-strategy/)
+  - [7.4 Digital Skills & Capability Building](topics/07-04-digital-skills-capability/)
+  - [7.5 People & Organizational Development](topics/07-05-people-org-development/)
+  - [7.6 Workforce Equality, Diversity & Inclusion](topics/07-06-workforce-edi/)
 - 8 Change & Innovation
-  - [8.0 Phasing in Innovation](chapters/08-00-phasing-innovation/)
-  - [8.1 Change Management](chapters/08-01-change-management/)
-  - [8.2 Communications & Engagement](chapters/08-02-communications-engagement/)
-  - [8.3 Behavioural Science & Adoption](chapters/08-03-behavioural-science-adoption/)
-  - [8.4 AI & Emerging Technology Governance](chapters/08-04-ai-emerging-technology/)
-  - [8.5 Sustainability & Net Zero](chapters/08-05-sustainability-net-zero/)
-  - [8.6 Research & Real-World Evaluation](chapters/08-06-research-real-world-evaluation/)
+  - [8.0 Phasing in Innovation](topics/08-00-phasing-innovation/)
+  - [8.1 Change Management](topics/08-01-change-management/)
+  - [8.2 Communications & Engagement](topics/08-02-communications-engagement/)
+  - [8.3 Behavioural Science & Adoption](topics/08-03-behavioural-science-adoption/)
+  - [8.4 AI & Emerging Technology Governance](topics/08-04-ai-emerging-technology/)
+  - [8.5 Sustainability & Net Zero](topics/08-05-sustainability-net-zero/)
+  - [8.6 Research & Real-World Evaluation](topics/08-06-research-real-world-evaluation/)
 - 9 Partnerships & Government
-  - [9.0 Collaborating with Partner Organizations](chapters/09-00-collaborating-partner-organizations/)
-  - [9.1 Working with Local & National Governments](chapters/09-01-working-with-governments/)
-  - [9.2 Global & International Digital Health](chapters/09-02-global-international-digital-health/)
-  - [9.3 Digital in Adult Social Care](chapters/09-03-digital-adult-social-care/)
+  - [9.0 Collaborating with Partner Organizations](topics/09-00-collaborating-partner-organizations/)
+  - [9.1 Working with Local & National Governments](topics/09-01-working-with-governments/)
+  - [9.2 Global & International Digital Health](topics/09-02-global-international-digital-health/)
+  - [9.3 Digital in Adult Social Care](topics/09-03-digital-adult-social-care/)
 - 10 Measurement, Improvement, Knowledge & Leadership
-  - [10.0 Objectives & Key Results (OKRs)](chapters/10-00-okrs/)
-  - [10.1 Key Performance Indicators (KPIs)](chapters/10-01-kpis/)
-  - [10.2 Quality Improvement & Improvement Science](chapters/10-02-quality-improvement/)
-  - [10.3 Knowledge Management & Documentation](chapters/10-03-knowledge-management/)
-  - [10.4 Visibility for the CEO & Senior Leaders](chapters/10-04-leadership-visibility/)
+  - [10.0 Objectives & Key Results (OKRs)](topics/10-00-okrs/)
+  - [10.1 Key Performance Indicators (KPIs)](topics/10-01-kpis/)
+  - [10.2 Quality Improvement & Improvement Science](topics/10-02-quality-improvement/)
+  - [10.3 Knowledge Management & Documentation](topics/10-03-knowledge-management/)
+  - [10.4 Visibility for the CEO & Senior Leaders](topics/10-04-leadership-visibility/)
 - Front matter
-  - [Preface](chapters/00-01-preface/)
+  - [Preface](topics/00-01-preface/)
 - Reference
   - [Glossary](../../GLOSSARY.md) — A–Z definitions of key terms, with Wikipedia links
-  - [Index](../../INDEX.md) — concepts and frameworks mapped to the chapters that cover them
+  - [Index](../../INDEX.md) — concepts and frameworks mapped to the topics that cover them
   - [Style guide](../../STYLE_GUIDE.md) — the shared authoring contract
   - [Specification](../../spec/index.md) — the spec-driven source of truth for the book
   - [Spelling standard](../../spec/oxford-spelling.md) — Oxford spelling (`en-GB-oxendict`), with URL and citation protection rules
 
 ---
 
-## What's in every chapter
+## What's in every topic
 
-Each chapter follows the same structure so you can navigate and self-assess consistently: a one-sentence thesis; **why it matters in health and care**; core concepts (with Wikipedia links for further reading); numbered **best practices**; exactly six **questions to discuss with your team**; a worked health & care example; **four sector lenses** applying the topic to a _Startup_, a _Small business_, an _Enterprise_, and a _Government_ body; common failure modes; a five-level **maturity model**; an actionable **checklist**; **key sources**; and full **references**. The authoring rules live in the [style guide](../../STYLE_GUIDE.md); the canonical specification lives in [spec/index.md](../../spec/index.md).
+Each topic follows the same structure so you can navigate and self-assess consistently: a one-sentence thesis; **why it matters in health and care**; core concepts (with Wikipedia links for further reading); numbered **best practices**; exactly six **questions to discuss with your team**; a worked health & care example; **four sector lenses** applying the topic to a _Startup_, a _Small business_, an _Enterprise_, and a _Government_ body; common failure modes; a five-level **maturity model**; an actionable **checklist**; **key sources**; and full **references**. The authoring rules live in the [style guide](../../STYLE_GUIDE.md); the canonical specification lives in [spec/index.md](../../spec/index.md).
 
 ---
 

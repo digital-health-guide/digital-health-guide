@@ -17,12 +17,12 @@
 	/** @type {{ doc: import('#lib/book.js').document, alternates: { locale: string, route: string }[] }} */
 	let { doc, alternates } = $props();
 
-	const url = $derived(`${SITE_URL}${doc.route}`);
+	const url = $derived(`${SITE_URL}${encodeURI(doc.route)}`);
 	const source = $derived(`${REPOSITORY}/blob/main/${bookFilePath(doc.file)}`);
 	const home = $derived(`${localePrefix(doc.locale)}/`);
 	const t = $derived(stringsFor(doc.locale));
-	// Chapters sit one level down; the reference pages hang off the contents.
-	const parent = $derived(doc.file.includes('/chapters/') ? t.breadcrumbChapters : t.breadcrumbReference);
+	// Topics sit one level down (<locale>/<topics-dir>/<slug>/index.md); the reference pages hang off the contents.
+	const parent = $derived(doc.file.split('/').length === 4 ? t.breadcrumbTopics : t.breadcrumbReference);
 </script>
 
 <svelte:head>
@@ -63,7 +63,7 @@
 </ArticleLayout>
 
 {#if doc.previous || doc.next}
-	<PaginationNav label={t.chapterNavigation} class="doc-pagination">
+	<PaginationNav label={t.topicNavigation} class="doc-pagination">
 		<PaginationList>
 			{#if doc.previous}
 				<PaginationListItem>

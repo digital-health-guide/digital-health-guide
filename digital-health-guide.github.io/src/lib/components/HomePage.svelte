@@ -7,7 +7,7 @@
 	/** @type {{ doc: import('#lib/book.js').document, alternates: { locale: string, route: string }[] }} */
 	let { doc, alternates } = $props();
 
-	const url = $derived(`${SITE_URL}${doc.route}`);
+	const url = $derived(`${SITE_URL}${encodeURI(doc.route)}`);
 	const t = $derived(stringsFor(doc.locale));
 </script>
 

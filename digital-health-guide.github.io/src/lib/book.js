@@ -30,23 +30,25 @@ function localeOfFile(file) {
 }
 
 /**
- * Chapters for one locale, in book order — the directory names are
+ * Topics for one locale, in book order — the directory names are
  * zero-padded and sortable, e.g. "01-00-introduction".
  *
- * The chapter number comes from the *slug*, not the heading text: the
- * heading reads "Chapter 1.0 — …" in English locales and "Pennod 1.0 — …"
+ * The topic number comes from the *slug*, not the heading text: the
+ * heading reads "Topic 1.0 — …" in English locales and "Pennod 1.0 — …"
  * in Welsh, so parsing the slug is the one thing that works for every
- * locale without hard-coding a translation of the word "Chapter". Slugs
- * starting "00-" are front matter (the preface) and carry no chapter
+ * locale without hard-coding a translation of the word "Topic". Slugs
+ * starting "00-" are front matter (the preface) and carry no topic
  * number, matching the book's own convention.
  */
-function chaptersFor(locale) {
-	const prefix = `${locale}/chapters/`;
+function topicsFor(locale) {
+	// "<locale>/<topics-dir>/<slug>/index.md"; the directory and the slug are
+	// both translated per locale.
+	const topicFile = new RegExp(`^${locale}/[^/]+/(\\d{2}-\\d{2}-[^/]+)/index\\.md$`);
 	return Object.keys(sources)
-		.filter((file) => file.startsWith(prefix))
+		.filter((file) => topicFile.test(file))
 		.sort()
 		.map((file) => {
-			const slug = file.slice(prefix.length, file.length - '/index.md'.length);
+			const slug = /** @type {RegExpExecArray} */ (topicFile.exec(file))[1];
 			const title = firstHeading(sources[file]);
 			const match = /^(\d{2})-(\d{2})-/.exec(slug);
 			const number = match && match[1] !== '00' ? `${Number(match[1])}.${Number(match[2])}` : null;
@@ -57,12 +59,12 @@ function chaptersFor(locale) {
 		});
 }
 
-const chaptersByLocale = new Map(LOCALES.map(({ slug }) => [slug, chaptersFor(slug)]));
+const topicsByLocale = new Map(LOCALES.map(({ slug }) => [slug, topicsFor(slug)]));
 
-/** Resolve a chapter number such as "3.4" to its route within one locale. */
-function chapterHrefFor(locale) {
+/** Resolve a topic number such as "3.4" to its route within one locale. */
+function topicHrefFor(locale) {
 	const routeByNumber = new Map(
-		(chaptersByLocale.get(locale) ?? []).filter((c) => c.number).map((c) => [c.number, c.route])
+		(topicsByLocale.get(locale) ?? []).filter((c) => c.number).map((c) => [c.number, c.route])
 	);
 	return (number) => routeByNumber.get(number) ?? null;
 }
@@ -71,7 +73,7 @@ function chapterHrefFor(locale) {
  * Every route this site publishes.
  *
  * With no argument: every route, across every locale — for the sitemap.
- * With a locale: that locale's own chapters and home page; the default
+ * With a locale: that locale's own topics and home page; the default
  * locale's list leaves out the shared, unlocalized reference material
  * (glossary, index, style guide, spec); see sharedRoutes().
  */
@@ -104,7 +106,7 @@ function localeForRoute(route) {
 /**
  * Render one document for a page load.
  *
- * @param {string} route e.g. "/chapters/01-00-introduction/" or "/cy-001/chapters/01-00-introduction/"
+ * @param {string} route e.g. "/topics/01-00-introduction/" or "/cy-001/topics/01-00-introduction/"
  */
 export function document(route) {
 	const locale = localeForRoute(route);
@@ -117,13 +119,13 @@ export function document(route) {
 		file: entry.file,
 		route,
 		locale,
-		chapterHref: chapterHrefFor(locale)
+		topicHref: topicHrefFor(locale)
 	});
-	const chapters = chaptersByLocale.get(locale) ?? [];
-	const index = chapters.findIndex((chapter) => chapter.route === route);
+	const topics = topicsByLocale.get(locale) ?? [];
+	const index = topics.findIndex((topic) => topic.route === route);
 	const sibling = (offset) => {
-		const chapter = chapters[index + offset];
-		return index === -1 || !chapter ? null : { title: chapter.title, route: chapter.route };
+		const topic = topics[index + offset];
+		return index === -1 || !topic ? null : { title: topic.title, route: topic.route };
 	};
 
 	return {
@@ -140,22 +142,34 @@ export function document(route) {
 	};
 }
 
-/** Chapters for one locale, for building navigation/contents. */
-export function chapters(locale) {
-	return chaptersByLocale.get(locale) ?? [];
+/** Topics for one locale, for building navigation/contents. */
+export function topics(locale) {
+	return topicsByLocale.get(locale) ?? [];
 }
 
 /**
  * The equivalent route for `route` in `toLocale`, for cross-locale
- * (`hreflang`) links. Every locale shares the same chapter slugs and the
- * same shared reference pages, so this is a straight substitution.
+ * (`hreflang`) links. Topic directories and slugs are translated per
+ * locale, so topics are matched by their shared "NN-NN-" number prefix.
  */
 export function equivalentRoute(route, toLocale) {
 	const fromLocale = localeForRoute(route);
 	const fromPrefix = localePrefix(fromLocale);
 	const suffix = fromPrefix && route.startsWith(fromPrefix) ? route.slice(fromPrefix.length) : route;
+	if (suffix === '/') return `${localePrefix(toLocale)}/`;
 	// Shared, unlocalized docs (glossary, spec, …) have exactly one route,
 	// the same for every locale — nothing to substitute.
-	if (suffix !== '/' && !suffix.startsWith('/chapters/')) return null;
-	return `${localePrefix(toLocale)}${suffix}`;
+	const from = (topicsByLocale.get(fromLocale) ?? []).find((topic) => topic.route === route);
+	if (!from) return null;
+	const number = from.slug.slice(0, 5);
+	const to = (topicsByLocale.get(toLocale) ?? []).find((topic) => topic.slug.startsWith(number));
+	return to ? to.route : null;
+}
+
+/**
+ * A topic's route in `locale`, found by the "NN-NN" number at the start of
+ * its slug (shared by every locale), or null.
+ */
+export function topicRouteByNumber(locale, number) {
+	return topicsByLocale.get(locale)?.find((topic) => topic.slug.startsWith(number))?.route ?? null;
 }

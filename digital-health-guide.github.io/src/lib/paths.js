@@ -1,7 +1,7 @@
 // Mapping between vendored content files and site routes.
 //
 // Content paths are always relative to content/, e.g.
-// "en-gb/chapters/01-00-introduction/index.md" or "GLOSSARY.md". The book's
+// "en-gb/topics/01-00-introduction/index.md" (the directory and slug are translated in other locales) or "GLOSSARY.md". The book's
 // reference material (glossary, index, style guide, spec) is not localized,
 // so it lives at the content root and is served at the same route regardless
 // of which locale the reader is browsing.
@@ -40,12 +40,14 @@ export function routeFor(path) {
 	const spec = /^spec\/([\w.-]+)\.md$/.exec(path);
 	if (spec) return `/spec/${spec[1]}/`;
 
-	// A link written as "chapters/<slug>/" resolves (via contentPath) to
-	// "<locale>/chapters/<slug>" with no filename; the glob key for the same
-	// document is "<locale>/chapters/<slug>/index.md". Accept both.
-	const chapter = /^([a-z0-9-]+)\/chapters\/([\w.-]+)(?:\/index\.md)?$/.exec(path);
-	if (chapter && LOCALE_SLUGS.has(chapter[1])) {
-		return `${localePrefix(chapter[1])}/chapters/${chapter[2]}/`;
+	// A link written as "<topics-dir>/<slug>/" resolves (via contentPath) to
+	// "<locale>/<topics-dir>/<slug>" with no filename; the glob key for the
+	// same document is "<locale>/<topics-dir>/<slug>/index.md". Accept both.
+	// Both the directory and the slug are translated per locale; a topic slug
+	// always starts with its "NN-NN-" number.
+	const topic = /^([a-z0-9-]+)\/([^/]+)\/(\d{2}-\d{2}-[^/]+)(?:\/index\.md)?$/.exec(path);
+	if (topic && LOCALE_SLUGS.has(topic[1])) {
+		return `${localePrefix(topic[1])}/${topic[2]}/${topic[3]}/`;
 	}
 
 	const home = /^([a-z0-9-]+)\/index\.md$/.exec(path);

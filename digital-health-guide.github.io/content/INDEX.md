@@ -1,6 +1,6 @@
 # Index
 
-Concepts, frameworks and standards used in *Ways of Working for Digital Health & Care*, mapped to the **chapter numbers** (not page numbers) that cover them, listed in reading order. Terms are also defined in the [Glossary](GLOSSARY.md).
+Concepts, frameworks and standards used in *Ways of Working for Digital Health & Care*, mapped to the **topic numbers** (not page numbers) that cover them, listed in reading order. Terms are also defined in the [Glossary](GLOSSARY.md).
 
 ## A
 
