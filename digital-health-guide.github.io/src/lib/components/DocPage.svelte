@@ -13,14 +13,17 @@
 	import { REPOSITORY, SITE_URL } from '#lib/site.js';
 	import { localePrefix, bookFilePath } from '#lib/locales.js';
 	import { stringsFor } from '#lib/strings.js';
+	import { uiLocale } from '#lib/readerLocale.svelte.js';
 
 	/** @type {{ doc: import('#lib/book.js').document, alternates: { locale: string, route: string }[] }} */
 	let { doc, alternates } = $props();
 
 	const url = $derived(`${SITE_URL}${encodeURI(doc.route)}`);
 	const source = $derived(`${REPOSITORY}/blob/main/${bookFilePath(doc.file)}`);
-	const home = $derived(`${localePrefix(doc.locale)}/`);
-	const t = $derived(stringsFor(doc.locale));
+	// Shared reference pages have no locale of their own; their chrome follows the reader's.
+	const chrome = $derived(uiLocale(doc));
+	const home = $derived(`${localePrefix(chrome)}/`);
+	const t = $derived(stringsFor(chrome));
 	// Topics sit one level down (<locale>/<topics-dir>/<slug>/index.md); the reference pages hang off the contents.
 	const parent = $derived(doc.file.split('/').length === 4 ? t.breadcrumbTopics : t.breadcrumbReference);
 </script>

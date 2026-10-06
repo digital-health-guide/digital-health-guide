@@ -23,6 +23,18 @@ regardless of slug.
 
 - en-gb-oxendict: use en-gb then revert just the -ise family back to Oxford -ize spelling (optimize, realise→realize, organise→organize, etc.), while correctly keeping -yse forms (analyse/analysable) unchanged, since Oxford style never uses -yze, and keeping all other British forms (colour, centre, defence, licence, programme, maths, modelled) intact.
 
+## Reader locale on shared pages
+
+Reference pages that are not translated (glossary, subject index, style guide, spec) have exactly one route and no locale in the URL. Their chrome (navigation, breadcrumb, picker, UI strings, `lang` and `dir`) follows the locale the reader last visited, not the default:
+
+- Visiting any page under a locale remembers that locale in memory (for client-side navigation) and in `localStorage` under `<site>-locale`.
+- A shared page uses the remembered locale if there is one, else the default locale. The page body stays in its own language.
+- The stored value is read only after hydration, because prerendered HTML cannot know the reader. A reader opening a shared page directly therefore sees the default locale for one frame before the chrome switches. An unknown or unreadable stored value is ignored.
+- The picker on a shared page shows the remembered locale; choosing another locale goes to that locale's home page and remembers it.
+- A locale's own pages always use the locale in their URL; a stored locale never overrides the URL.
+
+Implementation: `src/lib/readerLocale.svelte.js`, used by `+layout.svelte`, `DocPage.svelte` and `+error.svelte`.
+
 ## Guard against corruption
 
 Keep proper nouns unconverted. Example: "Hospital Readmissions Reduction Program" (a real United States federal program name).

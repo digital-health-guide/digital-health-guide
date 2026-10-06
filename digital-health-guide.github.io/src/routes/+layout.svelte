@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
 	import SkipLink from '#lib/lily/components/SkipLink.svelte';
@@ -7,13 +8,27 @@
 	import Footer from '#lib/lily/components/Footer.svelte';
 	import PickerBar from '#lib/lily/helpers/picker-bar/index.ts';
 	import { REPOSITORY, THEMES, THEME_LABELS } from '#lib/site.js';
-	import { LOCALES, LOCALE_LABELS, DEFAULT_LOCALE, localePrefix } from '#lib/locales.js';
+	import { LOCALES, LOCALE_LABELS, localePrefix } from '#lib/locales.js';
 	import { stringsFor } from '#lib/strings.js';
+	import {
+		isLocalized,
+		rememberReaderLocale,
+		restoreReaderLocale,
+		uiLocale
+	} from '#lib/readerLocale.svelte.js';
 	import '../styles/site.css';
 
 	let { children } = $props();
 
-	const currentLocale = $derived(page.data?.doc?.locale ?? DEFAULT_LOCALE);
+	// A locale's own pages use that locale; the shared reference pages (no locale
+	// in the URL) use the locale the reader was last reading.
+	const currentLocale = $derived(uiLocale(page.data?.doc));
+	onMount(restoreReaderLocale);
+	$effect(() => {
+		const doc = page.data?.doc;
+		if (isLocalized(doc)) rememberReaderLocale(doc.locale);
+	});
+
 	const alternates = $derived(page.data?.alternates ?? []);
 	const t = $derived(stringsFor(currentLocale));
 	const home = $derived(`${localePrefix(currentLocale)}/`);

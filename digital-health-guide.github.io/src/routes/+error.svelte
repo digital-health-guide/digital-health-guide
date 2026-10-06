@@ -3,6 +3,7 @@
 	import ArticleLayout from '#lib/lily/components/ArticleLayout.svelte';
 	import { PREFIXED_LOCALE_SLUGS, DEFAULT_LOCALE } from '#lib/locales.js';
 	import { stringsFor } from '#lib/strings.js';
+	import { readerLocale } from '#lib/readerLocale.svelte.js';
 
 	// The static 404.html is shared by every unmatched URL; once it hydrates,
 	// page.url reflects the real browser location, so both the chrome and
@@ -10,7 +11,7 @@
 	// default.
 	const locale = $derived.by(() => {
 		const first = page.url.pathname.split('/')[1] ?? '';
-		return PREFIXED_LOCALE_SLUGS.has(first) ? first : DEFAULT_LOCALE;
+		return PREFIXED_LOCALE_SLUGS.has(first) ? first : (readerLocale() ?? DEFAULT_LOCALE);
 	});
 	const t = $derived(stringsFor(locale));
 	const home = $derived(`/${locale}/`);

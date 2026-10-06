@@ -77,6 +77,7 @@ The header carries one control, `PickerBar`, composing four Lily helpers:
 
 - **Language** — the twelve locales above; switches to the equivalent page, not just the locale's home. Arabic (ar-001) automatically switches the page to right-to-left.
 - **Theme** — Light, Dark, NHS England / Scotland / Wales (patients and practitioners), and GOV.UK. The choice is persisted, and the first visit follows the operating system's light/dark preference.
+- **Language on reference pages** — the glossary, index, style guide and spec have no locale in their URL, so their navigation, breadcrumb and picker follow the locale you last read (remembered in `localStorage`); see `spec/locales-for-global-sharing-with-svelte/`.
 - **Text size** — small, medium, large, x-large, persisted in `localStorage`.
 - **Share** — copy link, plus any configured share targets.
 
