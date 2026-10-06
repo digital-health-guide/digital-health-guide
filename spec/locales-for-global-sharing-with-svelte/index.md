@@ -39,7 +39,7 @@ Then:
 
 - Fix any broken internal links
 - Fix any residual wrong-dialect spellings
-- Update `./spec/locale/index.md`
+- Update `./spec/locales-for-global-sharing-with-svelte/locales.tsv`
 
 ## Content structure (book side)
 

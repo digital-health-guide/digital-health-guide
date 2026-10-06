@@ -82,6 +82,10 @@ The header carries one control, `PickerBar`, composing four Lily helpers:
 
 Themes are plain stylesheets in `static/themes/`; the picker swaps the managed `<link>` in `src/app.html`.
 
+## For AI agents
+
+`pnpm run build` also writes `build/llms.txt` and `build/llms.json` ([`scripts/build-llms.mjs`](scripts/build-llms.mjs)), generated from each locale's Contents, so they are served at `/llms.txt` and `/llms.json` and cannot drift from the book. Repository-wide agent instructions are in the monorepo's [`AGENTS.md`](../AGENTS.md).
+
 ## Deployment
 
 This site lives in the book's monorepo. [`.github/workflows/deploy-site.yml`](../.github/workflows/deploy-site.yml) at the monorepo root builds it on every push to `main` that touches the book or the site, then publishes `build/` to the `gh-pages` branch of the `digital-health-guide.github.io` repository, which serves the site. That repository needs **Settings → Pages → Source → Deploy from a branch → `gh-pages`**, a write-enabled deploy key, and the matching private key as the `SITE_DEPLOY_KEY` secret on the monorepo (setup steps are in the workflow's header).

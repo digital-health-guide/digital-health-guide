@@ -21,7 +21,7 @@ prerendering. A search box on the home page navigates to `/?<target>`.
 ## Index
 
 - `scripts/build-search-index.mjs` runs after `vite build` (part of
-  `npm run build`) and writes `build/search-index.json` by reading the generated
+  `pnpm run build`) and writes `build/search-index.json` by reading the generated
   HTML, so it works the same for every site layout and needs no dependencies.
 - One entry per page: `{ u: url, t: title, h: headings, x: text }`. Text is the
   `<main>` content with markup removed, capped at 20 000 characters.

@@ -25,16 +25,22 @@ Chief executives and senior leaders; directors of digital and transformation; pr
 
 | Path | Role |
 |---|---|
-| `README.md` | Reader-facing front door + table of contents. Must list every topic with correct number, title, and filename. |
+| `README.md` | Reader-facing front door in English (en-gb): premise, audience, table of contents linking to `locales/en-gb/`. |
 | `STYLE_GUIDE.md` | The prose/formatting contract every topic author follows. Subordinate to this spec. |
-| `00-preface.md` | Front matter. |
-| `PP-CC-slug.md` | The 73 topics. Filenames are **sortable zero-padded decimals** — a two-digit part number, a dash, a two-digit within-part number, then the slug (e.g. `01-00-introduction.md`, `03-10-emergency-preparedness-response.md`) — so a plain lexical sort lists topics in reading order. See manifest, §4. |
-| `GLOSSARY.md` | A–Z definitions of key terms, Wikipedia-linked, each pointing to its home topic. |
-| `INDEX.md` | A–Z concepts/frameworks → topic numbers (numbers are **topic numbers, not pages**). |
+| `locales/<locale>/` | One directory per locale (14: ar-001, bn-001, cy-001, de-001, en-001, en-gb, en-gb-oxendict, en-us, es-001, fr-001, hi-001, ja-001, ru-001, zh-001). Registry: `spec/locales-for-global-sharing-with-svelte/locales.tsv`. |
+| `locales/<locale>/index.md` | The locale's home page and table of contents (`README.md` is a symlink to it); see `spec/contents-for-global-sharing-with-svelte/`. |
+| `locales/<locale>/<topics-dir>/PP-CC-slug/index.md` | The 73 topics plus the preface (`00-01-…`), one folder each. Both the topics directory and the slug are translated per locale (e.g. `es-001/temas/01-00-introducción/`); English locales use `topics/` and English slugs. The leading `PP-CC-` (two-digit part, dash, two-digit within-part number, dash) is identical in every locale and is what ties translations together, so a plain lexical sort lists topics in reading order. `README.md` in each folder is a symlink to `index.md`. |
+| `locales/<locale>/.locale-peer-id` | A 32-character hexadecimal id, byte-identical across every locale's version of the same page. |
+| `GLOSSARY.md` | A–Z definitions of key terms, Wikipedia-linked, each pointing to its home topic. Shared by every locale. |
+| `INDEX.md` | A–Z concepts/frameworks → topic numbers (numbers are **topic numbers, not pages**). Shared. |
 | `_sources/` | Raw source material used for grounding (e.g. workforce-strategy text). Not shipped as topics. |
+| `digital-health-guide.github.io/` | The SvelteKit site (adapter-static, Lily Design System, pnpm) that renders the book; deployed by `.github/workflows/deploy-site.yml`. |
 | `spec/index.md` | **This file** — the source of truth. |
+| `spec/contents-for-global-sharing-with-svelte/`, `spec/locales-for-global-sharing-with-svelte/`, `spec/search/` | Cross-site specs shared with the other `*.github.io` sites. |
 | `spec/oxford-spelling.md` | The spelling standard (Oxford spelling, `en-GB-oxendict`) and its URL/citation-protection rules. |
-| `spec/README.md` | Pointer to this file. |
+| `spec/README.md` | Symlink to this file. |
+| `AGENTS.md`, `CLAUDE.md`, `AGENTS/` | Working instructions for AI agents (CLAUDE.md imports AGENTS.md; `AGENTS/` holds task-focused guides). The site also serves generated `/llms.txt` and `/llms.json` (`digital-health-guide.github.io/scripts/build-llms.mjs`). |
+
 
 ---
 
@@ -60,102 +66,102 @@ Every topic uses these headings, in this order. This is the contract the maturit
 
 ## 4. Topic manifest
 
-73 topics in 10 parts, numbered by part and within-part (section.topic, e.g. `1.0`, `1.1`), plus front and reference matter. Filenames are **sortable zero-padded decimals** of the form `PP-CC-slug.md` (two-digit part, dash, two-digit within-part, dash, slug), so files sort in reading order; the heading and table of contents use the natural form (`Topic 1.0`, `Topic 3.10`). Numbers, titles, and filenames are canonical — `README.md` must match exactly.
+73 topics in 10 parts, numbered by part and within-part (section.topic, e.g. `1.0`, `1.1`), plus front and reference matter. Each topic is a folder named **`PP-CC-slug`** (sortable zero-padded decimals: two-digit part, dash, two-digit within-part, dash, slug) holding an `index.md`; the slugs below are the English ones (`locales/en-*/topics/<slug>/`), and translated locales keep the `PP-CC-` prefix with a translated slug (two-digit part, dash, two-digit within-part, dash, slug), so files sort in reading order; the heading and table of contents use the natural form (`Topic 1.0`, `Topic 3.10`). Numbers, titles, and filenames are canonical — `README.md` must match exactly.
 
 **Part 1 — Foundations**
-1.0. Ways of Working in Digital Health & Care — `01-00-introduction.md`
-1.1. The Operating Model — `01-01-operating-model.md`
-1.2. Digital Strategy & Roadmapping — `01-02-digital-strategy-roadmapping.md`
-1.3. Evidence-Driven Decisions — `01-03-evidence-driven-decisions.md`
-1.4. Hazard Ratios — `01-04-hazard-ratios.md`
-1.5. Regulation & Compliance Landscape — `01-05-regulation-compliance.md`
-1.6. Clinical Safety & Risk Management — `01-06-clinical-safety.md`
-1.7. Information Governance, Data Protection & Cyber Security — `01-07-information-governance-cyber.md`
-1.8. Data Ethics, Consent & Public Trust — `01-08-data-ethics-consent-trust.md`
-1.9. Digital Inclusion & Accessibility — `01-09-digital-inclusion-accessibility.md`
-1.10. Safeguarding in Digital Services — `01-10-safeguarding-digital-services.md`
+1.0. Ways of Working in Digital Health & Care — `01-00-introduction/`
+1.1. The Operating Model — `01-01-operating-model/`
+1.2. Digital Strategy & Roadmapping — `01-02-digital-strategy-roadmapping/`
+1.3. Evidence-Driven Decisions — `01-03-evidence-driven-decisions/`
+1.4. Hazard Ratios — `01-04-hazard-ratios/`
+1.5. Regulation & Compliance Landscape — `01-05-regulation-compliance/`
+1.6. Clinical Safety & Risk Management — `01-06-clinical-safety/`
+1.7. Information Governance, Data Protection & Cyber Security — `01-07-information-governance-cyber/`
+1.8. Data Ethics, Consent & Public Trust — `01-08-data-ethics-consent-trust/`
+1.9. Digital Inclusion & Accessibility — `01-09-digital-inclusion-accessibility/`
+1.10. Safeguarding in Digital Services — `01-10-safeguarding-digital-services/`
 
 **Part 2 — Managing the Flow of Work**
-2.0. Work Intake — `02-00-work-intake.md`
-2.1. Work Triage — `02-01-work-triage.md`
-2.2. Work Prioritization — `02-02-work-prioritization.md`
+2.0. Work Intake — `02-00-work-intake/`
+2.1. Work Triage — `02-01-work-triage/`
+2.2. Work Prioritization — `02-02-work-prioritization/`
 
 **Part 3 — The Delivery Lifecycle**
-3.0. User Research & Service Design — `03-00-user-research-service-design.md`
-3.1. Content Design & Health Literacy — `03-01-content-design-health-literacy.md`
-3.2. Design Systems & Prototyping — `03-02-design-systems-prototyping.md`
-3.3. Patient & Citizen-Facing Digital Services — `03-03-patient-citizen-facing-services.md`
-3.4. Discovery Phases — `03-04-discovery-phases.md`
-3.5. Delivery Lifecycles — `03-05-delivery-lifecycles.md`
-3.6. DevOps & Engineering Excellence — `03-06-devops-engineering-excellence.md`
-3.7. Testing & Quality Assurance — `03-07-testing-quality-assurance.md`
-3.8. Service Management & Live Operations — `03-08-service-management-operations.md`
-3.9. Business Continuity & Disaster Recovery — `03-09-business-continuity-disaster-recovery.md`
-3.10. Emergency Preparedness, Resilience & Response — `03-10-emergency-preparedness-response.md`
-3.11. Telehealth, Remote Consultation & Virtual Wards — `03-11-telehealth-virtual-wards.md`
+3.0. User Research & Service Design — `03-00-user-research-service-design/`
+3.1. Content Design & Health Literacy — `03-01-content-design-health-literacy/`
+3.2. Design Systems & Prototyping — `03-02-design-systems-prototyping/`
+3.3. Patient & Citizen-Facing Digital Services — `03-03-patient-citizen-facing-services/`
+3.4. Discovery Phases — `03-04-discovery-phases/`
+3.5. Delivery Lifecycles — `03-05-delivery-lifecycles/`
+3.6. DevOps & Engineering Excellence — `03-06-devops-engineering-excellence/`
+3.7. Testing & Quality Assurance — `03-07-testing-quality-assurance/`
+3.8. Service Management & Live Operations — `03-08-service-management-operations/`
+3.9. Business Continuity & Disaster Recovery — `03-09-business-continuity-disaster-recovery/`
+3.10. Emergency Preparedness, Resilience & Response — `03-10-emergency-preparedness-response/`
+3.11. Telehealth, Remote Consultation & Virtual Wards — `03-11-telehealth-virtual-wards/`
 
 **Part 4 — Technology, Architecture & Data**
-4.0. Technical Architecture, Cloud & Legacy — `04-00-technical-architecture-cloud-legacy.md`
-4.1. Platforms & Shared Services — `04-01-platforms-shared-services.md`
-4.2. Identity & Access Management — `04-02-identity-access-management.md`
-4.3. Interoperability & Data Standards — `04-03-interoperability-data-standards.md`
-4.4. Connected Devices, IoT & Clinical Engineering — `04-04-connected-devices-iot.md`
-4.5. Data, Analytics & Population Health Management — `04-05-data-analytics-population-health.md`
-4.6. Electronic Patient Records & Clinical Systems — `04-06-electronic-patient-records.md`
-4.7. Clinical Decision Support & Clinical Informatics — `04-07-clinical-decision-support.md`
-4.8. Electronic Prescribing & Medicines Management — `04-08-electronic-prescribing-medicines.md`
-4.9. Data Quality & Master Data Management — `04-09-data-quality-mdm.md`
-4.10. Secure Data Environments & Research Data Access — `04-10-secure-data-environments.md`
-4.11. Genomics & Precision-Medicine Data — `04-11-genomics-precision-medicine.md`
+4.0. Technical Architecture, Cloud & Legacy — `04-00-technical-architecture-cloud-legacy/`
+4.1. Platforms & Shared Services — `04-01-platforms-shared-services/`
+4.2. Identity & Access Management — `04-02-identity-access-management/`
+4.3. Interoperability & Data Standards — `04-03-interoperability-data-standards/`
+4.4. Connected Devices, IoT & Clinical Engineering — `04-04-connected-devices-iot/`
+4.5. Data, Analytics & Population Health Management — `04-05-data-analytics-population-health/`
+4.6. Electronic Patient Records & Clinical Systems — `04-06-electronic-patient-records/`
+4.7. Clinical Decision Support & Clinical Informatics — `04-07-clinical-decision-support/`
+4.8. Electronic Prescribing & Medicines Management — `04-08-electronic-prescribing-medicines/`
+4.9. Data Quality & Master Data Management — `04-09-data-quality-mdm/`
+4.10. Secure Data Environments & Research Data Access — `04-10-secure-data-environments/`
+4.11. Genomics & Precision-Medicine Data — `04-11-genomics-precision-medicine/`
 
 **Part 5 — Modes of Delivery**
-5.0. Product-Led Work — `05-00-product-led-work.md`
-5.1. Project-Led Work — `05-01-project-led-work.md`
-5.2. Programme-Led Work — `05-02-programme-led-work.md`
-5.3. Enterprise Project Portfolio Management (EPPM) — `05-03-eppm.md`
-5.4. Enterprise Resource Planning (ERP) — `05-04-erp.md`
+5.0. Product-Led Work — `05-00-product-led-work/`
+5.1. Project-Led Work — `05-01-project-led-work/`
+5.2. Programme-Led Work — `05-02-programme-led-work/`
+5.3. Enterprise Project Portfolio Management (EPPM) — `05-03-eppm/`
+5.4. Enterprise Resource Planning (ERP) — `05-04-erp/`
 
 **Part 6 — Money, Value & Governance**
-6.0. Financial Management & Business Cases — `06-00-financial-management-business-cases.md`
-6.1. Health Economics — `06-01-health-economics.md`
-6.2. Benefits Realization & Value Management — `06-02-benefits-realization-value.md`
-6.3. Procurement & Commercial — `06-03-procurement-commercial.md`
-6.4. Governance & Assurance — `06-04-governance-assurance.md`
-6.5. Technology Cost Management & Cloud FinOps — `06-05-technology-cost-finops.md`
-6.6. Vendor & Service Integration Management (SIAM) — `06-06-vendor-siam.md`
+6.0. Financial Management & Business Cases — `06-00-financial-management-business-cases/`
+6.1. Health Economics — `06-01-health-economics/`
+6.2. Benefits Realization & Value Management — `06-02-benefits-realization-value/`
+6.3. Procurement & Commercial — `06-03-procurement-commercial/`
+6.4. Governance & Assurance — `06-04-governance-assurance/`
+6.5. Technology Cost Management & Cloud FinOps — `06-05-technology-cost-finops/`
+6.6. Vendor & Service Integration Management (SIAM) — `06-06-vendor-siam/`
 
 **Part 7 — People, Teams & Workforce**
-7.0. Team Structures, Roles & Responsibilities — `07-00-team-structures-roles.md`
-7.1. Agile Delivery Practices & Team Health — `07-01-agile-delivery-team-health.md`
-7.2. Workforce Planning — `07-02-workforce-planning.md`
-7.3. Workforce Strategy — `07-03-workforce-strategy.md`
-7.4. Digital Skills & Capability Building — `07-04-digital-skills-capability.md`
-7.5. People & Organizational Development — `07-05-people-org-development.md`
-7.6. Workforce Equality, Diversity & Inclusion — `07-06-workforce-edi.md`
+7.0. Team Structures, Roles & Responsibilities — `07-00-team-structures-roles/`
+7.1. Agile Delivery Practices & Team Health — `07-01-agile-delivery-team-health/`
+7.2. Workforce Planning — `07-02-workforce-planning/`
+7.3. Workforce Strategy — `07-03-workforce-strategy/`
+7.4. Digital Skills & Capability Building — `07-04-digital-skills-capability/`
+7.5. People & Organizational Development — `07-05-people-org-development/`
+7.6. Workforce Equality, Diversity & Inclusion — `07-06-workforce-edi/`
 
 **Part 8 — Change & Innovation**
-8.0. Phasing in Innovation — `08-00-phasing-innovation.md`
-8.1. Change Management — `08-01-change-management.md`
-8.2. Communications & Engagement — `08-02-communications-engagement.md`
-8.3. Behavioural Science & Adoption — `08-03-behavioural-science-adoption.md`
-8.4. AI & Emerging Technology Governance — `08-04-ai-emerging-technology.md`
-8.5. Sustainability & Net Zero — `08-05-sustainability-net-zero.md`
-8.6. Research & Real-World Evaluation — `08-06-research-real-world-evaluation.md`
+8.0. Phasing in Innovation — `08-00-phasing-innovation/`
+8.1. Change Management — `08-01-change-management/`
+8.2. Communications & Engagement — `08-02-communications-engagement/`
+8.3. Behavioural Science & Adoption — `08-03-behavioural-science-adoption/`
+8.4. AI & Emerging Technology Governance — `08-04-ai-emerging-technology/`
+8.5. Sustainability & Net Zero — `08-05-sustainability-net-zero/`
+8.6. Research & Real-World Evaluation — `08-06-research-real-world-evaluation/`
 
 **Part 9 — Partnerships & Government**
-9.0. Collaborating with Partner Organizations — `09-00-collaborating-partner-organizations.md`
-9.1. Working with Local & National Governments — `09-01-working-with-governments.md`
-9.2. Global & International Digital Health — `09-02-global-international-digital-health.md`
-9.3. Digital in Adult Social Care — `09-03-digital-adult-social-care.md`
+9.0. Collaborating with Partner Organizations — `09-00-collaborating-partner-organizations/`
+9.1. Working with Local & National Governments — `09-01-working-with-governments/`
+9.2. Global & International Digital Health — `09-02-global-international-digital-health/`
+9.3. Digital in Adult Social Care — `09-03-digital-adult-social-care/`
 
 **Part 10 — Measurement, Improvement, Knowledge & Leadership**
-10.0. Objectives & Key Results (OKRs) — `10-00-okrs.md`
-10.1. Key Performance Indicators (KPIs) — `10-01-kpis.md`
-10.2. Quality Improvement & Improvement Science — `10-02-quality-improvement.md`
-10.3. Knowledge Management & Documentation — `10-03-knowledge-management.md`
-10.4. Visibility for the CEO & Senior Leaders — `10-04-leadership-visibility.md`
+10.0. Objectives & Key Results (OKRs) — `10-00-okrs/`
+10.1. Key Performance Indicators (KPIs) — `10-01-kpis/`
+10.2. Quality Improvement & Improvement Science — `10-02-quality-improvement/`
+10.3. Knowledge Management & Documentation — `10-03-knowledge-management/`
+10.4. Visibility for the CEO & Senior Leaders — `10-04-leadership-visibility/`
 
-**Front matter:** Preface — `00-preface.md`
+**Front matter:** Preface — `00-01-preface/`
 **Reference:** Glossary — `GLOSSARY.md` · Index — `INDEX.md`
 
 ## 5. Voice, style & formatting rules
