@@ -36,7 +36,7 @@ Chief executives and senior leaders; directors of digital and transformation; pr
 | `_sources/` | Raw source material used for grounding (e.g. workforce-strategy text). Not shipped as topics. |
 | `digital-health-guide.github.io/` | The SvelteKit site (adapter-static, Lily Design System, pnpm) that renders the book; deployed by `.github/workflows/deploy-site.yml`. |
 | `spec/index.md` | **This file** — the source of truth. |
-| `spec/contents-for-global-sharing-with-svelte/`, `spec/locales-for-global-sharing-with-svelte/`, `spec/search/` | Cross-site specs shared with the other `*.github.io` sites. |
+| `spec/contents-for-global-sharing-with-svelte/`, `spec/locales-for-global-sharing-with-svelte/`, `spec/search/`, `spec/sitemap/` | Cross-site specs shared with the other `*.github.io` sites. |
 | `spec/oxford-spelling.md` | The spelling standard (Oxford spelling, `en-GB-oxendict`) and its URL/citation-protection rules. |
 | `spec/README.md` | Symlink to this file. |
 | `AGENTS.md`, `CLAUDE.md`, `AGENTS/` | Working instructions for AI agents (CLAUDE.md imports AGENTS.md; `AGENTS/` holds task-focused guides). The site also serves generated `/llms.txt` and `/llms.json` (`digital-health-guide.github.io/scripts/build-llms.mjs`). |

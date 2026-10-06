@@ -6,6 +6,7 @@
     "build": "vite build && node scripts/build-search-index.mjs build en-gb && node scripts/build-llms.mjs build",
     "preview": "vite preview",
     "sync": "node bin/sync-content.mjs",
+    "llms": "node scripts/build-llms.mjs ..",
     "sync:lily": "node bin/sync-lily.mjs",
     "check": "svelte-kit sync"
   },

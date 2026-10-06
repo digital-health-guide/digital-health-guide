@@ -20,6 +20,8 @@ BOOK=.. pnpm run sync && pnpm run build
 - The build must finish with `✔ done` and no `prerender_http_error`.
 - Check that every internal `href` on each locale's built home page maps to a built `index.html` (percent-decode the path first).
 - Spot-check a topic page: breadcrumb, previous/next, `hreflang` alternates, linked `Topic N.M` cross-references.
+- Root `llms.txt` and `llms.json` match `build/` (`cmp llms.txt digital-health-guide.github.io/build/llms.txt`).
+- `build/sitemap.xml` parses, every `<loc>` maps to a built page, and alternate groups are symmetric (spec/sitemap).
 - `build/search-index.json`, `build/llms.txt`, `build/llms.json` and `build/sitemap.xml` exist.
 
 ## Reporting

@@ -122,7 +122,7 @@ The book is published at <https://digital-health-guide.github.io/>. The site's s
 
 ## For AI agents
 
-Read [`AGENTS.md`](AGENTS.md) first. The site also serves [`/llms.txt`](https://digital-health-guide.github.io/llms.txt) and [`/llms.json`](https://digital-health-guide.github.io/llms.json), generated from the book at build time.
+Read [`AGENTS.md`](AGENTS.md) first. This repository carries [`llms.txt`](llms.txt) and [`llms.json`](llms.json); the site also serves [`/llms.txt`](https://digital-health-guide.github.io/llms.txt) and [`/llms.json`](https://digital-health-guide.github.io/llms.json), generated from the book at build time.
 
 ---
 

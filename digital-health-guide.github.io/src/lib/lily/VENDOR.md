@@ -5,7 +5,7 @@ These files are copied verbatim from the Lily Design System (MIT licence) by
 `pnpm run sync:lily`.
 
 - Source: <https://github.com/LilyDesignSystem>
-- Commit: `ba711d8252b8d35d48f3c67e97e419463a464b91`
+- Commit: `2300780b0934af89afeb52a5663a9a523f80c263`
 - Components: SkipLink, Header, Footer, ArticleLayout, ContentsNav, ContentsList, ContentsListItem, BreadcrumbNav, BreadcrumbList, BreadcrumbListItem, PaginationNav, PaginationList, PaginationListItem, IconButton, Listbox
 - Helper packages (each in its own `helpers/<name>/`, verbatim including its
   real `index.ts` barrel): theme-picker, locale-picker, text-size-picker, search-picker, share-picker, picker-bar
