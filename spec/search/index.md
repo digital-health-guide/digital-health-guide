@@ -16,7 +16,7 @@ Search lives on the home page and is driven by the query string:
 
 The whole query string is the target, URL-decoded, with `+` read as a space.
 The page stays prerendered: the query is read in the browser only, never during
-prerendering. A search box on the home page navigates to `/?<target>`.
+prerendering. The search box is the one in the site header (the `PickerBar` search); the home page has no search box of its own. It navigates to `/?<target>`, and the results replace the body of the home page.
 
 ## Index
 
