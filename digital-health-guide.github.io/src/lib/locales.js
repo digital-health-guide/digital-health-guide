@@ -7,7 +7,7 @@
 // URLs (`/`, `/topics/…`) redirect to the `/en-gb/` equivalents.
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
-// Sorted alphabetically by slug (ar-001, bn-001, cy-001, de-001, en-001, en-gb,
+// Sorted alphabetically by slug (ar-001, bn-001, cy-001, cy-gb, de-001, en-001, en-gb,
 // en-gb-oxendict, en-us, es-001, fr-001, hi-001, ja-001, ru-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
@@ -15,6 +15,7 @@ export const LOCALES = [
 	{ slug: 'ar-001', label: 'العربية', hreflang: 'ar-001' },
 	{ slug: 'bn-001', label: 'বাংলা', hreflang: 'bn-001' },
 	{ slug: 'cy-001', label: 'Cymraeg', hreflang: 'cy-001' },
+	{ slug: 'cy-gb', label: 'Cymraeg - Prydain Fawr', hreflang: 'cy-GB' },
 	{ slug: 'de-001', label: 'Deutsch', hreflang: 'de-001' },
 	{ slug: 'en-001', label: 'English', hreflang: 'en-001' },
 	{ slug: 'en-gb', label: 'English - Great Britain', hreflang: 'en-GB' },

@@ -1,6 +1,6 @@
 {
  "name": "Digital Health Guide",
- "description": "A practical handbook of best practices for delivering digital services in health and social care organizations, published in fourteen locales.",
+ "description": "A practical handbook of best practices for delivering digital services in health and social care organizations, published in fifteen locales.",
  "url": "https://digital-health-guide.github.io",
  "repository": "https://github.com/digital-health-guide/digital-health-guide",
  "defaultLocale": "en-gb",
@@ -1296,6 +1296,438 @@
        "number": "10.4",
        "title": "Gwelededd i'r Prif Weithredwr ac Uwch Arweinwyr",
        "url": "https://digital-health-guide.github.io/cy-001/pynciau/10-04-gwelededd-arweinwyr/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cy-gb",
+   "label": "Cymraeg - Prydain Fawr",
+   "home": "https://digital-health-guide.github.io/cy-gb/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Sylfeini",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Ffyrdd o Weithio mewn Iechyd a Gofal Digidol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-00-ffyrdd-o-weithio/"
+      },
+      {
+       "number": "1.1",
+       "title": "Y Model Gweithredu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-01-y-model-gweithredu/"
+      },
+      {
+       "number": "1.2",
+       "title": "Strategaeth Ddigidol a Chynllunio Map Ffordd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-02-strategaeth-ddigidol-map-ffordd/"
+      },
+      {
+       "number": "1.3",
+       "title": "Penderfyniadau Seiliedig ar Dystiolaeth",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-03-penderfyniadau-seiliedig-ar-dystiolaeth/"
+      },
+      {
+       "number": "1.4",
+       "title": "Cymarebau Perygl",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-04-cymarebau-perygl/"
+      },
+      {
+       "number": "1.5",
+       "title": "Tirwedd Rheoleiddio a Chydymffurfedd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-05-rheoleiddio-a-chydymffurfiaeth/"
+      },
+      {
+       "number": "1.6",
+       "title": "Diogelwch Clinigol a Rheoli Risg",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-06-diogelwch-clinigol-rheoli-risg/"
+      },
+      {
+       "number": "1.7",
+       "title": "Llywodraethiant Gwybodaeth, Diogelu Data a Seiberddiogelwch",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-07-llywodraethu-gwybodaeth-seiberddiogelwch/"
+      },
+      {
+       "number": "1.8",
+       "title": "Moeseg Data, Caniatâd ac Ymddiriedaeth y Cyhoedd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-08-moeseg-data-caniatad-ymddiriedaeth/"
+      },
+      {
+       "number": "1.9",
+       "title": "Cynhwysiant Digidol a Hygyrchedd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-09-cynhwysiant-digidol-hygyrchedd/"
+      },
+      {
+       "number": "1.10",
+       "title": "Diogelu mewn Gwasanaethau Digidol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/01-10-diogelu-gwasanaethau-digidol/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "Rheoli Llif y Gwaith",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Derbyn Gwaith",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/02-00-derbyn-gwaith/"
+      },
+      {
+       "number": "2.1",
+       "title": "Brysbennu Gwaith",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/02-01-triaj-gwaith/"
+      },
+      {
+       "number": "2.2",
+       "title": "Blaenoriaethu Gwaith",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/02-02-blaenoriaethu-gwaith/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Cylch Bywyd Cyflenwi",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Ymchwil Defnyddwyr a Chynllunio Gwasanaethau",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-00-ymchwil-defnyddwyr-dylunio-gwasanaeth/"
+      },
+      {
+       "number": "3.1",
+       "title": "Dylunio Cynnwys a Llythrennedd Iechyd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-01-dylunio-cynnwys-llythrennedd-iechyd/"
+      },
+      {
+       "number": "3.2",
+       "title": "Systemau Dylunio a Phrototeipio",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-02-systemau-dylunio-prototeipio/"
+      },
+      {
+       "number": "3.3",
+       "title": "Gwasanaethau Digidol sy'n Wynebu Cleifion a Dinasyddion",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-03-gwasanaethau-cleifion-dinasyddion/"
+      },
+      {
+       "number": "3.4",
+       "title": "Cyfnodau Darganfod",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-04-cyfnodau-darganfod/"
+      },
+      {
+       "number": "3.5",
+       "title": "Cylchoedd Bywyd Darparu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-05-cylchoedd-bywyd-cyflenwi/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps a Rhagoriaeth Peirianneg",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-06-devops-rhagoriaeth-peirianneg/"
+      },
+      {
+       "number": "3.7",
+       "title": "Profi a Sicrhau Ansawdd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-07-profi-sicrhau-ansawdd/"
+      },
+      {
+       "number": "3.8",
+       "title": "Rheoli Gwasanaethau a Gweithrediadau Byw",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-08-rheoli-gwasanaeth-gweithrediadau/"
+      },
+      {
+       "number": "3.9",
+       "title": "Parhad Busnes ac Adfer ar ôl Trychineb",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-09-parhad-busnes-adfer-trychineb/"
+      },
+      {
+       "number": "3.10",
+       "title": "Paratoi, Gwydnwch ac Ymateb Brys",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-10-paratoadau-argyfwng-ymateb/"
+      },
+      {
+       "number": "3.11",
+       "title": "Teleiechyd, Ymgynghori o Bell a Wardiau Rhithwir",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/03-11-telefeddygaeth-wardiau-rhithwir/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Technoleg, Pensaernïaeth a Data",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Pensaernïaeth Dechnegol, y Cwmwl a Systemau Etifeddol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-00-pensaernia-dechnegol-cwmwl-etifeddol/"
+      },
+      {
+       "number": "4.1",
+       "title": "Platfformau a Gwasanaethau a Rennir",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-01-platfformau-gwasanaethau-a-rennir/"
+      },
+      {
+       "number": "4.2",
+       "title": "Rheoli Hunaniaeth a Mynediad",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-02-rheoli-hunaniaeth-mynediad/"
+      },
+      {
+       "number": "4.3",
+       "title": "Rhyngweithredu a Safonau Data",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-03-rhyngweithredadwyedd-safonau-data/"
+      },
+      {
+       "number": "4.4",
+       "title": "Dyfeisiau Cysylltiedig, IoT a Pheirianneg Glinigol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-04-dyfeisiau-cysylltiedig-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "Data, Dadansoddeg a Rheoli Iechyd y Boblogaeth",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-05-data-dadansoddeg-iechyd-poblogaeth/"
+      },
+      {
+       "number": "4.6",
+       "title": "Cofnodion Cleifion Electronig a Systemau Clinigol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-06-cofnodion-cleifion-electronig/"
+      },
+      {
+       "number": "4.7",
+       "title": "Cymorth Penderfyniadau Clinigol a Gwybodeg Glinigol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-07-cymorth-penderfynu-clinigol/"
+      },
+      {
+       "number": "4.8",
+       "title": "Rhagnodi Electronig a Rheoli Meddyginiaethau",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-08-rhagnodi-electronig-meddyginiaethau/"
+      },
+      {
+       "number": "4.9",
+       "title": "Ansawdd Data a Rheoli Data Meistr",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-09-ansawdd-data-prif-ddata/"
+      },
+      {
+       "number": "4.10",
+       "title": "Amgylcheddau Data Diogel a Mynediad at Ddata Ymchwil",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-10-amgylcheddau-data-diogel/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomeg a Data Meddygaeth Fanwl",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/04-11-genomeg-meddygaeth-fanwl-gywir/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Dulliau Cyflenwi",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Gwaith dan Arweiniad Cynnyrch",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/05-00-gwaith-dan-arweiniad-cynnyrch/"
+      },
+      {
+       "number": "5.1",
+       "title": "Gwaith dan Arweiniad Prosiect",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/05-01-gwaith-dan-arweiniad-prosiect/"
+      },
+      {
+       "number": "5.2",
+       "title": "Gwaith dan Arweiniad Rhaglen",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/05-02-gwaith-dan-arweiniad-rhaglen/"
+      },
+      {
+       "number": "5.3",
+       "title": "Rheoli Portffolio a Phrosiectau Menter (EPPM)",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/05-03-rheoli-portffolio-prosiectau-menter/"
+      },
+      {
+       "number": "5.4",
+       "title": "Cynllunio Adnoddau Menter (ERP)",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/05-04-cynllunio-adnoddau-menter/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Arian, Gwerth a Llywodraethu",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Rheolaeth Ariannol ac Achosion Busnes",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-00-rheolaeth-ariannol-achosion-busnes/"
+      },
+      {
+       "number": "6.1",
+       "title": "Economeg Iechyd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-01-economeg-iechyd/"
+      },
+      {
+       "number": "6.2",
+       "title": "Gwireddu Buddion a Rheoli Gwerth",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-02-gwireddu-buddion-gwerth/"
+      },
+      {
+       "number": "6.3",
+       "title": "Caffael a Masnachol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-03-caffael-masnachol/"
+      },
+      {
+       "number": "6.4",
+       "title": "Llywodraethiant a Sicrwydd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-04-llywodraethu-sicrwydd/"
+      },
+      {
+       "number": "6.5",
+       "title": "Rheoli Costau Technoleg a FinOps y Cwmwl",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-05-cost-technoleg-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Rheoli Gwerthwyr ac Integreiddio Gwasanaethau (SIAM)",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/06-06-rheoli-gwerthwyr-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Pobl, Timau a'r Gweithlu",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Strwythurau Timau, Rolau a Chyfrifoldebau",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-00-strwythurau-timau-rolau/"
+      },
+      {
+       "number": "7.1",
+       "title": "Arferion Darparu Ystwyth ac Iechyd Tîm",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-01-cyflenwi-ystwyth-iechyd-tim/"
+      },
+      {
+       "number": "7.2",
+       "title": "Cynllunio'r Gweithlu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-02-cynllunior-gweithlu/"
+      },
+      {
+       "number": "7.3",
+       "title": "Strategaeth Gweithlu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-03-strategaeth-weithlu/"
+      },
+      {
+       "number": "7.4",
+       "title": "Sgiliau Digidol a Meithrin Gallu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-04-sgiliau-digidol-gallu/"
+      },
+      {
+       "number": "7.5",
+       "title": "Datblygu Pobl a Sefydliad",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-05-datblygiad-pobl-sefydliadol/"
+      },
+      {
+       "number": "7.6",
+       "title": "Cydraddoldeb, Amrywiaeth a Chynhwysiant y Gweithlu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/07-06-cydraddoldeb-amrywiaeth-cynhwysiant/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Newid ac Arloesi",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Cyflwyno Arloesedd fesul Cam",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-00-cyflwyno-arloesi-mewn-camau/"
+      },
+      {
+       "number": "8.1",
+       "title": "Rheoli Newid",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-01-rheoli-newid/"
+      },
+      {
+       "number": "8.2",
+       "title": "Cyfathrebu ac Ymgysylltu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-02-cyfathrebu-ac-ymgysylltu/"
+      },
+      {
+       "number": "8.3",
+       "title": "Gwyddor Ymddygiad a Mabwysiadu",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-03-gwyddoniaeth-ymddygiad-mabwysiadu/"
+      },
+      {
+       "number": "8.4",
+       "title": "Llywodraethiant AI a Thechnoleg Newydd",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-04-llywodraethu-ai-technoleg-newydd/"
+      },
+      {
+       "number": "8.5",
+       "title": "Cynaliadwyedd a Sero Net",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-05-cynaliadwyedd-sero-net/"
+      },
+      {
+       "number": "8.6",
+       "title": "Ymchwil a Gwerthuso Byd Go Iawn",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/08-06-ymchwil-gwerthuso-byd-go-iawn/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Partneriaethau a Llywodraeth",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Cydweithio â Sefydliadau Partner",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/09-00-cydweithio-sefydliadau-partner/"
+      },
+      {
+       "number": "9.1",
+       "title": "Gweithio gyda Llywodraethau Lleol a Chenedlaethol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/09-01-gweithio-gyda-llywodraethau/"
+      },
+      {
+       "number": "9.2",
+       "title": "Iechyd Digidol Byd-eang a Rhyngwladol",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/09-02-iechyd-digidol-byd-eang/"
+      },
+      {
+       "number": "9.3",
+       "title": "Digidol mewn Gofal Cymdeithasol i Oedolion",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/09-03-digidol-gofal-cymdeithasol-oedolion/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Mesur, Gwella, Gwybodaeth ac Arweinyddiaeth",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Amcanion a Chanlyniadau Allweddol (OKRau)",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/10-00-amcanion-canlyniadau-allweddol/"
+      },
+      {
+       "number": "10.1",
+       "title": "Dangosyddion Perfformiad Allweddol (DPAau)",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/10-01-dangosyddion-perfformiad-allweddol/"
+      },
+      {
+       "number": "10.2",
+       "title": "Gwella Ansawdd a Gwyddor Gwella",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/10-02-gwella-ansawdd/"
+      },
+      {
+       "number": "10.3",
+       "title": "Rheoli Gwybodaeth a Dogfennaeth",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/10-03-rheoli-gwybodaeth/"
+      },
+      {
+       "number": "10.4",
+       "title": "Gwelededd i'r Prif Weithredwr ac Uwch Arweinwyr",
+       "url": "https://digital-health-guide.github.io/cy-gb/pynciau/10-04-gwelededd-arweinwyr/"
       }
      ]
     }

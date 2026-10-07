@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001), German (de-001), Japanese (ja-001), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -600,6 +600,7 @@ const TABLES = {
 	'en-001': en,
 	'ar-001': ar,
 	'cy-001': cyGb,
+	'cy-gb': cyGb,
 	'de-001': de,
 	'ja-001': ja,
 	'zh-001': zhCn,

@@ -1,6 +1,6 @@
 # Digital Health Guide
 
-> A practical handbook of best practices for delivering digital services in health and social care organizations, published in fourteen locales.
+> A practical handbook of best practices for delivering digital services in health and social care organizations, published in fifteen locales.
 
 The book is the source of truth; every page is plain prerendered HTML. Each topic is also Markdown in the repository.
 
@@ -123,6 +123,7 @@ The book is the source of truth; every page is plain prerendered HTML. Each topi
 - [العربية (ar-001)](https://digital-health-guide.github.io/ar-001/)
 - [বাংলা (bn-001)](https://digital-health-guide.github.io/bn-001/)
 - [Cymraeg (cy-001)](https://digital-health-guide.github.io/cy-001/)
+- [Cymraeg - Prydain Fawr (cy-gb)](https://digital-health-guide.github.io/cy-gb/)
 - [Deutsch (de-001)](https://digital-health-guide.github.io/de-001/)
 - [English (en-001)](https://digital-health-guide.github.io/en-001/)
 - [English - Great Britain - Oxford (en-gb-oxendict)](https://digital-health-guide.github.io/en-gb-oxendict/)

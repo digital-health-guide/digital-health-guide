@@ -114,7 +114,7 @@ The topics are ordered but self-contained; each ends with a maturity model and a
 
 ## Languages
 
-The book is published in fourteen locales under [`locales/`](locales/): Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`), German (`de-001`), English (`en-001`, `en-gb`, `en-gb-oxendict`, `en-us`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`), Japanese (`ja-001`), Russian (`ru-001`) and Chinese (`zh-001`). Each locale has its own home page and table of contents (`locales/<locale>/index.md`) and one folder per topic; folder names are translated, and the leading `PP-CC-` number is shared by every locale. This README links the en-gb edition.
+The book is published in fifteen locales under [`locales/`](locales/): Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`, `cy-gb`), German (`de-001`), English (`en-001`, `en-gb`, `en-gb-oxendict`, `en-us`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`), Japanese (`ja-001`), Russian (`ru-001`) and Chinese (`zh-001`). Each locale has its own home page and table of contents (`locales/<locale>/index.md`) and one folder per topic; folder names are translated, and the leading `PP-CC-` number is shared by every locale. This README links the en-gb edition.
 
 ## Website
 

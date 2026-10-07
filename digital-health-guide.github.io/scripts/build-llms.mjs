@@ -8,7 +8,7 @@ import { SITE_URL, SITE_NAME, REPOSITORY } from '../src/lib/site.js';
 
 const BUILD = process.argv[2] ?? 'build';
 const SUMMARY =
-	'A practical handbook of best practices for delivering digital services in health and social care organizations, published in fourteen locales.';
+	'A practical handbook of best practices for delivering digital services in health and social care organizations, published in fifteen locales.';
 
 // "- 1 Foundations" is a part; "  - [1.0 Title](dir/slug/)" is a topic.
 function contents(locale) {
