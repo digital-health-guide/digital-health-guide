@@ -4,8 +4,8 @@ Every `*.github.io` SvelteKit site in this family publishes `/sitemap.xml`, gene
 
 ## Contents
 
-- One `<url>` per published page: every locale's home page, every topic in every locale, and the shared reference pages (glossary, subject index, style guide, spec). Redirect-only URLs (`/`, `/chapters/…`, retired locale slugs, two-letter aliases) are never listed.
-- Locales are served under `/<locale>/`; the default locale (`en-gb`) is not special in URLs. Every locale's URL uses its full `<language>-<region>` slug (`/en-001/`, `/cy-001/`); the two-letter aliases (`/en/`) are not listed (see the locales spec, "Locale routing").
+- One `<url>` per published page: every locale's home page, every topic in every locale, and the shared reference pages (glossary, subject index, style guide, spec). Redirect-only URLs (`/`, `/chapters/…`, retired locale slugs) are never listed.
+- Locales are served under `/<locale>/`; the default locale (`en-gb`) is not special in URLs. Every locale's URL uses its full `<language>-<region>` slug (`/en-001/`, `/cy-001/`); there are no two-letter routes (see the locales spec, "Locale routing").
 - Each localized page carries one `<xhtml:link rel="alternate" hreflang="…">` per locale that has the equivalent page, plus `hreflang="x-default"` pointing at the default locale. Topics are matched across locales by their shared `NN-NN-` number prefix. Shared reference pages have no alternates.
 - `<loc>` and `href` values are absolute and percent-encoded (translated slugs are non-ASCII).
 - The alternates match the `<link rel="alternate">` tags in each page's `<head>`.

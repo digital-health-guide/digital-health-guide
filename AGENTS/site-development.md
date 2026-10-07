@@ -17,7 +17,7 @@ pnpm run sync:lily        # re-vendor Lily from ~/git/lilydesignsystem/lily-desi
 
 - `content/` is generated from `locales/`; never edit it by hand. Re-sync after any book change.
 - `src/lib/lily/` and `static/themes/` are vendored. Do not edit; change Lily upstream, re-sync, and record the commit in `src/lib/lily/VENDOR.md`.
-- Routes: every locale is served under `/<locale>/`; `/` is a client-side redirect unless the URL carries a search query (`/?<target>`). Two-letter aliases (`/es/…`) render the world locale's page. Retired locales (`de-de`, `hi-in`, `ja-jp`, `zh-cn`) and old `/chapters/…` URLs redirect.
+- Routes: every locale is served under `/<locale>/`; `/` is a client-side redirect unless the URL carries a search query (`/?<target>`). There are no two-letter routes: `/es/` is a 404, and `/` maps a browser's language to the locale (`es` → `/es-001/`). Retired locales (`de-de`, `hi-in`, `ja-jp`, `zh-cn`) and old `/chapters/…` URLs redirect.
 - A topic is any `<locale>/<dir>/<NN-NN-slug>/index.md`; its number comes from the slug prefix.
 - Shared reference pages have no locale in the URL; their chrome follows the reader's remembered locale (`src/lib/readerLocale.svelte.js`). Use `uiLocale(doc)`, not `doc.locale`, for any chrome on a page that may be shared.
 - UI strings live in `src/lib/strings.js`, one table per locale; add every key to every locale.

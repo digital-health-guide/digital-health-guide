@@ -12,17 +12,17 @@ Read locales via file `locales.tsv`.
 Every locale directory uses the format `<language>-<region>`, in lowercase: a language code, a hyphen, then a region or variant code (`en-gb`, `en-us`, `cy-001`; `en-gb-oxendict` adds a further variant subtag). The region may be a UN M.49 code such as `001` (World) for a language's international edition (`en-001`, `es-001`).
 
 - Two-letter language-only directories (`locales/en/`, `locales/cy/`) are not allowed: they would duplicate the international `<language>-001` locale.
-- Two-letter language URLs on the published site (`/en/`) are routing aliases of the `<language>-001` locale, never directories. See the site's `README.md`.
+- Two-letter language URLs (`/en/`) do not exist on the published site either: they are 404s, never directories or aliases.
 - The directory name is the locale's slug in `locales.tsv`, the site's routes and the `hreflang` mapping.
 
 ## Locale routing
 
 Every locale is served under `/<slug>/`, where `<slug>` is its directory name (`/en-gb/`, `/cy-001/`). The routing rules:
 
-- **Two-letter aliases.** For each world locale `<language>-001`, `/<language>/…` (`/en/`, `/cy/…`) renders the same page as `/<language>-001/…`. The alias is a convenience URL only: the page's `canonical` link names the `/<language>-001/…` URL, and aliases are neither listed in the sitemap nor indexed for search. `/<language>-001/…` does **not** redirect to the alias; it is the real page.
+- **No two-letter routes.** `/en/`, `/cy/…` and the like are not routes and return 404. Every locale, world locales included, is served only at its full `<language>-<region>` slug (`/en-001/`, `/cy-001/`).
 - **Retired slugs** (`de-de`, `hi-in`, `ja-jp`, `zh-cn`) redirect to their replacement `-001` locale, mapping topics by their shared `NN-NN-` prefix.
 - **Old unprefixed URLs** (`/topics/…`, `/chapters/…`) redirect to the default locale's page.
-- **Reader's language on `/`.** A bare `/` (no query string; `/?…` is a search) reads `navigator.languages` (falling back to `navigator.language`) in the browser, before hydration, and redirects, trying each tag in order: (1) the exact locale: the tag, lowercased with `_` read as `-`, equals a locale slug or its `hreflang` (`en-GB` → `/en-gb/`, `cy_GB` has no exact locale and goes to step 3); (2) a retired slug maps to its replacement; (3) the tag's language maps to that language's international locale (`en-AU` → `/en-001/`, `cy_GB` → `/cy-001/`, `de-AT` → `/de-001/`). With no match the reader goes to the default locale (`/en-gb/`). Without JavaScript, `/` offers a link and a `<noscript>` refresh to the default locale.
+- **Reader's language on `/`.** A bare `/` (no query string; `/?…` is a search) reads `navigator.languages` (falling back to `navigator.language`) in the browser, before hydration, and redirects, trying each tag in order: (1) the exact locale: the tag, lowercased with `_` read as `-`, equals a locale slug or its `hreflang` (`en-GB` → `/en-gb/`, `cy_GB` has no exact locale and goes to step 3); (2) a retired slug maps to its replacement; (3) the tag's language maps to that language's international `-001` locale (`en-AU` → `/en-001/`, `cy_GB` → `/cy-001/`, `de-AT` → `/de-001/`). With no match the reader goes to the default locale (`/en-gb/`). Without JavaScript, `/` offers a link and a `<noscript>` refresh to the default locale.
 
 ## .locale-peer.id file
 
