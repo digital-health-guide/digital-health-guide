@@ -8,7 +8,7 @@ The premise is simple: **in health and care, _how_ you work is a clinical-safety
 
 ---
 
-## How to use this book
+## How to use this guide
 
 The topics are ordered but self-contained; each ends with a maturity model and a checklist so you can assess where you are and decide what to do next. Read Part I first to fix the vocabulary and the non-negotiables — safety, regulation, data, ethics, and inclusion — then jump to whichever part answers your current problem.
 
