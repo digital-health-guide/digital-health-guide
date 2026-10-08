@@ -74,6 +74,7 @@ const helperPackages = [
 	],
 	['lily-design-system-svelte-search-picker', 'search-picker', ['SearchPicker.svelte', 'index.ts']],
 	['lily-design-system-svelte-share-picker', 'share-picker', ['SharePicker.svelte', 'index.ts']],
+	['lily-design-system-svelte-link-picker', 'link-picker', ['LinkPicker.svelte', 'index.ts']],
 	['lily-design-system-svelte-picker-bar', 'picker-bar', ['PickerBar.svelte', 'index.ts']]
 ];
 
@@ -155,7 +156,7 @@ These files are copied verbatim from the Lily Design System (MIT licence) by
 - Components: ${components.join(', ')}
 - Helper packages (each in its own \`helpers/<name>/\`, verbatim including its
   real \`index.ts\` barrel): ${helperPackages.map(([, dir]) => dir).join(', ')}
-- \`picker-bar\`'s own source imports its four wrapped pickers, and each of
+- \`picker-bar\`'s own source imports its wrapped pickers, and each of
   those imports \`IconButton\`/\`Listbox\` from \`@lilydesignsystem/svelte-headless\`,
   as real package specifiers, unmodified — see the matching aliases in
   \`vite.config.js\`, which point those specifiers at the vendored barrels

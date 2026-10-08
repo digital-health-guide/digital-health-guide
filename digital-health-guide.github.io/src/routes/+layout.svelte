@@ -7,7 +7,7 @@
 	import SearchGate from '#lib/components/SearchGate.svelte';
 	import Footer from '#lib/lily/components/Footer.svelte';
 	import PickerBar from '#lib/lily/helpers/picker-bar/index.ts';
-	import { REPOSITORY, THEMES, THEME_LABELS } from '#lib/site.js';
+	import { REPOSITORY, PROJECT_LINKS, THEMES, THEME_LABELS } from '#lib/site.js';
 	import { LOCALES, LOCALE_LABELS, localePrefix } from '#lib/locales.js';
 	import { stringsFor } from '#lib/strings.js';
 	import {
@@ -70,7 +70,9 @@
 		</nav>
 		<div class="site-tools">
 			<PickerBar
+				links={PROJECT_LINKS}
 				labels={{
+					link: t.pickerLink,
 					theme: t.pickerTheme,
 					locale: t.pickerLocale,
 					textSize: t.pickerTextSize,

@@ -34,7 +34,7 @@ pnpm run sync:lily  # copy the Lily components, helpers, and themes
 
 `pnpm run sync` reads the sibling checkout `../digital-health-guide` by default; set `BOOK=/path/to/digital-health-guide` to point elsewhere. `pnpm run sync:lily` reads `~/git/lilydesignsystem/lily-design-system` by default; set `LILY=/path/to/lily-design-system` to override. Both scripts overwrite what they manage, so re-running them is the way to pick up upstream changes. Commit the result.
 
-The vendored Lily files and their upstream commit are recorded in [`src/lib/lily/VENDOR.md`](src/lib/lily/VENDOR.md). Do not edit them here — change them upstream and re-sync. `picker-bar`'s own source imports its four wrapped pickers as real `@lilydesignsystem/svelte-*` package specifiers (that is how the upstream package is built); since this site vendors from a sibling checkout rather than installing those packages for real, [`vite.config.js`](vite.config.js) aliases those specifiers at the vendored barrels instead.
+The vendored Lily files and their upstream commit are recorded in [`src/lib/lily/VENDOR.md`](src/lib/lily/VENDOR.md). Do not edit them here — change them upstream and re-sync. `picker-bar`'s own source imports its wrapped pickers as real `@lilydesignsystem/svelte-*` package specifiers (that is how the upstream package is built); since this site vendors from a sibling checkout rather than installing those packages for real, [`vite.config.js`](vite.config.js) aliases those specifiers at the vendored barrels instead.
 
 ## Locales
 
@@ -73,9 +73,11 @@ If a link in the book points at a file that does not exist, the build fails rath
 
 ## Themes, language, and accessibility
 
-The header carries one control, `PickerBar`, composing four Lily helpers:
+The header carries one control, `PickerBar`, composing six Lily helpers:
 
-- **Language** — the twelve locales above; switches to the equivalent page, not just the locale's home. Arabic (ar-001) automatically switches the page to right-to-left.
+- **Project links** — a home-icon picker (leftmost) listing GitHub, GitLab, Lily Design System, `llms.txt` and `sitemap.xml`; the list is `PROJECT_LINKS` in `src/lib/site.js`, and only the picker's accessible name is translated.
+- **Search** — a field that opens a panel and searches the book (see `spec/search/`); on narrow screens it opens over the row of buttons.
+- **Language** — the fifteen locales above; switches to the equivalent page, not just the locale's home. Arabic (ar-001) automatically switches the page to right-to-left.
 - **Theme** — Light, Dark, NHS England / Scotland / Wales (patients and practitioners), and GOV.UK. The choice is persisted, and the first visit follows the operating system's light/dark preference.
 - **Language on reference pages** — the glossary, index, style guide and spec have no locale in their URL, so their navigation, breadcrumb and picker follow the locale you last read (remembered in `localStorage`); see `spec/locales-for-global-sharing-with-svelte/`.
 - **Text size** — small, medium, large, x-large, persisted in `localStorage`.

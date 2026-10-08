@@ -4,6 +4,21 @@
 export const SITE_URL = 'https://digital-health-guide.github.io';
 export const SITE_NAME = 'Digital Health Guide';
 export const REPOSITORY = 'https://github.com/digital-health-guide/digital-health-guide';
+export const GITLAB_REPOSITORY = 'https://gitlab.com/digital-health-guide/digital-health-guide';
+
+/**
+ * Project links offered by the header's link picker. Labels are proper names
+ * or file names, so they are the same in every locale; only the picker's own
+ * accessible name (strings.js `pickerLink`) is translated.
+ * @type {{ label: string, href: string, newTab?: boolean }[]}
+ */
+export const PROJECT_LINKS = [
+	{ label: 'GitHub', href: REPOSITORY, newTab: true },
+	{ label: 'GitLab', href: GITLAB_REPOSITORY, newTab: true },
+	{ label: 'Lily Design System', href: 'https://github.com/LilyDesignSystem', newTab: true },
+	{ label: 'llms.txt', href: `${SITE_URL}/llms.txt` },
+	{ label: 'sitemap.xml', href: `${SITE_URL}/sitemap.xml` }
+];
 
 /** Themes vendored into static/themes/ by bin/sync-lily.mjs. */
 export const THEMES = [

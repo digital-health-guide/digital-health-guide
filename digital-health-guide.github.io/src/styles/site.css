@@ -133,6 +133,55 @@ body {
 	inset-inline-end: 0;
 }
 
+/* Narrow screens: the search panel would hang off the search button and
+   run past the viewport. Instead it opens over the row of picker buttons,
+   full width, with the ⏎ submit button at its end. That keeps it inside the
+   header — it covers neither the nav links nor the page content — and the
+   other pickers are hidden only while the panel is open. The Lily theme
+   positions the panel inside :where() (zero specificity), so plain class
+   selectors override it; logical properties keep it right under dir="rtl". */
+@media (max-width: 40rem) {
+	.site-tools {
+		position: relative;
+		flex: 1 1 100%;
+		justify-content: flex-end;
+	}
+
+	.site-tools .search-picker {
+		position: static;
+	}
+
+	.site-tools .search-picker-panel {
+		inset-block: 0;
+		inset-inline: 0;
+		display: flex;
+		align-items: stretch;
+		min-width: 0;
+		max-height: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-tools .search-picker-panel[hidden] {
+		display: none;
+	}
+
+	.site-tools .search-picker-form {
+		flex: 1 1 auto;
+		min-width: 0;
+		width: 100%;
+	}
+
+	.site-tools .search-picker-input {
+		flex: 1 1 auto;
+		min-width: 0;
+	}
+
+	.site-tools:has(.search-picker-panel:not([hidden])) .picker-bar > :not(.search-picker) {
+		visibility: hidden;
+	}
+}
+
 /* SharePicker (unlike the other three pickers) always renders a trailing
    <p class="share-picker-status" aria-live="polite">, even when empty, for
    announcing copy/share results to screen readers. Left in normal flow, an
