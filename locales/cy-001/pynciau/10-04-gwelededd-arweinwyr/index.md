@@ -12,7 +12,7 @@ Mae'r polion yn benodol i'r sector hwn. Mae rhaglenni digidol yma'n cario risg d
 
 **Yr hyn y mae angen i arweinwyr ei weld mewn gwirionedd.** Nid logiau gweithgarwch, ond set fach, sefydlog: **canlyniadau strategol** (a ydym yn cyflawni'r newid a addawsom — gweler Pwnc 10.0 — Amcanion a Chanlyniadau Allweddol (OKRau)); **hyder darparu** (a fydd y pethau ar y gweill yn glanio, a pha mor sicr ydym); **risgiau a materion** (beth allai ein rhwystro, wedi'u trefnu yn ôl effaith); **gwariant a buddion** (a ydym o fewn y gyllideb ac a yw'r buddsoddiad yn talu'n ôl); a **diogelwch a chydymffurfedd** (a ydym o fewn ein rhwymedigaethau diogelwch clinigol a llywodraethiant gwybodaeth). Mae popeth arall yn fanylyn sydd ar gael ar gais.
 
-**Haenau adrodd.** Mae gwelededd yn haenog, nid yn wastad. Mae bwrdd yn gweld golwg lefel portffolio (tudalen fesul rhaglen, eithriadau'n unig); mae tîm gweithredol yn gweld golwg lefel rhaglen; mae arweinydd darparu'n gweld golwg lefel tîm. Mae pob haen yn grynodeb o'r un oddi tani, a'r ddisgyblaeth yw bod yn rhaid iddynt gysoni — rhaid i wyrdd y bwrdd fod yr un gwyrdd y byddai'r tîm yn ei adnabod. Dyma fynegiant adrodd rheoli portffolio a rhaglenni menter (gweler Pwnc 5.3 — Rheoli Portffolio a Rhaglenni Menter).
+**Haenau adrodd.** Mae gwelededd yn haenog, nid yn wastad. Mae bwrdd yn gweld golwg lefel portffolio (tudalen fesul rhaglen, eithriadau'n unig); mae tîm gweithredol yn gweld golwg lefel rhaglen; mae arweinydd darparu'n gweld golwg lefel tîm. Mae pob haen yn grynodeb o'r un oddi tani, a'r ddisgyblaeth yw bod yn rhaid iddynt gysoni — rhaid i wyrdd y bwrdd fod yr un gwyrdd y byddai'r tîm yn ei adnabod. Dyma fynegiant adrodd rheoli portffolio a rhaglenni menter (gweler Pwnc 5.3 — Rheoli Portffolio a Phrosiectau Menter (EPPM)).
 
 **Un ffynhonnell o'r gwir.** Dylai'r rhifau y mae arweinydd yn eu gweld ddeillio o un set ddata awdurdodol — [un ffynhonnell o'r gwir](https://en.wikipedia.org/wiki/Single_source_of_truth) — nid o dec sleidiau y mae rhywun wedi'i ailteipio. Pan fo cyllid, darparu a buddion bob un yn cynnal eu fersiwn eu hunain, mae trafodaethau bwrdd yn cwympo'n ddadleuon am ba ffigur sy'n iawn. Mae un ffynhonnell o'r gwir yn golygu bod y dangosfwrdd, y system gyllid, a'r gofrestr risg yn tynnu o'r un cofnodion sylfaenol.
 
@@ -127,7 +127,7 @@ Mae corff cyhoeddus cenedlaethol neu leol — GIG Lloegr, yr Adran Iechyd a Gofa
 - Kaplan & Norton, "The Balanced Scorecard," *Harvard Business Review* (1992) — multi-perspective performance reporting.
 - NHS England, *Making Data Count* — statistical process control for board and executive data, distinguishing signal from noise.
 - Cole Nussbaumer Knaflic, *Storytelling with Data* — communicating a true situation so it drives a decision.
-- Management of Portfolios (MoP) and Managing Successful Programmes (MSP) — layered portfolio/programme reporting and assurance (see Pwnc 5.3 — Enterprise Portfolio & Programme Management).
+- Management of Portfolios (MoP) and Managing Successful Programmes (MSP) — layered portfolio/programme reporting and assurance (see Pwnc 5.3 — Enterprise Project Portfolio Management (EPPM)).
 
 ## Cyfeiriadau
 

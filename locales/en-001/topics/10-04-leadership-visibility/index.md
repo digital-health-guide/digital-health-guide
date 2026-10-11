@@ -12,7 +12,7 @@ The stakes are specific to this sector. Digital programmes here carry clinical-s
 
 **What leaders actually need to see.** Not activity logs, but a small, stable set: **strategic outcomes** (are we achieving the change we promised — see Topic 10.0 — Objectives & Key Results (OKRs)); **delivery confidence** (will the things in flight land, and how sure are we); **risks and issues** (what could stop us, ranked by impact); **spend and benefits** (are we on budget and is the investment paying back); and **safety and compliance** (are we within our clinical-safety and information-governance obligations). Everything else is detail available on request.
 
-**Reporting layers.** Visibility is layered, not flat. A board sees a portfolio-level view (a page per programme, exceptions only); an executive team sees a programme-level view; a delivery lead sees the team-level view. Each layer is a summarization of the one below, and the discipline is that they must reconcile — the board's green must be the same green the team would recognize. This is the reporting expression of enterprise portfolio and programme management (see Topic 5.3 — Enterprise Portfolio & Programme Management).
+**Reporting layers.** Visibility is layered, not flat. A board sees a portfolio-level view (a page per programme, exceptions only); an executive team sees a programme-level view; a delivery lead sees the team-level view. Each layer is a summarization of the one below, and the discipline is that they must reconcile — the board's green must be the same green the team would recognize. This is the reporting expression of enterprise portfolio and programme management (see Topic 5.3 — Enterprise Project Portfolio Management (EPPM)).
 
 **Single source of truth.** The numbers a leader sees should derive from one authoritative dataset — a [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) — not from a slide deck someone re-typed. When finance, delivery, and benefits each maintain their own version, board discussions collapse into arguments about whose figure is right. A single source of truth means the dashboard, the finance system, and the risk register draw from the same underlying records.
 
@@ -127,7 +127,7 @@ A national or local public body — NHS England, DHSC, UKHSA, or a local authori
 - Kaplan & Norton, "The Balanced Scorecard," *Harvard Business Review* (1992) — multi-perspective performance reporting.
 - NHS England, *Making Data Count* — statistical process control for board and executive data, distinguishing signal from noise.
 - Cole Nussbaumer Knaflic, *Storytelling with Data* — communicating a true situation so it drives a decision.
-- Management of Portfolios (MoP) and Managing Successful Programmes (MSP) — layered portfolio/programme reporting and assurance (see Topic 5.3 — Enterprise Portfolio & Programme Management).
+- Management of Portfolios (MoP) and Managing Successful Programmes (MSP) — layered portfolio/programme reporting and assurance (see Topic 5.3 — Enterprise Project Portfolio Management (EPPM)).
 
 ## References
 
