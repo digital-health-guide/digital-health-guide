@@ -9,7 +9,8 @@
 		     (it looks for data-lily-theme-picker) and swaps its href. -->
 		<link rel="stylesheet" href="/themes/light.css" data-lily-theme-picker="theme" />
 		%sveltekit.head%
-	</head>
+	  <script src="%sveltekit.assets%/picker-popup.js" defer></script>
+  </head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
