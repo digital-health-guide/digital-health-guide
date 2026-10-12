@@ -12,7 +12,7 @@ Lo que está en juego es específico de este sector. Los programas digitales aqu
 
 **Lo que los líderes realmente necesitan ver.** No registros de actividad, sino un conjunto pequeño y estable: **resultados estratégicos** (¿estamos logrando el cambio que prometimos —véase el Tema 10.0 — Objetivos y resultados clave (OKR)); **confianza de entrega** (¿aterrizarán las cosas en vuelo, y cuán seguros estamos); **riesgos y problemas** (qué podría detenernos, clasificado por impacto); **gasto y beneficios** (¿estamos dentro del presupuesto y está la inversión dando retorno); y **seguridad y cumplimiento** (¿estamos dentro de nuestras obligaciones de seguridad clínica y gobernanza de información). Todo lo demás es detalle disponible bajo petición.
 
-**Capas de reporte.** La visibilidad está en capas, no plana. Una junta directiva ve una vista a nivel de cartera (una página por programa, solo excepciones); un equipo ejecutivo ve una vista a nivel de programa; un líder de entrega ve la vista a nivel de equipo. Cada capa es una resumen de la de abajo, y la disciplina es que deben conciliarse —el verde de la junta directiva debe ser el mismo verde que el equipo reconocería. Esta es la expresión de reporte de la gestión de cartera y programa empresarial (véase el Tema 5.3 — Gestión de cartera y programa empresarial).
+**Capas de reporte.** La visibilidad está en capas, no plana. Una junta directiva ve una vista a nivel de cartera (una página por programa, solo excepciones); un equipo ejecutivo ve una vista a nivel de programa; un líder de entrega ve la vista a nivel de equipo. Cada capa es una resumen de la de abajo, y la disciplina es que deben conciliarse —el verde de la junta directiva debe ser el mismo verde que el equipo reconocería. Esta es la expresión de reporte de la gestión de cartera y programa empresarial (véase el Tema 5.3 — Gestión de cartera de proyectos empresariales (EPPM)).
 
 **Fuente única de verdad.** Los números que un líder ve deberían derivar de un único conjunto de datos autoritativo —una [fuente única de verdad](https://en.wikipedia.org/wiki/Single_source_of_truth)— no de una diapositiva que alguien volvió a escribir. Cuando finanzas, entrega, y beneficios cada uno mantiene su propia versión, las discusiones de junta directiva colapsan en argumentos sobre de quién es la cifra correcta. Una fuente única de verdad significa que el panel, el sistema financiero, y el registro de riesgos se extraen de los mismos registros subyacentes.
 
@@ -127,7 +127,7 @@ Un organismo público nacional o local —NHS England, DHSC, UKHSA, o una autori
 - Kaplan & Norton, "The Balanced Scorecard," *Harvard Business Review* (1992) — reporte de rendimiento multi-perspectiva.
 - NHS England, *Making Data Count* — control estadístico de proceso para datos de junta directiva y ejecutivos, distinguiendo señal de ruido.
 - Cole Nussbaumer Knaflic, *Storytelling with Data* — comunicar una situación verdadera para que impulse una decisión.
-- Management of Portfolios (MoP) y Managing Successful Programmes (MSP) — reporte y aseguramiento de cartera/programa en capas (véase el Tema 5.3 — Gestión de cartera y programa empresarial).
+- Management of Portfolios (MoP) y Managing Successful Programmes (MSP) — reporte y aseguramiento de cartera/programa en capas (véase el Tema 5.3 — Gestión de cartera de proyectos empresariales (EPPM)).
 
 ## Referencias
 

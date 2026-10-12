@@ -6,8 +6,8 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Chinese (zh-001), Spanish
-// (es-001), French (fr-001), Hindi (hi-001), Bengali (bn-001), and Russian (ru-001) each need their own.
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Chinese (zh-001), Spanish
+// (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
 	siteBrand: 'Digital Health Guide',
@@ -495,6 +495,60 @@ const ja = {
 	tryIndex: '索引'
 };
 
+const ko = {
+	siteBrand: '디지털 보건 가이드',
+	skipToMain: '본문으로 건너뛰기',
+	siteHeader: '사이트 머리글',
+	mainNav: '주 내비게이션',
+	navContents: '목차',
+	navGlossary: '용어집',
+	navIndex: '색인',
+	navStyleGuide: '스타일 가이드',
+	navSpecification: '명세',
+	navGitHub: 'GitHub',
+	pickerTheme: '테마',
+	pickerLocale: '언어',
+	pickerTextSize: '글자 크기',
+	pickerShare: '공유',
+	pickerLink: '프로젝트 링크',
+	pickerSearch: '검색',
+	pickerSearchInput: '검색어',
+	pickerSearchSubmit: '검색',
+	pickerShareCopyLink: '링크 복사',
+	pickerShareCopied: '복사됨',
+	breadcrumb: '탐색 경로',
+	breadcrumbTopics: '주제',
+	breadcrumbReference: '참고 자료',
+	onThisPage: '이 페이지의 내용',
+	headingAnchorPrefix: '링크:',
+	topicNavigation: '주제 내비게이션',
+	previous: '이전',
+	next: '다음',
+	editOnGitHub: 'GitHub에서 이 페이지 편집',
+	sourceOfTruth: '이 책이 신뢰할 수 있는 기준이며, 이 사이트는 그것을 보여 줄 뿐입니다.',
+	siteFooter: '사이트 바닥글',
+	footerDescription:
+		'보건 및 사회적 돌봄 조직에서 디지털 서비스를 전달하기 위한 모범 사례 실무 안내서.',
+	footerLedByBefore: ' 주도: ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' 사용: ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: '명세',
+	notFoundHeading: '페이지를 찾을 수 없습니다',
+	errorHeading: '문제가 발생했습니다',
+	notFoundBody: '',
+	notFoundBodyEnd: '에는 페이지가 없습니다. 책에서 옮겼거나 이름을 바꿨을 수 있습니다.',
+	errorBodyFallback: '페이지를 불러올 수 없습니다.',
+	tryPrefix: '다음을 이용해 보세요:',
+	tryTableOfContents: '목차',
+	tryGlossary: '용어집',
+	tryOr: '또는',
+	tryIndex: '색인'
+};
+
 const bn = {
 	siteBrand: 'ডিজিটাল স্বাস্থ্য নির্দেশিকা',
 	skipToMain: 'মূল বিষয়বস্তুতে যান',
@@ -547,6 +601,60 @@ const bn = {
 	tryGlossary: 'শব্দকোষ',
 	tryOr: 'বা',
 	tryIndex: 'সূচক'
+};
+
+const id = {
+	siteBrand: 'Panduan Kesehatan Digital',
+	skipToMain: 'Lewati ke konten utama',
+	siteHeader: 'Header situs',
+	mainNav: 'Navigasi utama',
+	navContents: 'Daftar isi',
+	navGlossary: 'Glosarium',
+	navIndex: 'Indeks',
+	navStyleGuide: 'Panduan gaya',
+	navSpecification: 'Spesifikasi',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Bahasa',
+	pickerTextSize: 'Ukuran teks',
+	pickerShare: 'Bagikan',
+	pickerLink: 'Tautan proyek',
+	pickerSearch: 'Cari',
+	pickerSearchInput: 'Teks pencarian',
+	pickerSearchSubmit: 'Cari',
+	pickerShareCopyLink: 'Salin tautan',
+	pickerShareCopied: 'Tersalin',
+	breadcrumb: 'Jejak navigasi',
+	breadcrumbTopics: 'Topik',
+	breadcrumbReference: 'Referensi',
+	onThisPage: 'Di halaman ini',
+	headingAnchorPrefix: 'Tautan ke',
+	topicNavigation: 'Navigasi topik',
+	previous: 'Sebelumnya',
+	next: 'Berikutnya',
+	editOnGitHub: 'Sunting halaman ini di GitHub',
+	sourceOfTruth: 'buku adalah sumber kebenaran; situs ini menampilkannya.',
+	siteFooter: 'Footer situs',
+	footerDescription:
+		'buku pegangan praktis tentang praktik terbaik untuk menyampaikan layanan digital di organisasi kesehatan dan perawatan sosial.',
+	footerLedByBefore: ' Dipimpin oleh ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Dibangun dengan ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Spesifikasi',
+	notFoundHeading: 'Halaman tidak ditemukan',
+	errorHeading: 'Terjadi kesalahan',
+	notFoundBody: 'Tidak ada halaman di',
+	notFoundBodyEnd: 'Buku mungkin telah memindahkan atau mengganti namanya.',
+	errorBodyFallback: 'Halaman tidak dapat dimuat.',
+	tryPrefix: 'Coba',
+	tryTableOfContents: 'daftar isi',
+	tryGlossary: 'glosarium',
+	tryOr: 'atau',
+	tryIndex: 'indeks'
 };
 
 const ru = {
@@ -614,11 +722,13 @@ const TABLES = {
 	'cy-gb': cyGb,
 	'de-001': de,
 	'ja-001': ja,
+	'ko-001': ko,
 	'zh-001': zhCn,
 	'es-001': es,
 	'fr-001': fr,
 	'hi-001': hi,
 	'bn-001': bn,
+	'id-001': id,
 	'ru-001': ru
 };
 

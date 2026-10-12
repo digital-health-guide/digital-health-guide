@@ -1,0 +1,149 @@
+# Topik 1.0 — Cara Kerja dalam Kesehatan & Layanan Perawatan Digital
+
+**Dalam satu kalimat:** *Cara kerja* adalah kebiasaan bersama yang disengaja — bagaimana Anda mengorganisasi tim, mengambil keputusan, mengelola risiko, dan menyampaikan nilai — yang memungkinkan organisasi kesehatan dan perawatan mengubah niat menjadi hasil yang aman, setara, dan berbasis bukti bagi pasien dan warga.
+
+## Mengapa ini penting dalam kesehatan dan perawatan
+
+Setiap organisasi memiliki cara kerja, baik yang dipilih maupun yang diwarisi. Dalam kesehatan dan perawatan digital, cara kerja yang diwarisi biasanya keliru untuk pekerjaannya: ia dibangun untuk proyek bergaya konstruksi dengan lingkup tetap, bukan untuk layanan adaptif yang bersinggungan dengan keselamatan klinis, kewajiban hukum, dan uang publik. Membuatnya tepat bukan sekadar kerapian di belakang layar; itulah perbedaan antara rekam perawatan bersama yang dipercaya para klinisi dan yang dibiarkan tak terpakai.
+
+Kesehatan dan perawatan memiliki kekhasan yang membentuk setiap praktik dalam buku ini. **Keselamatan** tidak dapat ditawar — cacat pada layanan digital dapat mencelakai pasien, sehingga manajemen risiko klinis (lihat Topik 1.6 — Keselamatan Klinis & Manajemen Risiko) dijalin ke seluruh proses pengiriman, bukan ditempelkan belakangan. **Kesetaraan** penting karena layanan yang hanya berfungsi bagi mereka yang percaya diri secara digital akan memperlebar [ketimpangan kesehatan](https://en.wikipedia.org/wiki/Health_equity); populasi Core20PLUS5 dan orang dengan akses digital terbatas harus dirancang untuk disertakan, bukan dirancang untuk disisihkan. **Kewajiban hukum** — komitmen NHS atas perawatan yang komprehensif, hukum perlindungan data, kewajiban kerahasiaan — membatasi apa yang boleh Anda lakukan dengan data dan bagaimana Anda harus berkonsultasi. **Uang publik** menuntut pengendalian belanja yang proporsional dan nilai yang dapat didemonstrasikan. Dan hampir tidak ada yang disampaikan oleh satu lembaga sendirian: **kemitraan** lintas sistem perawatan terpadu (ICS), pemerintah daerah, penyedia perawatan sosial, dan pemasok adalah kondisi operasi bawaan.
+
+Keempat tekanan ini — keselamatan, kesetaraan, kewajiban, uang — adalah alasan Anda tidak bisa begitu saja menyalin panduan teknologi konsumen. Anda membutuhkan cara kerja yang agile *dan* akuntabel, cepat *dan* aman, berpusat pada pengguna *dan* adil bagi populasi.
+
+## Konsep inti
+
+**Cara kerja** beroperasi pada tiga tingkat. Pada tingkat **tim**, ia adalah praktik harian: stand-up, riset pengguna, pengiriman iteratif, pairing. Pada tingkat **organisasi**, ia adalah model operasi — bagaimana strategi menjadi aliran nilai, kapabilitas, pendanaan, dan hak keputusan (lihat Topik 1.1 — Model Operasi). Pada tingkat **sistem**, ia adalah cara organisasi-organisasi independen menyelaraskan diri: standar bersama, interoperabilitas, dan tata kelola bersama di seluruh ICS. Buku ini sengaja bergerak melintasi ketiganya.
+
+**[Desain berpusat pada pengguna](https://en.wikipedia.org/wiki/User-centered_design)** berarti memulai dari kebutuhan orang yang menggunakan layanan — pasien, pengasuh, klinisi, administrator — bukan dari solusi yang diasumsikan. [Government Digital Service](https://en.wikipedia.org/wiki/Government_Digital_Service) (GDS) Inggris dan NHS mengkodifikasikan hal ini dalam standar layanan: pahami pengguna dan kebutuhan mereka sebelum Anda membangun, dan terus uji dengan pengguna nyata sepanjang waktu.
+
+**[Pengiriman agile yang iteratif](https://en.wikipedia.org/wiki/Agile_software_development)** berarti menghadirkan layanan yang berfungsi kepada pengguna nyata sejak dini, belajar, dan beradaptasi — alih-alih menentukan segalanya di muka. Manual layanan digital NHS secara eksplisit menyatakan bahwa cara kerja yang agile dan berpusat pada pengguna mengurangi risiko membangun hal yang keliru. Agile di sini adalah strategi manajemen risiko sekaligus metode pengiriman.
+
+**[Tim multidisiplin (MDT)](https://en.wikipedia.org/wiki/Interdisciplinarity)** menyatukan, dalam satu tim yang diberdayakan, ragam keterampilan yang dibutuhkan suatu layanan: manajemen produk dan pengiriman, riset pengguna dan desain, rekayasa, keahlian klinis dan tata kelola informasi, serta pengetahuan operasional. Standar layanan NHS mensyaratkan tim yang mencakup keterampilan dan perspektif multidisiplin — termasuk akses ke masukan spesialis klinis, hukum, atau kebijakan. MDT adalah atom pengiriman digital; sebagian besar kegagalan dapat ditelusuri ke satu disiplin yang absen dari meja.
+
+**Produk di atas proyek.** Proyek memiliki awal, akhir, dan serah terima; sebuah [produk](https://en.wikipedia.org/wiki/Product_management) didanai dan diasuh sepanjang masa hidupnya. Pergeseran dari pemikiran proyek ke pemikiran produk (lihat Topik 1.1 dan Topik 5.0 — Kerja Berbasis Produk) mengubah pendanaan, tim, dan akuntabilitas, dan jauh lebih cocok bagi layanan kesehatan — yang berumur panjang dan terus berkembang — dibanding proyek sekali jalan.
+
+## Praktik terbaik
+
+1. **Mulailah dari kebutuhan pengguna, dibuktikan oleh riset.** Sebelum berkomitmen membangun, pahami siapa penggunanya, apa yang mereka coba lakukan, dan di mana layanan saat ini mengecewakan mereka. Danai sebuah penemuan (lihat Topik 3.4 — Fase Penemuan (Discovery)) dan perlakukan "kami berasumsi" sebagai bendera merah. Kebutuhan pengguna, bukan preferensi internal, adalah jangkar bagi setiap keputusan berikutnya.
+
+2. **Bangun tim yang multidisiplin, diberdayakan, dan stabil.** Himpun ragam keterampilan secara penuh — termasuk keselamatan klinis dan tata kelola informasi — dan beri tim wewenang memutuskan dalam pagar pembatas yang jelas. Pertahankan tim tetap bersama di sekitar suatu layanan alih-alih membubarkannya di setiap batas proyek; tim yang stabil mengumpulkan pengetahuan domain dan keselamatan yang dituntut layanan kesehatan.
+
+3. **Bekerja secara terbuka dan [beriterasi dalam langkah kecil](https://en.wikipedia.org/wiki/Iterative_and_incremental_development).** Kirim potongan tipis, ukur, dan sesuaikan. Rilis kecil dan sering lebih aman daripada peluncuran big-bang karena masalah muncul saat masih kecil, dan memungkinkan tinjauan keselamatan klinis dan tata kelola informasi mengikuti laju perubahan alih-alih menjadi gerbang di akhir.
+
+4. **Jadikan keselamatan dan kesetaraan kelas satu sejak hari pertama.** Jalankan manajemen risiko klinis (DCB0129/DCB0160) serta analisis kesetaraan/ketimpangan kesehatan berdampingan dengan pengiriman, bukan sebagai pengesahan tahap akhir. Tanyakan sejak dini siapa yang bisa tersisih atau dirugikan, dan rancang untuk kasus tersulit — jalur digital berbantuan, aksesibilitas ([WCAG](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines)), dan cadangan luring.
+
+5. **Putuskan berdasarkan bukti, dan catat keputusannya.** Bedakan bukti klinis (apakah ini berhasil dan aman?) dari bukti pengiriman (apakah kita membangunnya dengan baik dan apakah digunakan?), dan simpan log keputusan yang ringan agar alasan bertahan melampaui pergantian staf (lihat Topik 1.3 — Keputusan Berbasis Bukti). Bukti mengalahkan opini orang bergaji tertinggi.
+
+6. **Rancang untuk interoperabilitas dan penggunaan ulang.** Data kesehatan dan perawatan harus mengalir dengan aman antarorganisasi; bangunlah dengan standar terbuka ([HL7 FHIR](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources), [SNOMED CT](https://en.wikipedia.org/wiki/SNOMED_CT)) dan gunakan ulang platform alih-alih menciptakannya kembali (lihat "platform tertipis yang layak" dalam Topik 1.1 dan Topik 4.3 — Interoperabilitas & Standar Data). Layanan yang tidak dapat berbagi data adalah silo yang menunggu menjadi risiko.
+
+7. **Atur tata kelola secara proporsional.** Sesuaikan bobot penjaminan dengan tingkat risiko. Perubahan klinis berisiko tinggi layak ditelaah mendalam; perubahan konten berisiko rendah tak seharusnya menunggu berminggu-minggu sebuah dewan. Tata kelola yang proporsional menjaga Anda tetap aman sekaligus cepat.
+
+8. **Bekerja secara terbuka.** Bagikan rencana, keputusan, peta jalan, dan — bila aman — kode, agar mitra, klinisi, dan publik dapat melihat bagaimana dan mengapa pilihan dibuat. Keterbukaan membangun kepercayaan, mengurangi duplikasi di sistem yang terfragmentasi, dan mengundang tantangan sebelum kesalahan mengeras menjadi layanan langsung. Dalam kesehatan dan perawatan, bersikap transparan tentang apa yang dilakukan suatu layanan dengan data, dan mengapa, adalah praktik kepercayaan dan keselamatan itu sendiri.
+
+9. **Rancang untuk jangka panjang dan untuk serah terima.** Layanan digital di bidang kesehatan hidup lebih lama daripada tim dan kontrak yang membangunnya, jadi catat keputusan, hindari pengetahuan "pahlawan" yang tak terdokumentasi, dan rancang untuk orang-orang yang akan menjalankan dan mengubah layanan selama bertahun-tahun (lihat Topik 10.3 — Manajemen Pengetahuan & Dokumentasi). Perlakukan keberlanjutan — tim, teknologi, dan model pendanaan — sebagai kendala kelas satu, bukan renungan belakangan.
+
+## Pertanyaan untuk didiskusikan dengan tim Anda
+
+1. **Di mana cara kerja kami saat ini diwarisi, bukan dipilih, dan kebiasaan warisan mana yang paling merugikan kami dalam keselamatan, kesetaraan, atau belanja yang sia-sia?**
+   Pertanyaan ini memaksa audit jujur atas praktik yang tak diputuskan siapa pun tetapi diikuti semua orang — pendanaan program berlingkup tetap, tim proyek yang dibubarkan lalu dibangun ulang, tata kelola yang dimintai pendapat hanya saat go-live. Ini penting karena kebiasaan warisan biasanya tak terlihat sampai disebut namanya, dan dalam kesehatan dan perawatan ia membawa biaya nyata: rekam bersama yang tidak dipercaya klinisi, layanan yang menyisihkan populasi Core20PLUS5, atau pembangunan ulang pipa login yang sama dengan uang publik. Ketegangan yang perlu diperdebatkan adalah bahwa cara warisan sering terasa aman justru karena akrab dan dapat diaudit, sehingga melepasnya tampak seperti menambah risiko, bukan menghilangkannya. Dasarkan diskusi pada artefak konkret — tengok tiga kasus bisnis terakhir Anda, pergantian tim antarproyek, dan kapan keselamatan klinis pertama kali dilibatkan — bukan bertukar opini. Jawaban yang baik menyebut satu atau dua kebiasaan spesifik dengan bukti biayanya, membedakan yang layak dipertahankan dari yang aktif merugikan hasil, dan berkomitmen pada perubahan yang akan dipertanggungjawabkan seorang pemimpin senior.
+
+2. **Apakah tim kami benar-benar memiliki ragam keterampilan multidisiplin yang lengkap — termasuk keselamatan klinis dan tata kelola informasi — di dalam tim, atau disiplin-disiplin itu masih ditempelkan sebagai gerbang tahap akhir?**
+   Topik ini berargumen bahwa MDT adalah atom pengiriman digital dan bahwa sebagian besar kegagalan dapat ditelusuri ke disiplin yang absen dari meja, sehingga pertanyaan ini menguji apakah prinsip itu nyata di organisasi Anda atau sekadar aspirasi. Ini penting karena petugas keselamatan klinis atau Caldicott Guardian yang baru dilibatkan saat go-live memaksa pengerjaan ulang atau jalan pintas yang tidak aman, sedangkan yang tertanam sejak minggu pertama menjaga log bahaya hidup yang mengatur laju pengiriman. Trade-off yang perlu diangkat adalah biaya dan kelangkaan: waktu spesialis klinis, hukum, dan IG memang terbatas, sehingga "tanamkan semua orang di setiap tim" berbenturan dengan kendala sumber daya yang nyata, dan tim harus memutuskan di mana peran paruh waktu atau bersama dapat diterima dan di mana tidak. Tengok satu layanan saat ini dan petakan siapa yang benar-benar ada di tim tetap versus siapa yang dimintai pendapat sebagai pengesahan eksternal, dan periksa apakah tim berwenang memutuskan dalam pagar pembatas atau harus terus mengeskalasi. Jawaban yang jujur dan baik bersikap spesifik tentang disiplin mana yang hilang atau dipinjam, mengakui ketegangan sumber daya secara terus terang, dan mengusulkan model konkret — purnawaktu, paruh waktu, atau siaga — untuk menutup celah tanpa berpura-pura kelangkaan tidak ada.
+
+3. **Kapan kami memperlakukan layanan digital sebagai proyek dengan serah terima, bukan produk yang diasuh sepanjang hidupnya, dan apa harga yang kami bayar dalam hilangnya pengetahuan domain dan keselamatan?**
+   Produk-di-atas-proyek adalah salah satu pergeseran penopang topik ini, dan pertanyaan ini membuat tim menghadapi di mana mereka masih mendanai dan menugaskan staf untuk penutupan alih-alih kesinambungan. Ini penting karena layanan kesehatan berumur panjang dan terus berkembang; tim yang dibubarkan di batas proyek membawa serta justru pengetahuan klinis dan operasional terakumulasi yang menjaga layanan tetap aman, dan "limbo pilot" adalah gejala yang berulang. Ketegangan sebenarnya bersifat finansial dan struktural: pendanaan produk memerlukan anggaran tetap dan menantang model tender tahunan berbatas waktu yang menjadi dasar keuangan dan tata kelola, sehingga ini sama banyaknya percakapan tentang uang dan akuntabilitas seperti tentang pengiriman. Pertimbangkan satu layanan tertentu yang melalui serah terima — telusuri apa yang terjadi pada log bahayanya, riset penggunanya, dan timnya — dan timbang terhadap disiplin yang dituntut pendanaan produk. Jawaban yang baik mengidentifikasi kasus konkret, mengukur atau setidaknya mencirikan pengetahuan yang hilang, dan terus terang tentang hambatan organisasi mana (siklus pendanaan, aturan sumber daya, struktur tata kelola) yang harus bergeser agar tim produk yang bertahan menjadi norma.
+
+4. **Siapa yang paling mungkin tersisih atau dirugikan oleh layanan yang kami bangun, dan dapatkah kami menunjukkan di mana kami merancang untuk mereka lebih dulu, bukan terakhir?**
+   Topik ini menegaskan bahwa kesetaraan tidak dapat ditawar dan bahwa layanan yang hanya berfungsi bagi yang percaya diri secara digital memperlebar ketimpangan kesehatan, sehingga pertanyaan ini menguji apakah "rancang untuk kasus tersulit" adalah praktik hidup atau slogan. Ini penting karena penyisihan dalam kesehatan dan perawatan bukan ketidaknyamanan melainkan bahaya keselamatan dan akses: populasi Core20PLUS5, orang dengan akses digital terbatas, literasi kesehatan rendah, atau tanpa ponsel pintar adalah justru orang-orang yang kebutuhannya terbesar, dan layanan yang menyisihkan mereka memusatkan bahaya di tempat yang paling tak sanggup menanggungnya. Ketegangan yang perlu diangkat adalah bahwa merancang untuk pinggiran memakan waktu dan uang di muka — jalur digital berbantuan, aksesibilitas sesuai WCAG, cadangan luring dan nondigital, penerjemahan — dan biaya itu mudah ditunda ketika tenggat mendekat dan mayoritas yang percaya diri sudah dapat memakainya. Tengok layanan nyata dan tanyakan siapa yang ada dalam sampel riset penggunanya, apakah analisis kesetaraan dan ketimpangan kesehatan benar-benar membentuk keputusan desain, dan apa yang terjadi pada orang yang tidak bisa atau tidak mau daring. Jawaban yang jujur menyebut kelompok spesifik yang berisiko untuk layanan ini, menunjukkan setidaknya satu pilihan desain konkret yang dibuat untuk mereka, dan terus terang tentang di mana tim menukar inklusi di bawah tekanan dan bagaimana ia akan membela pertukaran itu lain kali.
+
+5. **Di mana kami menciptakan ulang pipa yang sudah ada, dan di mana membangun dengan standar terbuka serta menggunakan ulang platform bersama benar-benar akan mengubah apa yang kami kirim?**
+   Merancang untuk interoperabilitas dan penggunaan ulang adalah salah satu praktik terbaik topik ini, dan pertanyaan ini membuat tim menghadapi tarikan untuk membangun sendiri alih-alih menggunakan ulang — login, notifikasi, integrasi rekam yang juga sudah dibangun belasan tim lain. Ini penting karena dalam sistem yang terfragmentasi setiap komponen yang diciptakan ulang adalah uang publik yang dibelanjakan dua kali dan silo baru yang tak dapat bertukar data dengan aman; sebaliknya, membangun dengan HL7 FHIR dan SNOMED CT serta menggunakan ulang platform tertipis yang layak adalah yang memungkinkan layanan lolos pengadaan dan berbagi data di seluruh ICS. Trade-off sebenarnya adalah bahwa penggunaan ulang berarti ketergantungan: platform bersama mungkin lebih lambat, kurang disesuaikan, atau diatur oleh peta jalan pihak lain, sehingga tim harus menimbang hambatan komponen bersama terhadap biaya dan risiko jangka panjang silo buatan sendiri. Periksa satu pembangunan saat ini dan daftar mana yang sungguh baru versus yang menduplikasi platform, standar, atau komponen terbuka yang ada, dan periksa apakah "kita tidak bisa menggunakan itu ulang" adalah kendala yang terbukti atau asumsi yang belum diuji. Jawaban yang baik membedakan bagian yang layak dibangun dari bagian yang layak digunakan ulang, jujur tentang kematangan dan tata kelola platform yang tersedia, dan berkomitmen pada standar terbuka untuk apa pun yang harus bertukar data.
+
+6. **Bagaimana kami menyesuaikan bobot tata kelola dengan tingkat risiko, dan di mana penjaminan saat ini terlalu berat untuk perubahan berisiko rendah atau terlalu ringan untuk perubahan berisiko tinggi?**
+   Tata kelola proporsional adalah gagasan penopang topik ini — perubahan klinis berisiko tinggi layak ditelaah mendalam sementara perubahan konten berisiko rendah tak seharusnya menunggu berminggu-minggu sebuah dewan — dan pertanyaan ini menguji apakah organisasi mengkalibrasi penjaminan terhadap risiko atau menerapkan satu proses tumpul untuk semuanya. Ini penting karena tata kelola yang keliru merugikan ke dua arah: gerbang seragam yang berat membuat tim menumpuk perubahan dan memperlambat iterasi yang justru menjaga layanan aman, sedangkan sentuhan seragam yang ringan meloloskan perubahan klinis berisiko tinggi tanpa telaah keselamatan klinis dan tata kelola informasi yang dibutuhkannya. Ketegangannya adalah proporsionalitas memerlukan pertimbangan, dan pertimbangan tidak nyaman bagi dewan dan auditor yang merasa satu daftar periksa wajib lebih mudah dibela daripada jalur berjenjang risiko. Tengok bagaimana belasan perubahan terakhir Anda dijamin, urutkan menurut risiko klinis dan data sebenarnya, dan lihat apakah usaha yang dikeluarkan mengikuti risiko atau kalender. Jawaban yang jujur mengidentifikasi contoh konkret tata kelola berlebih maupun kurang, mengusulkan kriteria jelas untuk menjenjangkan perubahan menurut risiko, dan menyebut siapa yang memegang wewenang memutuskan jenjang dan bertanggung jawab atasnya.
+
+## Dalam praktik: contoh kesehatan & perawatan
+
+Sebuah sistem perawatan terpadu ingin memberikan **rekam perawatan bersama** kepada para klinisi di tiga rumah sakit akut, layanan komunitas, dan perawatan sosial pemerintah daerah. Cara lama akan mengomisikan program berlingkup tetap, menentukan setiap layar di muka, dan mengintegrasikan belakangan.
+
+Sebaliknya ICS membentuk tim multidisiplin: seorang manajer produk, manajer pengiriman, peneliti pengguna, desainer interaksi, dua insinyur, seorang petugas keselamatan klinis, dan seorang pemimpin tata kelola informasi, dengan akses ke seorang caldicott guardian dan seorang praktisi perawatan sosial. Mereka menjalankan penemuan delapan minggu, mengamati bagaimana seorang perawat distrik, konsultan IGD, dan pekerja sosial sebenarnya mencoba menemukan informasi hari ini. Mereka menemukan bahwa rasa sakit sebenarnya bukan "tidak ada data" tetapi "data yang kemutakhirannya tidak bisa mereka percaya."
+
+Tim mengirimkan alfa yang sempit: akses baca-saja ke alergi, obat-obatan, dan status rencana perawatan terkini untuk satu jalur klinis, dengan cap "terakhir diperbarui" yang terlihat. Keselamatan klinis berjalan paralel; log bahaya dipelihara sejak minggu pertama. Mereka mengukur apakah para klinisi berhenti menelepon tim lain untuk memastikan informasi. Hanya setelah potongan tipis itu terbukti bernilai dan aman, mereka memperluas rekam — didanai sebagai produk berkelanjutan, bukan proyek yang ditutup.
+
+## Lensa sektor
+
+Keempat tekanan yang sama — keselamatan, kesetaraan, kewajiban, uang — membebani setiap organisasi, tetapi cara kerja yang menjawabnya bergeser menurut skala, pendanaan, dan akuntabilitas.
+
+### Startup
+
+Perusahaan kesehatan digital kecil hidup-matinya bergantung pada fokus, sehingga cara kerjanya ramping karena keharusan: satu tim multidisiplin, pengambilan keputusan datar, dan kontak harian dengan pengguna. Kendalanya adalah runway, bukan aturan jumlah staf, sehingga penemuan diukur dalam minggu dan bukti dikumpulkan dengan murah — segelintir wawancara klinis, prototipe yang dapat diklik, log bahaya jujur yang dipelihara petugas keselamatan klinis paruh waktu. Bahayanya adalah melewatkan ketelitian keselamatan dan tata kelola informasi demi mencapai tonggak investor; disiplin yang bertahan menghadapi pemeriksaan adalah memperlakukan DCB0129 dan penilaian dampak perlindungan data sebagai kriteria masuk untuk pilot, bukan administrasi yang ditunda sampai sebuah trust memintanya. Interoperabilitas sejak hari pertama (FHIR, SNOMED CT) juga aset komersial, karena startup yang tak dapat bertukar data tidak akan pernah lolos pengadaan NHS.
+
+### Usaha kecil
+
+Penyedia kecil yang mapan — praktik dokter umum, apotek komunitas, panti jompo atau badan perawatan di rumah, klinik satu lokasi, atau pemasok teknologi kesehatan sederhana yang telah melewati tahap pra-pendapatan — memikul tekanan keselamatan, kesetaraan, kewajiban, dan uang yang sama seperti trust besar tetapi dengan sebagian kecil kapabilitas untuk memenuhinya. Cara kerja di sini harus sangat proporsional: jarang ada tim digital atau IG khusus, sehingga "tim multidisiplin" sering berupa segelintir orang merangkap beberapa topi ditambah sumber daya keselamatan klinis dan perlindungan data bersama atau alih daya. Jebakannya adalah mengira kewajiban hukum mengecil seiring organisasi — tidak, sehingga keselamatan klinis DCB0129/DCB0160, penilaian dampak perlindungan data, dan aksesibilitas tetap berlaku penuh meskipun seorang manajer praktik tunggal bertanggung jawab atas semuanya. Disiplin praktisnya adalah bersandar kuat pada penggunaan ulang, bukan membangun: adopsi sistem siap pakai yang terakreditasi, tuntut pemasok memenuhi DTAC dan standar terbuka (FHIR, SNOMED CT), dan gunakan platform nasional dan penyedia ICS agar keselamatan, interoperabilitas, dan tata kelola informasi diwarisi, bukan dibuat ulang dengan anggaran minim.
+
+### Perusahaan besar
+
+Trust NHS atau ICS menghadapi masalah sebaliknya: proses melimpah dan kepemilikan terfragmentasi. Cara kerja di sini sama banyaknya soal *melepas pembelajaran lama* — mengakhiri kebiasaan program berlingkup tetap, menghentikan tim proyek yang dibubarkan-lalu-dibangun-ulang — seperti soal mengadopsi praktik baru. Akuntabilitas bersifat formal dan personal (pemilik tanggung jawab senior, Caldicott Guardian, pengesahan keselamatan klinis tingkat dewan), sehingga kemenangannya adalah menanamkan peran-peran itu di dalam tim pengiriman alih-alih menempelkannya sebagai gerbang. Pemasok teknologi kesehatan atau farmasi besar menghadapi bayangan cerminnya: kematangan rekayasa yang kuat tetapi jarak dari realitas klinis garis depan, yang ingin ditutup oleh tim multidisiplin dengan waktu klinisi yang nyata.
+
+### Pemerintah
+
+Lembaga publik nasional atau lokal — NHS England, DHSC, UKHSA, pemerintah daerah — menetapkan standar yang diacu semua pihak lain, sehingga cara kerjanya beriak ke luar. Akuntabilitasnya kepada Parlemen dan publik, yang menaikkan standar transparansi, pengendalian belanja, dan kesetaraan: standar layanan, jalur penjaminan yang dipublikasikan, dan kewajiban Core20PLUS5 adalah instrumen akuntabilitas itu, bukan tambahan opsional. Risiko pada skala ini adalah merancang secara terpusat untuk warga rata-rata yang tidak ada dan mewajibkan solusi sebelum memahami kebutuhan lokal. Penawarnya adalah disiplin iteratif berpusat pada pengguna yang sama seperti di tempat lain, diterapkan dengan kecondongan untuk menetapkan standar terbuka dan platform yang dapat digunakan ulang yang bisa dibangun organisasi-organisasi federatif — mengatur sistem, bukan sekadar menyampaikan satu layanan.
+
+## Mode kegagalan umum
+
+- **Pengiriman mendahulukan solusi.** Berkomitmen pada produk bernama sebelum memahami kebutuhan. Penawar: danai penemuan dan jadikan kebutuhan pengguna kriteria masuk untuk pembangunan.
+- **Tata kelola sebagai gerbang terlambat.** Keselamatan klinis dan tata kelola informasi dimintai pendapat hanya saat go-live, memaksa pengerjaan ulang atau jalan pintas tak aman. Penawar: tanamkan keduanya di tim sejak hari pertama.
+- **Pergantian proyek.** Membentuk lalu membongkar tim, kehilangan pengetahuan domain dan keselamatan yang susah payah diraih. Penawar: pendanaan produk dan tim yang bertahan.
+- **Limbo pilot.** Pilot tanpa akhir yang tak pernah berskala karena adopsi, pelatihan, dan perubahan bisnis tak pernah disumberdayai (lihat Topik 8.1 — Manajemen Perubahan). Penawar: rencanakan jalur menuju skala sebelum pilot.
+- **Kesetaraan sebagai renungan belakangan.** Merancang untuk mayoritas yang percaya diri dan menyisihkan orang yang paling membutuhkan perawatan. Penawar: rancang untuk kasus tersulit lebih dulu.
+
+## Model kematangan
+
+| Dimensi | Inisiasi | Pengembangan | Standardisasi | Pengelolaan | Orkestrasi |
+|---|---|---|---|---|---|
+| Tim | Peran dipinjam ad hoc per proyek | Beberapa MDT, keanggotaan tidak stabil | MDT tetap dengan ragam keterampilan lengkap termasuk keselamatan klinis | Stabilitas tim dan celah ragam keterampilan dilacak dan dipenuhi sesuai target | Tim produk berdaya, pergantian rendah, pengetahuan domain mendalam |
+| Pengiriman | Big-bang, lingkup tetap | Iterasi sesekali, kebanyakan waterfall | Pengiriman iteratif terhadap kebutuhan pengguna | Aliran, frekuensi rilis, dan mutu diukur dan dikelola sesuai target | Pengiriman berkelanjutan dengan keselamatan yang mengikuti laju |
+| Bukti | Keputusan menurut senioritas | Sebagian data dikumpulkan, jarang dipakai | Bukti klinis dan pengiriman rutin menjadi dasar keputusan | Mutu keputusan dan ukuran hasil dilacak dan ditinjau | Keputusan dicatat, dievaluasi, dan ditinjau ulang |
+| Keselamatan & kesetaraan | Ditempelkan saat go-live | Dinilai sekali, terlambat | Risiko klinis dan analisis kesetaraan berjalan paralel | Penutupan bahaya dan metrik ketimpangan dilaporkan dan dijamin | Pemantauan bahaya dan ketimpangan berkelanjutan |
+| Tata kelola | Berat, satu ukuran untuk semua | Tidak konsisten | Proporsional terhadap risiko | Kendali penjaminan diukur dan diaudit terhadap jenjang risiko | Adaptif, cepat untuk risiko rendah, ketat untuk risiko tinggi |
+
+## Daftar periksa
+
+- [ ] Setiap layanan memiliki tim multidisiplin yang bernama dan stabil dengan keterampilan keselamatan klinis dan tata kelola informasi.
+- [ ] Tidak ada pembangunan dimulai tanpa kebutuhan pengguna yang dibuktikan dari penemuan.
+- [ ] Manajemen risiko klinis (DCB0129/DCB0160) berjalan sejak hari pertama, dengan log bahaya yang hidup.
+- [ ] Analisis kesetaraan / ketimpangan kesehatan telah dilakukan, dan jalur digital berbantuan tersedia.
+- [ ] Pengiriman berjalan dalam potongan kecil, sering, dan terukur.
+- [ ] Keputusan dicatat, dengan membedakan bukti klinis dari bukti pengiriman.
+- [ ] Layanan dibangun dengan standar interoperabilitas terbuka dan menggunakan ulang platform bersama.
+- [ ] Bobot tata kelola disesuaikan dengan risiko, dan diketahui oleh tim.
+- [ ] Ada jalur berdana dari pilot ke skala, termasuk pelatihan dan perubahan.
+
+## Sumber utama
+
+- NHS digital service manual — *NHS service standard* dan butir-butirnya, termasuk "Use agile ways of working" dan "Create a team that includes multidisciplinary skills and perspectives" (service-manual.nhs.uk).
+- GOV.UK Service Manual dan *Government Service Standard* — Government Digital Service (gov.uk/service-manual).
+- NHS England / NHSX — *Digital Technology Assessment Criteria (DTAC)*.
+- Standar keselamatan klinis *DCB0129* dan *DCB0160* (NHS England / eks NHS Digital).
+- NICE — *Evidence Standards Framework for digital health technologies* (nice.org.uk).
+- NHS England — pendekatan *Core20PLUS5* untuk mengurangi ketimpangan kesehatan.
+
+## Referensi
+
+1. User-centered design — Wikipedia — https://en.wikipedia.org/wiki/User-centered_design
+2. Government Digital Service — Wikipedia — https://en.wikipedia.org/wiki/Government_Digital_Service
+3. Agile software development — Wikipedia — https://en.wikipedia.org/wiki/Agile_software_development
+4. Iterative and incremental development — Wikipedia — https://en.wikipedia.org/wiki/Iterative_and_incremental_development
+5. Interdisciplinarity — Wikipedia — https://en.wikipedia.org/wiki/Interdisciplinarity
+6. Product management — Wikipedia — https://en.wikipedia.org/wiki/Product_management
+7. Health equity — Wikipedia — https://en.wikipedia.org/wiki/Health_equity
+8. Web Content Accessibility Guidelines — Wikipedia — https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines
+9. Fast Healthcare Interoperability Resources (HL7 FHIR) — Wikipedia — https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources
+10. SNOMED CT — Wikipedia — https://en.wikipedia.org/wiki/SNOMED_CT
+11. NHS service standard — NHS digital service manual, NHS England — https://service-manual.nhs.uk/standards-and-technology/service-standard
+12. Government Service Standard — Government Digital Service, GOV.UK — https://www.gov.uk/service-manual/service-standard
+13. Digital Technology Assessment Criteria (DTAC) — NHS England — https://www.nhs.uk/digital-technology-assessment-criteria-dtac/
+14. Clinical Risk Management: DCB0129 and DCB0160 — NHS England — https://digital.nhs.uk/services/clinical-safety
+15. Evidence Standards Framework for digital health technologies — NICE — https://www.nice.org.uk/about/what-we-do/digital-health
+16. Core20PLUS5 — NHS England — https://www.england.nhs.uk/about/equality/equality-hub/national-healthcare-inequalities-improvement-programme/core20plus5/
