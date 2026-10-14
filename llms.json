@@ -6918,6 +6918,438 @@
    ]
   },
   {
+   "slug": "sv-001",
+   "label": "Svenska",
+   "home": "https://digital-health-guide.github.io/sv-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Grunder",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Arbetssätt inom digital hälsa och vård",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-00-arbetss%C3%A4tt-inom-digital-h%C3%A4lsa-och-v%C3%A5rd/"
+      },
+      {
+       "number": "1.1",
+       "title": "Den operativa modellen",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-01-den-operativa-modellen/"
+      },
+      {
+       "number": "1.2",
+       "title": "Digital strategi och färdplansarbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-02-digital-strategi-och-f%C3%A4rdplansarbete/"
+      },
+      {
+       "number": "1.3",
+       "title": "Evidensdrivna beslut",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-03-evidensdrivna-beslut/"
+      },
+      {
+       "number": "1.4",
+       "title": "Hazardkvoter",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-04-hazardkvoter/"
+      },
+      {
+       "number": "1.5",
+       "title": "Regelverk och efterlevnad",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-05-regelverk-och-efterlevnad/"
+      },
+      {
+       "number": "1.6",
+       "title": "Klinisk säkerhet och riskhantering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-06-klinisk-s%C3%A4kerhet-och-riskhantering/"
+      },
+      {
+       "number": "1.7",
+       "title": "Informationsstyrning, dataskydd och cybersäkerhet",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-07-informationsstyrning-dataskydd-och-cybers%C3%A4kerhet/"
+      },
+      {
+       "number": "1.8",
+       "title": "Dataetik, samtycke och allmänhetens förtroende",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-08-dataetik-samtycke-och-allm%C3%A4nhetens-f%C3%B6rtroende/"
+      },
+      {
+       "number": "1.9",
+       "title": "Digital inkludering och tillgänglighet",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-09-digital-inkludering-och-tillg%C3%A4nglighet/"
+      },
+      {
+       "number": "1.10",
+       "title": "Skydd av utsatta personer i digitala tjänster",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/01-10-skydd-av-utsatta-personer-i-digitala-tj%C3%A4nster/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "Hantering av arbetsflödet",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Intag av arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/02-00-intag-av-arbete/"
+      },
+      {
+       "number": "2.1",
+       "title": "Triage av arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/02-01-triage-av-arbete/"
+      },
+      {
+       "number": "2.2",
+       "title": "Prioritering av arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/02-02-prioritering-av-arbete/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Leveranslivscykeln",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Användarforskning och tjänstedesign",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-00-anv%C3%A4ndarforskning-och-tj%C3%A4nstedesign/"
+      },
+      {
+       "number": "3.1",
+       "title": "Innehållsdesign och hälsolitteracitet",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-01-inneh%C3%A5llsdesign-och-h%C3%A4lsolitteracitet/"
+      },
+      {
+       "number": "3.2",
+       "title": "Designsystem och prototyper",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-02-designsystem-och-prototyper/"
+      },
+      {
+       "number": "3.3",
+       "title": "Digitala tjänster för patienter och medborgare",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-03-digitala-tj%C3%A4nster-f%C3%B6r-patienter-och-medborgare/"
+      },
+      {
+       "number": "3.4",
+       "title": "Upptäcktsfaser",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-04-uppt%C3%A4cktsfaser/"
+      },
+      {
+       "number": "3.5",
+       "title": "Leveranslivscykler",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-05-leveranslivscykler/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps och teknisk excellens",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-06-devops-och-teknisk-excellens/"
+      },
+      {
+       "number": "3.7",
+       "title": "Testning och kvalitetssäkring",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-07-testning-och-kvalitetss%C3%A4kring/"
+      },
+      {
+       "number": "3.8",
+       "title": "Tjänstehantering och löpande drift",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-08-tj%C3%A4nstehantering-och-l%C3%B6pande-drift/"
+      },
+      {
+       "number": "3.9",
+       "title": "Kontinuitetsplanering och katastrofåterställning",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-09-kontinuitetsplanering-och-katastrof%C3%A5terst%C3%A4llning/"
+      },
+      {
+       "number": "3.10",
+       "title": "Krisberedskap, motståndskraft och krishantering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-10-krisberedskap-motst%C3%A5ndskraft-och-krishantering/"
+      },
+      {
+       "number": "3.11",
+       "title": "Telehälsa, distanskonsultationer och virtuella vårdavdelningar",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/03-11-teleh%C3%A4lsa-distanskonsultationer-och-virtuella-v%C3%A5rdavdelningar/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Teknik, arkitektur och data",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Teknisk arkitektur, moln och äldre system",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-00-teknisk-arkitektur-moln-och-%C3%A4ldre-system/"
+      },
+      {
+       "number": "4.1",
+       "title": "Plattformar och gemensamma tjänster",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-01-plattformar-och-gemensamma-tj%C3%A4nster/"
+      },
+      {
+       "number": "4.2",
+       "title": "Identitets- och åtkomsthantering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-02-identitets-och-%C3%A5tkomsthantering/"
+      },
+      {
+       "number": "4.3",
+       "title": "Interoperabilitet och datastandarder",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-03-interoperabilitet-och-datastandarder/"
+      },
+      {
+       "number": "4.4",
+       "title": "Uppkopplade enheter, IoT och medicinsk teknik",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-04-uppkopplade-enheter-iot-och-medicinsk-teknik/"
+      },
+      {
+       "number": "4.5",
+       "title": "Data, analys och hantering av befolkningshälsa",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-05-data-analys-och-hantering-av-befolkningsh%C3%A4lsa/"
+      },
+      {
+       "number": "4.6",
+       "title": "Elektroniska patientjournaler och kliniska system",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-06-elektroniska-patientjournaler-och-kliniska-system/"
+      },
+      {
+       "number": "4.7",
+       "title": "Kliniskt beslutsstöd och klinisk informatik",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-07-kliniskt-beslutsst%C3%B6d-och-klinisk-informatik/"
+      },
+      {
+       "number": "4.8",
+       "title": "Elektronisk förskrivning och läkemedelshantering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-08-elektronisk-f%C3%B6rskrivning-och-l%C3%A4kemedelshantering/"
+      },
+      {
+       "number": "4.9",
+       "title": "Datakvalitet och masterdatahantering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-09-datakvalitet-och-masterdatahantering/"
+      },
+      {
+       "number": "4.10",
+       "title": "Säkra datamiljöer och åtkomst till forskningsdata",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-10-s%C3%A4kra-datamilj%C3%B6er-och-%C3%A5tkomst-till-forskningsdata/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomik och data för precisionsmedicin",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/04-11-genomik-och-data-f%C3%B6r-precisionsmedicin/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Leveranssätt",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Produktledt arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/05-00-produktledt-arbete/"
+      },
+      {
+       "number": "5.1",
+       "title": "Projektledt arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/05-01-projektledt-arbete/"
+      },
+      {
+       "number": "5.2",
+       "title": "Programledt arbete",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/05-02-programledt-arbete/"
+      },
+      {
+       "number": "5.3",
+       "title": "Företagsövergripande projektportföljhantering (EPPM)",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/05-03-f%C3%B6retags%C3%B6vergripande-projektportf%C3%B6ljhantering-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Affärssystem (ERP)",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/05-04-aff%C3%A4rssystem-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Pengar, värde och styrning",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Ekonomistyrning och affärscase",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-00-ekonomistyrning-och-aff%C3%A4rscase/"
+      },
+      {
+       "number": "6.1",
+       "title": "Hälsoekonomi",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-01-h%C3%A4lsoekonomi/"
+      },
+      {
+       "number": "6.2",
+       "title": "Nyttorealisering och värdestyrning",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-02-nyttorealisering-och-v%C3%A4rdestyrning/"
+      },
+      {
+       "number": "6.3",
+       "title": "Upphandling och kommersiella frågor",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-03-upphandling-och-kommersiella-fr%C3%A5gor/"
+      },
+      {
+       "number": "6.4",
+       "title": "Styrning och granskning",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-04-styrning-och-granskning/"
+      },
+      {
+       "number": "6.5",
+       "title": "Teknikkostnadshantering och molnets FinOps",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-05-teknikkostnadshantering-och-molnets-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Leverantörs- och tjänsteintegrationshantering (SIAM)",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/06-06-leverant%C3%B6rs-och-tj%C3%A4nsteintegrationshantering-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Människor, team och personal",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Teamstrukturer, roller och ansvar",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-00-teamstrukturer-roller-och-ansvar/"
+      },
+      {
+       "number": "7.1",
+       "title": "Agil leveranspraxis och teamets hälsa",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-01-agil-leveranspraxis-och-teamets-h%C3%A4lsa/"
+      },
+      {
+       "number": "7.2",
+       "title": "Bemanningsplanering",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-02-bemanningsplanering/"
+      },
+      {
+       "number": "7.3",
+       "title": "Personalstrategi",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-03-personalstrategi/"
+      },
+      {
+       "number": "7.4",
+       "title": "Digitala färdigheter och kompetensutveckling",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-04-digitala-f%C3%A4rdigheter-och-kompetensutveckling/"
+      },
+      {
+       "number": "7.5",
+       "title": "Personal- och organisationsutveckling",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-05-personal-och-organisationsutveckling/"
+      },
+      {
+       "number": "7.6",
+       "title": "Likabehandling, mångfald och inkludering i arbetskraften",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/07-06-likabehandling-m%C3%A5ngfald-och-inkludering-i-arbetskraften/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Förändring och innovation",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Att införa innovation stegvis",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-00-att-inf%C3%B6ra-innovation-stegvis/"
+      },
+      {
+       "number": "8.1",
+       "title": "Förändringsledning",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-01-f%C3%B6r%C3%A4ndringsledning/"
+      },
+      {
+       "number": "8.2",
+       "title": "Kommunikation och engagemang",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-02-kommunikation-och-engagemang/"
+      },
+      {
+       "number": "8.3",
+       "title": "Beteendevetenskap och införande",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-03-beteendevetenskap-och-inf%C3%B6rande/"
+      },
+      {
+       "number": "8.4",
+       "title": "Styrning av AI och ny teknik",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-04-styrning-av-ai-och-ny-teknik/"
+      },
+      {
+       "number": "8.5",
+       "title": "Hållbarhet och nettonoll",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-05-h%C3%A5llbarhet-och-nettonoll/"
+      },
+      {
+       "number": "8.6",
+       "title": "Forskning och utvärdering i verklig vård",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/08-06-forskning-och-utv%C3%A4rdering-i-verklig-v%C3%A5rd/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Partnerskap och stat",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Samarbete med partnerorganisationer",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/09-00-samarbete-med-partnerorganisationer/"
+      },
+      {
+       "number": "9.1",
+       "title": "Samarbete med lokala och nationella myndigheter",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/09-01-samarbete-med-lokala-och-nationella-myndigheter/"
+      },
+      {
+       "number": "9.2",
+       "title": "Global och internationell digital hälsa",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/09-02-global-och-internationell-digital-h%C3%A4lsa/"
+      },
+      {
+       "number": "9.3",
+       "title": "Digitalisering inom vuxenomsorgen",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/09-03-digitalisering-inom-vuxenomsorgen/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Mätning, förbättring, kunskap och ledarskap",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Mål och nyckelresultat (OKR)",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/10-00-m%C3%A5l-och-nyckelresultat-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "Nyckeltal (KPI)",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/10-01-nyckeltal-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "Kvalitetsutveckling och förbättringsvetenskap",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/10-02-kvalitetsutveckling-och-f%C3%B6rb%C3%A4ttringsvetenskap/"
+      },
+      {
+       "number": "10.3",
+       "title": "Kunskapshantering och dokumentation",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/10-03-kunskapshantering-och-dokumentation/"
+      },
+      {
+       "number": "10.4",
+       "title": "Insyn för vd och högre chefer",
+       "url": "https://digital-health-guide.github.io/sv-001/%C3%A4mnen/10-04-insyn-f%C3%B6r-vd-och-h%C3%B6gre-chefer/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "zh-001",
    "label": "中文",
    "home": "https://digital-health-guide.github.io/zh-001/",

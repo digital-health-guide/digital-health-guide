@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -712,6 +712,60 @@ const ru = {
 };
 
 /** @type {Record<string, typeof en>} */
+const sv = {
+	siteBrand: 'Digital hälsoguide',
+	skipToMain: 'Hoppa till huvudinnehållet',
+	siteHeader: 'Webbplatsens sidhuvud',
+	mainNav: 'Huvudnavigering',
+	navContents: 'Innehåll',
+	navGlossary: 'Ordlista',
+	navIndex: 'Register',
+	navStyleGuide: 'Stilguide',
+	navSpecification: 'Specifikation',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Språk',
+	pickerTextSize: 'Textstorlek',
+	pickerShare: 'Dela',
+	pickerLink: 'Projektlänkar',
+	pickerSearch: 'Sök',
+	pickerSearchInput: 'Söktext',
+	pickerSearchSubmit: 'Sök',
+	pickerShareCopyLink: 'Kopiera länk',
+	pickerShareCopied: 'Kopierad',
+	breadcrumb: 'Sökväg',
+	breadcrumbTopics: 'Ämnen',
+	breadcrumbReference: 'Referensmaterial',
+	onThisPage: 'På den här sidan',
+	headingAnchorPrefix: 'Länk till',
+	topicNavigation: 'Ämnesnavigering',
+	previous: 'Föregående',
+	next: 'Nästa',
+	editOnGitHub: 'Redigera den här sidan på GitHub',
+	sourceOfTruth: 'boken är källan till sanning; den här webbplatsen visar den.',
+	siteFooter: 'Webbplatsens sidfot',
+	footerDescription:
+		'en praktisk handbok om bästa praxis för att leverera digitala tjänster i hälso- och vårdorganisationer.',
+	footerLedByBefore: ' Leds av ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Byggd med ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Specifikation',
+	notFoundHeading: 'Sidan hittades inte',
+	errorHeading: 'Något gick fel',
+	notFoundBody: 'Det finns ingen sida på',
+	notFoundBodyEnd: 'Boken kan ha flyttat eller bytt namn på den.',
+	errorBodyFallback: 'Sidan kunde inte läsas in.',
+	tryPrefix: 'Prova',
+	tryTableOfContents: 'innehållet',
+	tryGlossary: 'ordlistan',
+	tryOr: 'eller',
+	tryIndex: 'registret'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -729,7 +783,9 @@ const TABLES = {
 	'hi-001': hi,
 	'bn-001': bn,
 	'id-001': id,
-	'ru-001': ru
+	'ru-001': ru,
+	'sv-001': sv,
+	'sv-se': sv
 };
 
 /** Site chrome strings for one locale, falling back to English. */
