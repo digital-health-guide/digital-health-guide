@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -820,6 +820,60 @@ const nl = {
 	tryIndex: 'index'
 };
 
+const is = {
+	siteBrand: 'Handbók um stafræna heilbrigðisþjónustu',
+	skipToMain: 'Fara beint í aðalefni',
+	siteHeader: 'Haus vefsins',
+	mainNav: 'Aðalvalmynd',
+	navContents: 'Efnisyfirlit',
+	navGlossary: 'Orðalisti',
+	navIndex: 'Atriðisorðaskrá',
+	navStyleGuide: 'Stílleiðbeiningar',
+	navSpecification: 'Forskrift',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Þema',
+	pickerLocale: 'Tungumál',
+	pickerTextSize: 'Textastærð',
+	pickerShare: 'Deila',
+	pickerLink: 'Tenglar verkefnisins',
+	pickerSearch: 'Leita',
+	pickerSearchInput: 'Leitarorð',
+	pickerSearchSubmit: 'Leita',
+	pickerShareCopyLink: 'Afrita tengil',
+	pickerShareCopied: 'Afritað',
+	breadcrumb: 'Brauðmolar',
+	breadcrumbTopics: 'Viðfangsefni',
+	breadcrumbReference: 'Uppflettiefni',
+	onThisPage: 'Á þessari síðu',
+	headingAnchorPrefix: 'Tengill á',
+	topicNavigation: 'Leiðsögn milli viðfangsefna',
+	previous: 'Fyrra',
+	next: 'Næsta',
+	editOnGitHub: 'Breyta þessari síðu á GitHub',
+	sourceOfTruth: 'bókin er sannleiksgrunnurinn; þessi vefur birtir hana.',
+	siteFooter: 'Fótur vefsins',
+	footerDescription:
+		'hagnýt handbók um bestu starfsvenjur við að afhenda stafrænar þjónustur í heilbrigðis- og velferðarstofnunum.',
+	footerLedByBefore: ' Undir forystu ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Smíðað með ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Forskrift',
+	notFoundHeading: 'Síðan fannst ekki',
+	errorHeading: 'Eitthvað fór úrskeiðis',
+	notFoundBody: 'Engin síða er á',
+	notFoundBodyEnd: 'Bókin kann að hafa flutt hana eða endurnefnt.',
+	errorBodyFallback: 'Ekki tókst að hlaða síðuna.',
+	tryPrefix: 'Prófaðu',
+	tryTableOfContents: 'efnisyfirlitið',
+	tryGlossary: 'orðalistann',
+	tryOr: 'eða',
+	tryIndex: 'atriðisorðaskrána'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -840,6 +894,8 @@ const TABLES = {
 	'ru-001': ru,
 	'sv-001': sv,
 	'sv-se': sv,
+	'is-001': is,
+	'is-is': is,
 	'nl-001': nl,
 	'nl-nl': nl
 };

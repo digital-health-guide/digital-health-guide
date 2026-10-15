@@ -8,7 +8,7 @@
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, bn-001, cy-001, cy-gb, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, ja-001, ko-001, nl-001, ru-001, sv-001, zh-001) — not by label, so
+// en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, ru-001, sv-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
@@ -25,6 +25,7 @@ export const LOCALES = [
 	{ slug: 'fr-001', label: 'Français', hreflang: 'fr-001' },
 	{ slug: 'hi-001', label: 'हिन्दी', hreflang: 'hi-001' },
 	{ slug: 'id-001', label: 'Bahasa Indonesia', hreflang: 'id-001' },
+	{ slug: 'is-001', label: 'Íslenska', hreflang: 'is-001' },
 	{ slug: 'ja-001', label: '日本語', hreflang: 'ja-001' },
 	{ slug: 'ko-001', label: '한국어', hreflang: 'ko-001' },
 	{ slug: 'nl-001', label: 'Nederlands', hreflang: 'nl-001' },
@@ -39,6 +40,7 @@ export const DEFAULT_LOCALE = 'en-gb';
 export const RETIRED_LOCALES = {
 	'de-de': 'de-001',
 	'hi-in': 'hi-001',
+	'is-is': 'is-001',
 	'ja-jp': 'ja-001',
 	'ko-kr': 'ko-001',
 	'nl-nl': 'nl-001',
