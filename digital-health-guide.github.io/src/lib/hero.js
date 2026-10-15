@@ -55,6 +55,12 @@ export const HERO = {
  "ko-kr": {
   "translations": "번역: "
  },
+ "nl-001": {
+  "translations": "Vertalingen: "
+ },
+ "nl-nl": {
+  "translations": "Vertalingen: "
+ },
  "ru-001": {
   "translations": "Переводы: "
  },
@@ -92,6 +98,8 @@ export const ENDONYMS = {
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",
  "ko-kr": "한국어 (대한민국)",
+ "nl-001": "Nederlands",
+ "nl-nl": "Nederlands (Nederland)",
  "ru-001": "Русский",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",

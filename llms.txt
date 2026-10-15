@@ -134,6 +134,7 @@ The book is the source of truth; every page is plain prerendered HTML. Each topi
 - [Bahasa Indonesia (id-001)](https://digital-health-guide.github.io/id-001/)
 - [日本語 (ja-001)](https://digital-health-guide.github.io/ja-001/)
 - [한국어 (ko-001)](https://digital-health-guide.github.io/ko-001/)
+- [Nederlands (nl-001)](https://digital-health-guide.github.io/nl-001/)
 - [Русский (ru-001)](https://digital-health-guide.github.io/ru-001/)
 - [Svenska (sv-001)](https://digital-health-guide.github.io/sv-001/)
 - [中文 (zh-001)](https://digital-health-guide.github.io/zh-001/)

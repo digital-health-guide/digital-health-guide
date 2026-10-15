@@ -1,0 +1,151 @@
+# Onderwerp 2.2 — Prioritering van werk
+
+**In één zin:** Prioritering is het bewuste, transparante ordenen van het werk dat triage overleefde — waarde, urgentie, risico en inspanning afwegend tegen eindige capaciteit — zodat de organisatie op elk moment de meest waardevolle dingen doet die zij kan, en kan uitleggen waarom.
+
+## Waarom dit ertoe doet in gezondheid en zorg
+
+Prioritering is waar strategie echt wordt. De ware strategie van een organisatie is niet haar gepubliceerde plan maar de volgorde waarin zij dingen werkelijk doet — en in gezondheid en zorg draagt die volgorde gevolgen voor veiligheid, billijkheid en publiek geld. Deprioriteer het interoperabiliteitswerk en een gedeeld zorgdossier loopt vast; deprioriteer technische schuld en een systeem valt uit om 02.00 uur op een feestdag; deprioriteer de toegankelijkheidsoplossing en u sluit de mensen uit die de dienst het meest nodig hebben.
+
+De druk is structureel: vraag overstijgt altijd de capaciteit, en veel van die vraag is legitiem. Leiders hebben daarom methoden nodig die afwegingen expliciet en verdedigbaar maken, geen proces waarin de laatste e-mail wint of elk project “topprioriteit” is. Transparante prioritering verandert ook het politieke klimaat: wanneer belanghebbenden de criteria en de volgorde kunnen zien, verschuift onderhandeling van lobbyen naar een gedeeld gesprek over waarde en kosten van vertraging. Dit onderwerp volgt op binnenkomst (Onderwerp 2.0) en triage (Onderwerp 2.1); het veronderstelt dat u al een zichtbare, beoordeelde backlog hebt om te ordenen, en het voedt de leveringscyclus (Onderwerpen 3.4–8) en portfoliomanagement (Onderwerp 5.3 — Enterprise-projectportfoliomanagement (EPPM)).
+
+## Kernbegrippen
+
+**[Prioritering](https://en.wikipedia.org/wiki/Prioritization)** ordent een backlog of portfolio; zij staat los van triage (die elk item afzonderlijk beoordeelde en routeerde). Prioritering vergelijkt items *onderling* voor eindige capaciteit, en doet die vergelijking opnieuw naarmate de werkelijkheid verandert.
+
+**[Kosten van vertraging](https://en.wikipedia.org/wiki/Cost_of_delay)** (Cost of Delay) is de economische lens onder de beste methoden: wat kost het — in waarde, schade of geld — voor elke week dat dit *niet* wordt gedaan? Kosten van vertraging expliciet maken verschuift prioritering van “wat is het belangrijkst?” (alles) naar “wat is het duurst om uit te stellen?” (een rangschikbare vraag).
+
+**Gangbare kaders**, elk met een passende toepassing:
+
+- **WSJF (Weighted Shortest Job First)**, uit het [Scaled Agile Framework](https://en.wikipedia.org/wiki/Scaled_agile_framework) (SAFe): scoor de Cost of Delay (gebruikers-/bedrijfswaarde + tijdskritiek + risicovermindering/mogelijkheden scheppen) en deel door de omvang van de klus. De hoogste WSJF wordt het eerst gedaan. Het bevoordeelt van nature klein, hoogwaardig, tijdskritisch werk en negeert verzonken kosten.
+- **RICE** (Reach × Impact × Confidence ÷ Effort, gepopulariseerd door Intercom): een score uit productmanagement die enthousiasme temperen met een Confidence-factor.
+- **[MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)** (Must / Should / Could / Won’t-this-time), uit [DSDM](https://en.wikipedia.org/wiki/Dynamic_systems_development_method): een categorisering, uitstekend om een release of een programma met vaste datum af te bakenen, zwakker als fijnmazige ordening.
+- **Waarde-versus-inspanning** (een 2×2): de snelle visuele manier om quick wins en geldverslinders te spotten; grof maar snel.
+- **[Kano-model](https://en.wikipedia.org/wiki/Kano_model)**: classificeert functies als basis (must-haves), prestatie of verrassers — nuttig om basisvereisten tegen onderscheidende factoren af te wegen.
+
+Geen kader is “juist”; elk codeert een andere definitie van waarde, en het gezamenlijk scoren is vaak waardevoller dan het getal.
+
+**Run versus change** is de balans op portfolioniveau: operationeel “de lichten aan houden”-werk (run) versus nieuwe capaciteit (change). Prioritering moet beide omvatten, anders verliest het onzichtbare runwerk — inclusief **[technische schuld](https://en.wikipedia.org/wiki/Technical_debt)** en **herstel van veiligheid/beveiliging** — elke strijd van glimmende nieuwe functies totdat het catastrofaal faalt.
+
+**Capaciteitsgebaseerd versus datumgebaseerd** prioriteren: capaciteitsgebaseerde ordening vult een bekende, eindige doorvoer (een houdbaar tempo); datumgebaseerde ordening werkt terug vanaf een onverplaatsbare deadline (een regelgevende go-live) en gebruikt MoSCoW om de reikwijdte te laten meebuigen. De meeste portfolio’s hebben beide nodig, toegepast op verschillende items.
+
+## Beste praktijken
+
+1. **Kies één primair kader en pas het consistent toe.** Kies de methode die bij uw werk past — WSJF voor een gemengd wijzigingsportfolio met echte tijdskritiek, RICE voor productfunctie-backlogs, MoSCoW voor releases met vaste datum — en gebruik haar consistent zodat scores vergelijkbaar zijn. Per item van kader wisselen maakt de backlog onvergelijkbaar en nodigt uit tot manipulatie.
+
+2. **Maak de Cost of Delay expliciet, vooral voor veiligheids- en wettelijk werk.** Vraag bij elk item: “wat kost een maand vertraging?” Voor een veiligheidsoplossing of een regelgevende deadline is het antwoord vaak ernstig en niet-lineair, en juist daarom moeten deze worden gescoord, niet aangenomen. Cost of Delay is de gemeenschappelijke munt waarmee een nalevingsdeadline en een verbetering van gebruikerservaring eerlijk kunnen worden vergeleken.
+
+3. **Reserveer expliciete capaciteit voor run, technische schuld en veiligheid.** Laat werk om de lichten aan te houden, technische schuld en herstel van beveiliging/veiligheid niet functie voor functie concurreren met nieuwe capaciteit — ze verliezen totdat iets breekt. Reserveer een vast percentage van de capaciteit (een gangbare vuistregel is een betekenisvol, beschermd deel) voor dit werk en behandel het als niet onderhandelbaar.
+
+4. **Prioriteer op uitkomsten en waarde, niet op de rang van de aanvrager.** Scoor tegen de uitgesproken uitkomsten en prioriteiten van de organisatie (bij voorkeur haar [OKR’s](https://en.wikipedia.org/wiki/Objectives_and_key_results) — zie Onderwerp 10.0) in plaats van wie het vroeg. Wanneer het item van een senior belanghebbende laag scoort, is dat het systeem dat werkt; het kader geeft u een eerlijke, niet-persoonlijke basis om dat gesprek te voeren.
+
+5. **Stem de methode af op de beperking: capaciteit of datum.** Orden voor een houdbare stroom van verandering op waarde en trek werk naar een bekende capaciteit. Werk voor een onverplaatsbare datum terug en gebruik MoSCoW om de “Musts” te beschermen en de “Coulds” te laten meebuigen. De twee verwarren — vaste reikwijdte in vaste tijd en vaste capaciteit proberen te persen — is de klassieke route naar een mislukt programma.
+
+6. **Prioriteer transparant en onderhandel in het openbaar.** Publiceer de gerangschikte backlog en de scoring erachter. Transparantie verandert prioritering van een reeks privé-deals in een gedeelde onderhandeling waarin afwegingen zichtbaar zijn: om uw item omhoog te brengen moet iets anders omlaag, en iedereen kan de kosten zien. Dit is de krachtigste depolitiserende zet die een leveringsleider ter beschikking staat.
+
+7. **Prioriteer opnieuw in een regelmatig ritme — en alleen dan.** Stel een ritme vast (bijvoorbeeld een maandelijkse of driemaandelijkse portfoliotoetsing, plus lichtere backlogverfijning ertussen) waarop prioriteiten worden herzien tegen nieuw bewijs. Houd de lijn tussen toetsingen vast zodat teams stabiele aanloopbanen hebben. Voortdurend herprioriteren is even schadelijk als nooit herprioriteren — het vernietigt de doorstroming en maakt niets af.
+
+8. **Waak voor manipulatie en valse precisie.** Relatieve scores (Fibonacci, t-shirtmaten) zijn schattingen, geen waarheden; een WSJF van 8,3 is niet betekenisvol beter dan 7,9. Gebruik de getallen om een gerangschikt gesprek te *informeren*, let op opgeblazen invoer en laat ervaren oordeel een duidelijk perverse score overrulen — en leg vast waarom.
+
+## Vragen om met uw team te bespreken
+
+1. **Wat is ons eerlijke antwoord op “wat kost een maand vertraging werkelijk?” voor het werk dat wij blijven uitstellen?**
+   Kosten van vertraging zijn de gemeenschappelijke munt waarmee een nalevingsdeadline en een verbetering van gebruikerservaring eerlijk kunnen worden vergeleken, maar de meeste organisaties maken haar nooit expliciet en vallen dus terug op “alles is belangrijk” — wat geen rangschikbare uitspraak is. Dit doet scherp ertoe in gezondheid en zorg omdat de kosten van vertraging van sommig werk ernstig en niet-lineair zijn: een uitgestelde veiligheidsoplossing of interoperabiliteitsafhankelijkheid kan maandenlang onschadelijk blijven liggen en dan catastrofaal falen, terwijl een uitgestelde gemaksfunctie bijna niets kost. Het team moet bespreken of het de vertragingskosten voor zijn belangrijkste omstreden items werkelijk kan verwoorden, en de ongemakkelijke gevallen onder ogen zien waarin het eerlijke antwoord “erg weinig” is voor een populair project en “mogelijk een ernstig incident” voor een onzichtbaar project. Concrete invalshoeken: neem drie items die nu midden in de backlog vastzitten en dwing voor elk een zin over vertragingskosten af; vraag of technische schuld en herstel van veiligheid ooit op kosten van vertraging zijn gescoord, of eenvoudigweg elke strijd verliezen door er nooit aan deel te nemen. Een goed antwoord onderscheidt items waarvan de vertragingskosten ruwweg lineair zijn van die waar ze piekt bij een deadline of een faalpunt, en gebruikt die vorm om de volgorde te rechtvaardigen. De oneerlijke versie schuilt achter “het is allemaal een prioriteit”, wat precies de afwezigheid van prioritering is die deze vraag wil aanwijzen.
+
+2. **Hoeveel capaciteit zijn wij bereid te reserveren voor run, technische schuld en veiligheid — en zullen wij haar verdedigen wanneer een glimmend nieuw voorstel arriveert?**
+   Dit is de afweging die het betrouwbaarst misgaat: werk om de lichten aan te houden, technische schuld en herstel van beveiliging of veiligheid zijn onzichtbaar en verliezen functie voor functie van nieuwe capaciteit totdat iets om 02.00 uur op een feestdag breekt. Het debat gaat er niet om of sommige capaciteit moet worden beschermd — vrijwel iedereen is het in principe eens — maar om het specifieke percentage, en, veel moeilijker, of het leiderschap die lijn werkelijk zal vasthouden de eerste keer dat het opwindende project van een senior sponsor het gereserveerde deel wil plunderen. In gezondheid en zorg omvat de inzet patiëntveiligheid en de betrouwbaarheid van systemen waarvan clinici afhangen, dus het deel als niet onderhandelbaar behandelen is een veiligheidshouding, niet slechts goede hygiëne. Concrete invalshoeken: kijk terug op het laatste grote incident of bijna-ongeval en vraag of het herleidt tot uitgesteld run- of schuldwerk dat nooit een prioriteitsstrijd won; noem de persoon met het gezag om een plundering van de beschermde capaciteit te weigeren en toets of die dat werkelijk zou doen. Een sterk antwoord verbindt zich aan een specifiek, beschermd deel en beschrijft vooral het bestuur dat het onder druk beschermd houdt in plaats van op goede bedoelingen te vertrouwen. De eerlijke versie erkent dat de reservering alleen echt is als zij het contact met de machtigste belanghebbende in de kamer overleeft.
+
+3. **Wanneer het item van een senior belanghebbende laag scoort, hebben wij dan de transparantie en de moed om de rangschikking te laten staan?**
+   Prioriteren op uitkomsten in plaats van de rang van de aanvrager klinkt vanzelfsprekend, maar het HiPPO-effect — de mening van de best betaalde persoon die de scoring stilletjes overrulet — is het standaard faalpatroon in hiërarchische NHS- en overheidssettings, en het is corrosief juist omdat het stil is. De spanning is dat een laag scorend senior item vaak het systeem is dat juist werkt, maar zonder een transparante, gepubliceerde rangschikking en haar scoringsredenering heeft de leveringsleider geen niet-persoonlijke basis om dat gesprek te voeren en zal die meestal buigen. Het team moet bespreken of zijn backlog en scores werkelijk zichtbaar zijn voor de aanvragende organisaties, omdat open onderhandeling over afwegingen — “om het uwe omhoog te brengen, welk hoger scorend item gaat omlaag, en bent u comfortabel met de kosten van die vertraging?” — de krachtigste depolitiserende zet is die er is, en alleen in het openbaar werkt. Concrete invalshoeken: herinner u de laatste keer dat een senior verzoek de rij voorkroop en vraag wat er zou zijn gebeurd als de rangschikking openbaar was geweest; overweeg de scoringsredenering te bewaren als bestuursverslag dat u aan een bestuur, een ICB of auditors zou kunnen tonen. Een goed antwoord koppelt transparantie (publiceer de volgorde en de scores) aan een geoefend, niet-persoonlijk script voor het gesprek over de overruling en identificeert wie het gezag heeft om het te houden. Het ontwijkende antwoord behandelt dit als hypothetisch; in werkelijkheid gebeurt het de meeste weken, en het plan moet het overleven.
+
+4. **Hebben wij ons werkelijk aan één prioriteringskader gecommitteerd, of scoren wij stilletjes elk item met de methode die het het meest flatteert?**
+   Een primair kader kiezen en consistent toepassen is wat een backlog vergelijkbaar maakt; zodra WSJF voor het ene voorstel wordt gebruikt, een gevoel van waarde-versus-inspanning voor een ander en “de directeur wil het echt” voor een derde, betekent de ordening niets meer en sluipt manipulatie binnen. De spanning is dat geen enkel kader bij elke soort werk past — WSJF past bij een gemengd wijzigingsportfolio, RICE bij een productfunctie-backlog, MoSCoW bij een release met vaste datum — dus het eerlijke debat gaat over welke uw *primaire* methode is en waar een tweede legitiem is toegestaan in plaats van een gemakkelijke uitvlucht. In gezondheid en zorg doet dit ertoe omdat een nalevingsdeadline, een door clinici gevraagde functie en een database-upgrade op dezelfde schaal moeten worden gewogen, en alleen een consistente methode een wettelijk item en een gemaksitem tegen elkaar laat rangschikken zonder speciale pleidooien. Concrete invalshoeken: audit de laatste twaalf prioriteringsbeslissingen en controleer of dezelfde methode werkelijk werd toegepast of dat de methode verschoof om een vooraf bepaald antwoord te rechtvaardigen; let op “kadertheater”, waar uitgebreide scoring een getal oplevert waar niemand dan naar handelt. Een goed antwoord noemt het primaire kader, legt de beperkte, principiële gevallen uit waarin een ander wordt gebruikt en behandelt de score als informatie voor een gerangschikt gesprek en niet als waarheid. Het zwakke antwoord laat elke aanvrager zijn eigen wiskunde meebrengen, wat niet te onderscheiden is van geen methode hebben.
+
+5. **Zijn wij eerlijk over welk werk capaciteitsgebonden en welk datumgebonden is — of proberen wij reikwijdte, datum en capaciteit alle drie tegelijk vast te zetten?**
+   Prioritering moet bij de beperking passen: een houdbare stroom van verandering wordt op waarde geordend en naar een bekende capaciteit getrokken, terwijl een onverplaatsbare regelgevende go-live vanaf de datum terug wordt gewerkt met MoSCoW die de “Musts” beschermt en de “Coulds” laat meebuigen. De klassieke route naar een mislukt programma is de twee verwarren — reikwijdte, datum en capaciteit tegelijk vergrendelen — en zij is vooral verleidelijk in gezondheid en zorg, waar een wettelijke deadline onbespreekbaar voelt en belanghebbenden aannemen dat de volledige reikwijdte even onbespreekbaar is. Het team moet item voor item bespreken of elk groot stuk werk werkelijk capaciteitsgebonden of datumgebonden is, omdat een datumgedreven programma behandelen alsof het elastische tijd had, of een stroom van gewone werkzaamheden alsof zij een harde deadline had, alles stroomafwaarts verkeerd prioriteert. Concrete invalshoeken: neem een onverplaatsbare go-live en vraag welke vereisten werkelijk “Must” zijn voor het wettelijk minimum tegenover “Should” of “Could” die in de verplichte set zijn gesmokkeld; zoek het programma waar alle drie de beperkingen stilletjes vast staan en noem wat er werkelijk zal wijken wanneer de werkelijkheid bijt. Een goed antwoord classificeert werk naar zijn bindende beperking en past de passende methode bewust toe, waarbij capaciteitsgebaseerde stroom en datumgebaseerde levering afzonderlijke disciplines blijven. Het onrealistische antwoord belooft volledige reikwijdte, op de vaste datum, binnen vaste capaciteit, en hoopt.
+
+6. **Wat is ons herprioriteringsritme, en hebben wij de discipline om de volgorde tussen toetsingen stabiel te houden?**
+   Prioriteiten moeten tegen nieuw bewijs worden herzien, maar in een ritme — een maandelijkse of driemaandelijkse portfoliotoetsing met lichtere verfijning ertussen — omdat voortdurend herprioriteren even schadelijk is als nooit herprioriteren: het vernietigt de doorstroming en maakt niets af. De spanning is echt: de werkelijkheid verandert werkelijk, een nieuw veiligheidssignaal of een verschuiving in financiering kan herordenen rechtvaardigen, maar elke herschikking midden in de uitvoering kost teams hun aanloopbaan en laat half gebouwd werk achter. In gezondheid en zorg, waar leveringsteams vaak uitgerekt zijn en afhankelijkheden meerdere organisaties overspannen, is geschud duur en moreel ondermijnend, dus de stabiele aanloopbaan tussen toetsingen is zowel een kwestie van productiviteit en behoud als van levering. Concrete invalshoeken: controleer hoe vaak de top van de backlog afgelopen kwartaal buiten een geplande toetsing veranderde en wat daardoor werd opgeleverd; spreek vooraf de beperkte criteria af — een echte noodsituatie, geen luide belanghebbende — die het doorbreken van het ritme rechtvaardigen. Een goed antwoord stelt een expliciet ritme vast, verdedigt de aanloopbaan tussen toetsingen en kan wijzen op werk dat werkelijk werd afgerond omdat de volgorde standhield. Het falende antwoord herprioriteert wanneer de laatste e-mail landt en verwart beweging met responsiviteit terwijl niets de eindstreep haalt.
+
+## In de praktijk: een voorbeeld uit gezondheid en zorg
+
+Een portfolioteam digitaal van een ICB stond voor twaalf concurrerende voorstellen en capaciteit voor misschien vijf. Van oudsher volgde de ordening organisatorische senioriteit, en technische schuld kwam er helemaal niet in voor. Zij namen WSJF aan voor wijzigingswerk en reserveerden een vast deel van de capaciteit voor run, technische schuld en veiligheid.
+
+Elk voorstel werd gezamenlijk gescoord — bedrijfswaarde, tijdskritiek, risicovermindering/mogelijkheden scheppen en omvang van de klus — in één sessie met leveringsstemmen, klinische en financiële stemmen. Een wettelijke deadline voor datamelding scoorde zeer hoog op tijdskritiek en steeg, bescheiden van omvang, naar de top op WSJF. Een groot, populair analyseplatform scoorde goed op waarde maar zijn omvang duwde het omlaag in de volgorde — een uitkomst die onder rangschikking op senioriteit ondenkbaar was geweest en die het kader verdedigbaar maakte. Een lang uitgestelde database-upgrade, voorheen onzichtbaar, werd gefinancierd uit het gereserveerde runaandeel voordat hij kon falen.
+
+Cruciaal is dat de gerangschikte backlog en haar scores met alle aanvragende organisaties werden gedeeld. Toen één ziekenhuis erop aandrong dat zijn voorstel de rij zou voorkruipen, was het gesprek niet “wie kent u?” maar “welke van deze hoger scorende items moet omlaag, en bent u comfortabel met de kosten van die vertraging?” De onderhandeling vond in het openbaar plaats, en de ICB kon zijn bestuur bewijzen dat de volgorde waarde en kosten van vertraging weerspiegelde, geen politiek.
+
+## Sectorperspectieven
+
+### Startup
+
+Een door financiering beperkte startup in digitale gezondheid prioriteert bovenal tegen looptijd, dus haar ordeningsmethode moet licht en op waarde gericht zijn — een 2×2 van waarde versus inspanning of een eenvoudige RICE-score is gewoonlijk genoeg, en uitgebreide WSJF-machinerie is overdreven voor een backlog van dertig items. De dominante kosten van vertraging zijn existentieel: het bewijs missen dat een evaluatie van NICE of een toonaangevende klant nodig heeft kan het bedrijf doen eindigen, wat een leuke functie scherp overstijgt. De moeilijkste discipline is enige capaciteit te reserveren voor technische schuld en herstel van veiligheid wanneer elke week om de volgende omzetfunctie schreeuwt, maar helemaal overslaan is wat een jong product doet vastlopen precies wanneer het opschaalt. Herprioritering is frequent en door de oprichter gedreven, dus het risico is geschud — het tegengif is een stabiele volgorde ten minste een korte sprint vast te houden zodat er iets werkelijk wordt opgeleverd.
+
+### Klein bedrijf
+
+Een gevestigde kleine aanbieder — een huisartsenpraktijk, een gemeenschapsapotheek, een verzorgingshuis of een kliniek met één vestiging — prioriteert met vrijwel geen speling: dezelfde handvol mensen runt de dienst en elk wijzigingswerk, dus de ordening moet meedogenloos eenvoudig zijn, en een 2×2 van waarde versus inspanning die iedereen in het team kan lezen is meer waard dan een scoringsmodel waarvoor niemand tijd heeft het te onderhouden. De dominante kosten van vertraging zijn gewoonlijk wettelijk of door veiligheid gedreven — een deadline voor de data-beveiligingstoolkit, een klinische veiligheidsoplossing, een verplichte systeemupgrade van een nationale leverancier — en deze moeten bovenaan staan omdat een kleine aanbieder dezelfde plichten draagt als een groot ziekenhuis zonder de middelen om een falen op te vangen. Discretionaire verbeteringen concurreren werkelijk met het runnen van de dienst, dus de eerlijke discipline is een klein, regelmatig deel van de tijd te beschermen voor het onmisbare run- en herstelwerk in plaats van het elke week te laten verliezen van patiëntgerichte vraag. Met weinig of geen toegewijde IT-capaciteit wordt veel van het “hoe” bepaald door leveranciers en raamcontracten, dus prioritering gaat vaak over het in volgorde zetten van door leveranciers gedreven wijzigingen en de weinige dingen die de praktijk kan beheersen, en een stabiele volgorde lang genoeg vasthouden dat er iets klaarkomt tussen de ene drukke week en de volgende.
+
+### Grote onderneming
+
+Een NHS-ziekenhuis of ICS draait een gemengd wijzigingsportfolio met echte tijdskritiek en zware runverplichtingen, wat precies de vorm is waarvoor WSJF en een gereserveerd deel voor run/technische schuld/veiligheid zijn ontworpen. De politiek is de echte uitdaging: meerdere sponsorende organisaties, HiPPO-druk en legacyverwachtingen dat senioriteit de volgorde bepaalt, dus transparantie van de gerangschikte backlog en haar scores is het belangrijkste depolitiserende instrument van de onderneming. Prioritering omspant hier een portfoliobureau en moet capaciteitsgebaseerde stroom voor gewone wijzigingen verzoenen met datumgebaseerde programma’s die terugwerken vanaf onverplaatsbare regelgevende go-lives, met reikwijdte die meebuigt via MoSCoW. Omdat een ziekenhuis waarde voor geld moet aantonen aan zijn bestuur, een ICB en auditors, wordt de scoringsredenering bewaard als bestuursverslag, niet weggegooid zodra de beslissing is genomen.
+
+### Overheid
+
+Bij NHS England, DHSC of een gedecentraliseerde overheid is prioritering portfoliomanagement op nationale schaal, geformaliseerd via Management of Portfolios (MoP) en het vijf-casesmodel van het Treasury, waar kosten van vertraging worden gemeten in bevolkingsgezondheid, wettelijke naleving en miljarden ponden. Veel van het portfolio is niet-discretionair — verplichte meldingen, wettelijke deadlines, ministeriële toezeggingen — dus de methode moet het *hoe* en *wanneer* van verplicht werk rangschikken in plaats van of het gedaan wordt, en programma’s met een onverplaatsbare datum domineren. De risicobereidheid is laag en de toetsing tegensprekelijk: de National Audit Office en de Public Accounts Committee zullen toetsen of de volgorde waarde en kosten van vertraging weerspiegelde of louter politiek gemak, dus een expliciete, gepubliceerde prioriteringsgrondslag is zowel een verdediging als een managementinstrument. Billijkheid is een wettelijke dimensie van waarde, dus een scoringsmodel van de overheid moet de impact op de minst bediende populaties wegen, niet alleen het totale voordeel, of het zal systematisch de al goed bedeelden bevoordelen.
+
+## Veelvoorkomende faalpatronen
+
+- **Alles is prioriteit één.** Er bestaat geen echte ordening, zodat de luidste stem of de dichtstbijzijnde deadline regeert. *Oplossing:* dwing een strikte rangschikking af; gelijke stand bovenaan is niet toegestaan.
+- **Run en technische schuld verliezen altijd.** Onzichtbaar operationeel en herstelwerk wordt uitgehongerd totdat het faalt. *Oplossing:* gereserveerde, beschermde capaciteit.
+- **HiPPO-overruling.** De mening van de best betaalde persoon overrulet de scoring steeds stilletjes. *Oplossing:* transparante scores en open onderhandeling over afwegingen.
+- **Kadertheater.** Uitgebreide scoring levert een getal op waar niemand naar handelt. *Oplossing:* laat de score een echte, opgevolgde gerangschikte volgorde informeren.
+- **Vaste reikwijdte + vaste datum + vaste capaciteit.** Alle drie de beperkingen vergrendeld, wat falen garandeert. *Oplossing:* laat reikwijdte meebuigen via MoSCoW, of capaciteit, of datum.
+- **Geschud.** Prioriteiten veranderen wekelijks; niets wordt afgemaakt. *Oplossing:* een vast herprioriteringsritme en stabiele aanloopbanen ertussen.
+
+## Volwassenheidsmodel
+
+| Dimensie | Initiëren | Ontwikkelen | Standaardiseren | Besturen | Orkestreren |
+|---|---|---|---|---|---|
+| **Methode en grondslag** | Geen methode; ordening op senioriteit of deadline | Een kader inconsistent of voor sommig werk gebruikt | Eén primair kader consistent toegepast; Cost of Delay overwogen | Scoringsinvoer bestuurd en gekalibreerd; prioriteringsbeslissingen gemeten tegen uitgesproken uitkomsten | Kader afgestemd op uitkomsten/OKR’s; capaciteits- en datumgebaseerde methoden bewust gebruikt |
+| **Balans run/change en technische schuld** | Run en technische schuld onzichtbaar; alleen nieuw werk gefinancierd | Enig bewustzijn van run/schuld maar geen beschermde capaciteit | Gereserveerde capaciteit voor run, technische schuld en veiligheid | Beschermd deel gevolgd als maat; run/schuld en herstel van veiligheid geborgd tegen doel | Balans run/change actief beheerd en getoetst aan waarde |
+| **Transparantie en ritme** | Prioriteiten ondoorzichtig; reactief en voortdurend gewijzigd | Backlog deels zichtbaar; onregelmatige toetsingen | Gerangschikte backlog gepubliceerd; vast herprioriteringsritme | Naleving van het ritme en herprioriteringsschudden gevolgd; scoringsredenering bewaard als bestuurd verslag voor besturen en auditors | Open onderhandeling over afwegingen is de norm; ritme stabiel; scores getoetst aan resultaten |
+
+## Checklist
+
+- [ ] Eén primair prioriteringskader is gekozen en wordt consistent toegepast.
+- [ ] Cost of Delay is expliciet gemaakt, vooral voor veiligheids- en wettelijk werk.
+- [ ] Capaciteit is gereserveerd voor run, technische schuld en veiligheids-/beveiligingswerk.
+- [ ] Items worden gescoord tegen uitkomsten/OKR’s, niet tegen de senioriteit van de aanvrager.
+- [ ] Capaciteitsgebaseerde en datumgebaseerde methoden worden voor de juiste items gebruikt.
+- [ ] De gerangschikte backlog en haar scoring zijn aan belanghebbenden gepubliceerd.
+- [ ] Afwegingen worden in het openbaar onderhandeld: om het ene omhoog te brengen moet een ander omlaag.
+- [ ] Herprioritering gebeurt in een vast ritme, met stabiele aanloopbanen ertussen.
+- [ ] Scores worden behandeld als schattingen; op manipulatie en valse precisie wordt gelet.
+- [ ] De huidige volgorde kan aan het bestuur worden uitgelegd en verdedigd.
+
+## Belangrijkste bronnen
+
+- Scaled Agile Framework (SAFe) — Weighted Shortest Job First (WSJF) en Cost of Delay.
+- Reinertsen, D. — *The Principles of Product Development Flow* (Cost of Delay, economie van wachtrijen).
+- Intercom — het RICE-scoremodel (Reach, Impact, Confidence, Effort).
+- DSDM / Agile Business Consortium — MoSCoW-prioritering.
+- Kano, N. — het Kano-model van klanttevredenheid.
+- Cabinet Office / AXELOS — Management of Portfolios (MoP) — portfolioprioritering en balans.
+- NHS Digital Service Standard & GOV.UK Service Manual — prioriteit geven aan de belangrijkste gebruikersbehoeften; OKR’s (Doerr, *Measure What Matters*) voor afstemming op uitkomsten.
+
+## Referenties
+
+1. Prioritization — Wikipedia — https://en.wikipedia.org/wiki/Prioritization
+2. Cost of delay — Wikipedia — https://en.wikipedia.org/wiki/Cost_of_delay
+3. Scaled agile framework — Wikipedia — https://en.wikipedia.org/wiki/Scaled_agile_framework
+4. MoSCoW method — Wikipedia — https://en.wikipedia.org/wiki/MoSCoW_method
+5. Dynamic systems development method — Wikipedia — https://en.wikipedia.org/wiki/Dynamic_systems_development_method
+6. Kano model — Wikipedia — https://en.wikipedia.org/wiki/Kano_model
+7. Technical debt — Wikipedia — https://en.wikipedia.org/wiki/Technical_debt
+8. Objectives and key results — Wikipedia — https://en.wikipedia.org/wiki/Objectives_and_key_results
+9. Weighted Shortest Job First (WSJF) and Cost of Delay — Scaled Agile Framework (SAFe) — https://framework.scaledagile.com/wsjf
+10. Reinertsen, D. — *The Principles of Product Development Flow* — Celeritas Publishing — https://www.celeritas.com/
+11. The RICE scoring model (Reach, Impact, Confidence, Effort) — Intercom — https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/
+12. MoSCoW prioritisation — DSDM / Agile Business Consortium — https://www.agilebusiness.org/dsdm-project-framework/moscow-prioritisation.html
+13. Management of Portfolios (MoP) — AXELOS / Cabinet Office — https://www.axelos.com/
+14. Doerr, J. — *Measure What Matters* (OKRs) — Portfolio/Penguin — https://www.whatmatters.com/
+15. The Green Book: appraisal and evaluation in central government (five-case model) — HM Treasury — https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government

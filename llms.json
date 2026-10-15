@@ -6486,6 +6486,438 @@
    ]
   },
   {
+   "slug": "nl-001",
+   "label": "Nederlands",
+   "home": "https://digital-health-guide.github.io/nl-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Fundamenten",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Werkwijzen in digitale gezondheid en zorg",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-00-werkwijzen-in-digitale-gezondheid-en-zorg/"
+      },
+      {
+       "number": "1.1",
+       "title": "Het operationele model",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-01-het-operationele-model/"
+      },
+      {
+       "number": "1.2",
+       "title": "Digitale strategie en roadmapping",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-02-digitale-strategie-en-roadmapping/"
+      },
+      {
+       "number": "1.3",
+       "title": "Op bewijs gebaseerde besluitvorming",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-03-op-bewijs-gebaseerde-besluitvorming/"
+      },
+      {
+       "number": "1.4",
+       "title": "Hazard ratio’s",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-04-hazard-ratios/"
+      },
+      {
+       "number": "1.5",
+       "title": "Regelgeving en naleving",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-05-regelgeving-en-naleving/"
+      },
+      {
+       "number": "1.6",
+       "title": "Klinische veiligheid en risicobeheer",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-06-klinische-veiligheid-en-risicobeheer/"
+      },
+      {
+       "number": "1.7",
+       "title": "Informatiebeheer, gegevensbescherming en cyberbeveiliging",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-07-informatiebeheer-gegevensbescherming-en-cyberbeveiliging/"
+      },
+      {
+       "number": "1.8",
+       "title": "Data-ethiek, toestemming en publiek vertrouwen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-08-data-ethiek-toestemming-en-publiek-vertrouwen/"
+      },
+      {
+       "number": "1.9",
+       "title": "Digitale inclusie en toegankelijkheid",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-09-digitale-inclusie-en-toegankelijkheid/"
+      },
+      {
+       "number": "1.10",
+       "title": "Bescherming van kwetsbare personen in digitale diensten",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/01-10-bescherming-van-kwetsbare-personen-in-digitale-diensten/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "De stroom van werk beheren",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Binnenkomst van werk",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/02-00-binnenkomst-van-werk/"
+      },
+      {
+       "number": "2.1",
+       "title": "Triage van werk",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/02-01-triage-van-werk/"
+      },
+      {
+       "number": "2.2",
+       "title": "Prioritering van werk",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/02-02-prioritering-van-werk/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "De levenscyclus van de levering",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Gebruikersonderzoek en servicedesign",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-00-gebruikersonderzoek-en-servicedesign/"
+      },
+      {
+       "number": "3.1",
+       "title": "Contentontwerp en gezondheidsvaardigheden",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-01-contentontwerp-en-gezondheidsvaardigheden/"
+      },
+      {
+       "number": "3.2",
+       "title": "Designsystemen en prototyping",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-02-designsystemen-en-prototyping/"
+      },
+      {
+       "number": "3.3",
+       "title": "Digitale diensten voor patiënten en burgers",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-03-digitale-diensten-voor-patienten-en-burgers/"
+      },
+      {
+       "number": "3.4",
+       "title": "Discoveryfasen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-04-discoveryfasen/"
+      },
+      {
+       "number": "3.5",
+       "title": "Leveringslevenscycli",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-05-leveringslevenscycli/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps en engineeringexcellentie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-06-devops-en-engineeringexcellentie/"
+      },
+      {
+       "number": "3.7",
+       "title": "Testen en kwaliteitsborging",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-07-testen-en-kwaliteitsborging/"
+      },
+      {
+       "number": "3.8",
+       "title": "Servicemanagement en live-operatie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-08-servicemanagement-en-live-operatie/"
+      },
+      {
+       "number": "3.9",
+       "title": "Bedrijfscontinuïteit en herstel na rampen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-09-bedrijfscontinuiteit-en-herstel-na-rampen/"
+      },
+      {
+       "number": "3.10",
+       "title": "Noodparaatheid, veerkracht en respons",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-10-noodparaatheid-veerkracht-en-respons/"
+      },
+      {
+       "number": "3.11",
+       "title": "Telezorg, consultatie op afstand en virtuele afdelingen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/03-11-telezorg-consultatie-op-afstand-en-virtuele-afdelingen/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Technologie, architectuur en data",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Technische architectuur, cloud en legacy",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-00-technische-architectuur-cloud-en-legacy/"
+      },
+      {
+       "number": "4.1",
+       "title": "Platforms en gedeelde diensten",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-01-platforms-en-gedeelde-diensten/"
+      },
+      {
+       "number": "4.2",
+       "title": "Identiteits- en toegangsbeheer",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-02-identiteits-en-toegangsbeheer/"
+      },
+      {
+       "number": "4.3",
+       "title": "Interoperabiliteit en datastandaarden",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-03-interoperabiliteit-en-datastandaarden/"
+      },
+      {
+       "number": "4.4",
+       "title": "Verbonden apparaten, IoT en klinische technologie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-04-verbonden-apparaten-iot-en-klinische-technologie/"
+      },
+      {
+       "number": "4.5",
+       "title": "Data, analyse en beheer van bevolkingsgezondheid",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-05-data-analyse-en-beheer-van-bevolkingsgezondheid/"
+      },
+      {
+       "number": "4.6",
+       "title": "Elektronische patiëntendossiers en klinische systemen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-06-elektronische-patientendossiers-en-klinische-systemen/"
+      },
+      {
+       "number": "4.7",
+       "title": "Klinische beslisondersteuning en klinische informatica",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-07-klinische-beslisondersteuning-en-klinische-informatica/"
+      },
+      {
+       "number": "4.8",
+       "title": "Elektronisch voorschrijven en medicatiebeheer",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-08-elektronisch-voorschrijven-en-medicatiebeheer/"
+      },
+      {
+       "number": "4.9",
+       "title": "Datakwaliteit en stamgegevensbeheer",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-09-datakwaliteit-en-stamgegevensbeheer/"
+      },
+      {
+       "number": "4.10",
+       "title": "Beveiligde dataomgevingen en toegang tot onderzoeksdata",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-10-beveiligde-dataomgevingen-en-toegang-tot-onderzoeksdata/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomica en data voor precisiegeneeskunde",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/04-11-genomica-en-data-voor-precisiegeneeskunde/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Werkwijzen voor levering",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Productgestuurd werken",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/05-00-productgestuurd-werken/"
+      },
+      {
+       "number": "5.1",
+       "title": "Projectgestuurd werken",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/05-01-projectgestuurd-werken/"
+      },
+      {
+       "number": "5.2",
+       "title": "Programmagestuurd werken",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/05-02-programmagestuurd-werken/"
+      },
+      {
+       "number": "5.3",
+       "title": "Enterprise-projectportfoliomanagement (EPPM)",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/05-03-enterprise-projectportfoliomanagement-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Enterprise resource planning (ERP)",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/05-04-enterprise-resource-planning-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Geld, waarde en bestuur",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Financieel management en businesscases",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-00-financieel-management-en-businesscases/"
+      },
+      {
+       "number": "6.1",
+       "title": "Gezondheidseconomie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-01-gezondheidseconomie/"
+      },
+      {
+       "number": "6.2",
+       "title": "Batenrealisatie en waardemanagement",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-02-batenrealisatie-en-waardemanagement/"
+      },
+      {
+       "number": "6.3",
+       "title": "Inkoop en commercie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-03-inkoop-en-commercie/"
+      },
+      {
+       "number": "6.4",
+       "title": "Bestuur en borging",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-04-bestuur-en-borging/"
+      },
+      {
+       "number": "6.5",
+       "title": "Technologiekostenbeheer en cloud-FinOps",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-05-technologiekostenbeheer-en-cloud-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Leveranciers- en service-integratiemanagement (SIAM)",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/06-06-leveranciers-en-service-integratiemanagement-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Mensen, teams en personeelsbestand",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Teamstructuren, rollen en verantwoordelijkheden",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-00-teamstructuren-rollen-en-verantwoordelijkheden/"
+      },
+      {
+       "number": "7.1",
+       "title": "Agile leveringspraktijken en teamgezondheid",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-01-agile-leveringspraktijken-en-teamgezondheid/"
+      },
+      {
+       "number": "7.2",
+       "title": "Personeelsplanning",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-02-personeelsplanning/"
+      },
+      {
+       "number": "7.3",
+       "title": "Personeelsstrategie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-03-personeelsstrategie/"
+      },
+      {
+       "number": "7.4",
+       "title": "Digitale vaardigheden en capaciteitsopbouw",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-04-digitale-vaardigheden-en-capaciteitsopbouw/"
+      },
+      {
+       "number": "7.5",
+       "title": "Mensen- en organisatieontwikkeling",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-05-mensen-en-organisatieontwikkeling/"
+      },
+      {
+       "number": "7.6",
+       "title": "Gelijkheid, diversiteit en inclusie van het personeel",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/07-06-gelijkheid-diversiteit-en-inclusie-van-het-personeel/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Verandering en innovatie",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Innovatie gefaseerd invoeren",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-00-innovatie-gefaseerd-invoeren/"
+      },
+      {
+       "number": "8.1",
+       "title": "Verandermanagement",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-01-verandermanagement/"
+      },
+      {
+       "number": "8.2",
+       "title": "Communicatie en betrokkenheid",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-02-communicatie-en-betrokkenheid/"
+      },
+      {
+       "number": "8.3",
+       "title": "Gedragswetenschap en adoptie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-03-gedragswetenschap-en-adoptie/"
+      },
+      {
+       "number": "8.4",
+       "title": "Bestuur van AI en opkomende technologie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-04-bestuur-van-ai-en-opkomende-technologie/"
+      },
+      {
+       "number": "8.5",
+       "title": "Duurzaamheid en netto nul",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-05-duurzaamheid-en-netto-nul/"
+      },
+      {
+       "number": "8.6",
+       "title": "Onderzoek en evaluatie in de praktijk",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/08-06-onderzoek-en-evaluatie-in-de-praktijk/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Partnerschappen en overheid",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Samenwerken met partnerorganisaties",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/09-00-samenwerken-met-partnerorganisaties/"
+      },
+      {
+       "number": "9.1",
+       "title": "Werken met lokale en nationale overheden",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/09-01-werken-met-lokale-en-nationale-overheden/"
+      },
+      {
+       "number": "9.2",
+       "title": "Mondiale en internationale digitale gezondheid",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/09-02-mondiale-en-internationale-digitale-gezondheid/"
+      },
+      {
+       "number": "9.3",
+       "title": "Digitaal in de sociale zorg voor volwassenen",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/09-03-digitaal-in-de-sociale-zorg-voor-volwassenen/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Meten, verbeteren, kennis en leiderschap",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Doelstellingen en kernresultaten (OKR’s)",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/10-00-doelstellingen-en-kernresultaten-okrs/"
+      },
+      {
+       "number": "10.1",
+       "title": "Kernprestatie-indicatoren (KPI’s)",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/10-01-kernprestatie-indicatoren-kpis/"
+      },
+      {
+       "number": "10.2",
+       "title": "Kwaliteitsverbetering en verbeterwetenschap",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/10-02-kwaliteitsverbetering-en-verbeterwetenschap/"
+      },
+      {
+       "number": "10.3",
+       "title": "Kennismanagement en documentatie",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/10-03-kennismanagement-en-documentatie/"
+      },
+      {
+       "number": "10.4",
+       "title": "Zichtbaarheid voor de CEO en senior leiders",
+       "url": "https://digital-health-guide.github.io/nl-001/onderwerpen/10-04-zichtbaarheid-voor-de-ceo-en-senior-leiders/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "ru-001",
    "label": "Русский",
    "home": "https://digital-health-guide.github.io/ru-001/",

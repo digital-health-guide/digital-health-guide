@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -766,6 +766,60 @@ const sv = {
 	tryIndex: 'registret'
 };
 
+const nl = {
+	siteBrand: 'Digitale gezondheidsgids',
+	skipToMain: 'Ga naar de hoofdinhoud',
+	siteHeader: 'Koptekst van de website',
+	mainNav: 'Hoofdnavigatie',
+	navContents: 'Inhoud',
+	navGlossary: 'Woordenlijst',
+	navIndex: 'Index',
+	navStyleGuide: 'Stijlgids',
+	navSpecification: 'Specificatie',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Thema',
+	pickerLocale: 'Taal',
+	pickerTextSize: 'Tekstgrootte',
+	pickerShare: 'Delen',
+	pickerLink: 'Projectlinks',
+	pickerSearch: 'Zoeken',
+	pickerSearchInput: 'Zoektekst',
+	pickerSearchSubmit: 'Zoeken',
+	pickerShareCopyLink: 'Link kopiëren',
+	pickerShareCopied: 'Gekopieerd',
+	breadcrumb: 'Kruimelpad',
+	breadcrumbTopics: 'Onderwerpen',
+	breadcrumbReference: 'Naslag',
+	onThisPage: 'Op deze pagina',
+	headingAnchorPrefix: 'Link naar',
+	topicNavigation: 'Navigatie door onderwerpen',
+	previous: 'Vorige',
+	next: 'Volgende',
+	editOnGitHub: 'Bewerk deze pagina op GitHub',
+	sourceOfTruth: 'het boek is de bron van waarheid; deze website geeft het weer.',
+	siteFooter: 'Voettekst van de website',
+	footerDescription:
+		'een praktisch handboek met beste praktijken voor het leveren van digitale diensten in organisaties voor gezondheid en sociale zorg.',
+	footerLedByBefore: ' Onder leiding van ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Gebouwd met het ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Specificatie',
+	notFoundHeading: 'Pagina niet gevonden',
+	errorHeading: 'Er is iets misgegaan',
+	notFoundBody: 'Er is geen pagina op',
+	notFoundBodyEnd: 'Het boek heeft haar mogelijk verplaatst of hernoemd.',
+	errorBodyFallback: 'De pagina kon niet worden geladen.',
+	tryPrefix: 'Probeer de',
+	tryTableOfContents: 'inhoud',
+	tryGlossary: 'woordenlijst',
+	tryOr: 'of de',
+	tryIndex: 'index'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -785,7 +839,9 @@ const TABLES = {
 	'id-001': id,
 	'ru-001': ru,
 	'sv-001': sv,
-	'sv-se': sv
+	'sv-se': sv,
+	'nl-001': nl,
+	'nl-nl': nl
 };
 
 /** Site chrome strings for one locale, falling back to English. */
