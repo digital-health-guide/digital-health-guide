@@ -8214,6 +8214,438 @@
    ]
   },
   {
+   "slug": "sw-001",
+   "label": "Kiswahili",
+   "home": "https://digital-health-guide.github.io/sw-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Misingi",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Njia za Kufanya Kazi katika Afya na Huduma za Kidijitali",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-00-njia-za-kufanya-kazi-katika-afya-na-huduma-za-kidijitali/"
+      },
+      {
+       "number": "1.1",
+       "title": "Mfumo wa Uendeshaji",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-01-mfumo-wa-uendeshaji/"
+      },
+      {
+       "number": "1.2",
+       "title": "Mkakati wa Kidijitali na Ramani ya Safari",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-02-mkakati-wa-kidijitali-na-ramani-ya-safari/"
+      },
+      {
+       "number": "1.3",
+       "title": "Maamuzi Yanayoongozwa na Ushahidi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-03-maamuzi-yanayoongozwa-na-ushahidi/"
+      },
+      {
+       "number": "1.4",
+       "title": "Uwiano wa Hatari",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-04-uwiano-wa-hatari/"
+      },
+      {
+       "number": "1.5",
+       "title": "Mandhari ya Udhibiti na Uzingatiaji wa Sheria",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-05-mandhari-ya-udhibiti-na-uzingatiaji-wa-sheria/"
+      },
+      {
+       "number": "1.6",
+       "title": "Usalama wa Kitabibu na Usimamizi wa Hatari",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-06-usalama-wa-kitabibu-na-usimamizi-wa-hatari/"
+      },
+      {
+       "number": "1.7",
+       "title": "Utawala wa Taarifa, Ulinzi wa Data na Usalama wa Mtandao",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-07-utawala-wa-taarifa-ulinzi-wa-data-na-usalama-wa-mtandao/"
+      },
+      {
+       "number": "1.8",
+       "title": "Maadili ya Data, Ridhaa na Uaminifu wa Umma",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-08-maadili-ya-data-ridhaa-na-uaminifu-wa-umma/"
+      },
+      {
+       "number": "1.9",
+       "title": "Ujumuishi wa Kidijitali na Ufikivu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-09-ujumuishi-wa-kidijitali-na-ufikivu/"
+      },
+      {
+       "number": "1.10",
+       "title": "Ulinzi wa Walio Hatarini katika Huduma za Kidijitali",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/01-10-ulinzi-wa-walio-hatarini-katika-huduma-za-kidijitali/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "Kusimamia Mtiririko wa Kazi",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Upokeaji wa Kazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/02-00-upokeaji-wa-kazi/"
+      },
+      {
+       "number": "2.1",
+       "title": "Uchambuzi wa Kazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/02-01-uchambuzi-wa-kazi/"
+      },
+      {
+       "number": "2.2",
+       "title": "Kupanga Vipaumbele vya Kazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/02-02-kupanga-vipaumbele-vya-kazi/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Mzunguko wa Utoaji",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Utafiti wa Watumiaji na Usanifu wa Huduma",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-00-utafiti-wa-watumiaji-na-usanifu-wa-huduma/"
+      },
+      {
+       "number": "3.1",
+       "title": "Usanifu wa Maudhui na Uelewa wa Afya",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-01-usanifu-wa-maudhui-na-uelewa-wa-afya/"
+      },
+      {
+       "number": "3.2",
+       "title": "Mifumo ya Usanifu na Mifano ya Majaribio",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-02-mifumo-ya-usanifu-na-mifano-ya-majaribio/"
+      },
+      {
+       "number": "3.3",
+       "title": "Huduma za Kidijitali Zinazomkabili Mgonjwa na Raia",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-03-huduma-za-kidijitali-zinazomkabili-mgonjwa-na-raia/"
+      },
+      {
+       "number": "3.4",
+       "title": "Awamu za Ugunduzi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-04-awamu-za-ugunduzi/"
+      },
+      {
+       "number": "3.5",
+       "title": "Mizunguko ya Utoaji",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-05-mizunguko-ya-utoaji/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps na Ubora wa Uhandisi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-06-devops-na-ubora-wa-uhandisi/"
+      },
+      {
+       "number": "3.7",
+       "title": "Majaribio na Uhakiki wa Ubora",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-07-majaribio-na-uhakiki-wa-ubora/"
+      },
+      {
+       "number": "3.8",
+       "title": "Usimamizi wa Huduma na Uendeshaji Hai",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-08-usimamizi-wa-huduma-na-uendeshaji-hai/"
+      },
+      {
+       "number": "3.9",
+       "title": "Mwendelezo wa Biashara na Kurejesha kutokana na Maafa",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-09-mwendelezo-wa-biashara-na-kurejesha-kutokana-na-maafa/"
+      },
+      {
+       "number": "3.10",
+       "title": "Utayari wa Dharura, Ustahimilivu na Jibu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-10-utayari-wa-dharura-ustahimilivu-na-jibu/"
+      },
+      {
+       "number": "3.11",
+       "title": "Huduma ya Afya kwa Mbali, Mashauriano ya Mbali na Wodi za Kidhahania",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/03-11-huduma-ya-afya-kwa-mbali-mashauriano-ya-mbali-na-wodi-za-kidhahania/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Teknolojia, Usanifu na Data",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Usanifu wa Kiufundi, Wingu na Mifumo ya Zamani",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-00-usanifu-wa-kiufundi-wingu-na-mifumo-ya-zamani/"
+      },
+      {
+       "number": "4.1",
+       "title": "Majukwaa na Huduma za Pamoja",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-01-majukwaa-na-huduma-za-pamoja/"
+      },
+      {
+       "number": "4.2",
+       "title": "Usimamizi wa Utambulisho na Ufikiaji",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-02-usimamizi-wa-utambulisho-na-ufikiaji/"
+      },
+      {
+       "number": "4.3",
+       "title": "Uwezo wa Kuunganishwa na Viwango vya Data",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-03-uwezo-wa-kuunganishwa-na-viwango-vya-data/"
+      },
+      {
+       "number": "4.4",
+       "title": "Vifaa Vilivyounganishwa, IoT na Uhandisi wa Kitabibu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-04-vifaa-vilivyounganishwa-iot-na-uhandisi-wa-kitabibu/"
+      },
+      {
+       "number": "4.5",
+       "title": "Data, Uchanganuzi na Usimamizi wa Afya ya Idadi ya Watu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-05-data-uchanganuzi-na-usimamizi-wa-afya-ya-idadi-ya-watu/"
+      },
+      {
+       "number": "4.6",
+       "title": "Rekodi za Kielektroniki za Wagonjwa na Mifumo ya Kitabibu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-06-rekodi-za-kielektroniki-za-wagonjwa-na-mifumo-ya-kitabibu/"
+      },
+      {
+       "number": "4.7",
+       "title": "Msaada wa Maamuzi ya Kitabibu na Informatiki ya Kitabibu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-07-msaada-wa-maamuzi-ya-kitabibu-na-informatiki-ya-kitabibu/"
+      },
+      {
+       "number": "4.8",
+       "title": "Maagizo ya Dawa ya Kielektroniki na Usimamizi wa Dawa",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-08-maagizo-ya-dawa-ya-kielektroniki-na-usimamizi-wa-dawa/"
+      },
+      {
+       "number": "4.9",
+       "title": "Ubora wa Data na Usimamizi wa Data Kuu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-09-ubora-wa-data-na-usimamizi-wa-data-kuu/"
+      },
+      {
+       "number": "4.10",
+       "title": "Mazingira Salama ya Data na Ufikiaji wa Data ya Utafiti",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-10-mazingira-salama-ya-data-na-ufikiaji-wa-data-ya-utafiti/"
+      },
+      {
+       "number": "4.11",
+       "title": "Data ya Jenomiki na Dawa ya Usahihi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/04-11-data-ya-jenomiki-na-dawa-ya-usahihi/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Njia za Utoaji",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Kazi Inayoongozwa na Bidhaa",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/05-00-kazi-inayoongozwa-na-bidhaa/"
+      },
+      {
+       "number": "5.1",
+       "title": "Kazi Inayoongozwa na Mradi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/05-01-kazi-inayoongozwa-na-mradi/"
+      },
+      {
+       "number": "5.2",
+       "title": "Kazi Inayoongozwa na Programu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/05-02-kazi-inayoongozwa-na-programu/"
+      },
+      {
+       "number": "5.3",
+       "title": "Usimamizi wa Jalada na Miradi wa Biashara (EPPM)",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/05-03-usimamizi-wa-jalada-na-miradi-wa-biashara/"
+      },
+      {
+       "number": "5.4",
+       "title": "Mipango ya Rasilimali za Biashara (ERP)",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/05-04-mipango-ya-rasilimali-za-biashara/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Fedha, Thamani na Utawala",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Usimamizi wa Fedha na Kesi za Biashara",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-00-usimamizi-wa-fedha-na-kesi-za-biashara/"
+      },
+      {
+       "number": "6.1",
+       "title": "Uchumi wa Afya",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-01-uchumi-wa-afya/"
+      },
+      {
+       "number": "6.2",
+       "title": "Utambuzi wa Faida na Usimamizi wa Thamani",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-02-utambuzi-wa-faida-na-usimamizi-wa-thamani/"
+      },
+      {
+       "number": "6.3",
+       "title": "Ununuzi na Biashara",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-03-ununuzi-na-biashara/"
+      },
+      {
+       "number": "6.4",
+       "title": "Utawala na Uhakikisho",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-04-utawala-na-uhakikisho/"
+      },
+      {
+       "number": "6.5",
+       "title": "Usimamizi wa Gharama za Teknolojia na FinOps ya Wingu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-05-usimamizi-wa-gharama-za-teknolojia-na-finops-ya-wingu/"
+      },
+      {
+       "number": "6.6",
+       "title": "Usimamizi wa Wasambazaji na Uunganishaji wa Huduma (SIAM)",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/06-06-usimamizi-wa-wasambazaji-na-uunganishaji-wa-huduma/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Watu, Timu na Nguvukazi",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Miundo ya Timu, Majukumu na Wajibu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-00-miundo-ya-timu-majukumu-na-wajibu/"
+      },
+      {
+       "number": "7.1",
+       "title": "Mazoea ya Utoaji wa Agile na Afya ya Timu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-01-mazoea-ya-utoaji-wa-agile-na-afya-ya-timu/"
+      },
+      {
+       "number": "7.2",
+       "title": "Mipango ya Nguvukazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-02-mipango-ya-nguvukazi/"
+      },
+      {
+       "number": "7.3",
+       "title": "Mkakati wa Nguvukazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-03-mkakati-wa-nguvukazi/"
+      },
+      {
+       "number": "7.4",
+       "title": "Ujuzi wa Kidijitali na Kujenga Uwezo",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-04-ujuzi-wa-kidijitali-na-kujenga-uwezo/"
+      },
+      {
+       "number": "7.5",
+       "title": "Maendeleo ya Watu na Shirika",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-05-maendeleo-ya-watu-na-shirika/"
+      },
+      {
+       "number": "7.6",
+       "title": "Usawa, Utofauti na Ujumuishi wa Nguvukazi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/07-06-usawa-utofauti-na-ujumuishi-wa-nguvukazi/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Mabadiliko na Ubunifu",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Kuingiza Ubunifu kwa Awamu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-00-kuingiza-ubunifu-kwa-awamu/"
+      },
+      {
+       "number": "8.1",
+       "title": "Usimamizi wa Mabadiliko",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-01-usimamizi-wa-mabadiliko/"
+      },
+      {
+       "number": "8.2",
+       "title": "Mawasiliano na Ushirikishaji",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-02-mawasiliano-na-ushirikishaji/"
+      },
+      {
+       "number": "8.3",
+       "title": "Sayansi ya Tabia na Kukubali",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-03-sayansi-ya-tabia-na-kukubali/"
+      },
+      {
+       "number": "8.4",
+       "title": "Utawala wa AI na Teknolojia Zinazoibuka",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-04-utawala-wa-ai-na-teknolojia-zinazoibuka/"
+      },
+      {
+       "number": "8.5",
+       "title": "Uendelevu na Sifuri-Kaboni",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-05-uendelevu-na-sifuri-kaboni/"
+      },
+      {
+       "number": "8.6",
+       "title": "Utafiti na Tathmini ya Ulimwengu Halisi",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/08-06-utafiti-na-tathmini-ya-ulimwengu-halisi/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Ushirikiano na Serikali",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Kushirikiana na Mashirika Washirika",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/09-00-kushirikiana-na-mashirika-washirika/"
+      },
+      {
+       "number": "9.1",
+       "title": "Kufanya Kazi na Serikali za Mahali na za Kitaifa",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/09-01-kufanya-kazi-na-serikali-za-mahali-na-za-kitaifa/"
+      },
+      {
+       "number": "9.2",
+       "title": "Afya ya Kidijitali ya Kimataifa",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/09-02-afya-ya-kidijitali-ya-kimataifa/"
+      },
+      {
+       "number": "9.3",
+       "title": "Kidijitali katika Huduma za Jamii za Watu Wazima",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/09-03-kidijitali-katika-huduma-za-jamii-za-watu-wazima/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Upimaji, Uboreshaji, Maarifa na Uongozi",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Malengo na Matokeo Muhimu (OKR)",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/10-00-malengo-na-matokeo-muhimu/"
+      },
+      {
+       "number": "10.1",
+       "title": "Viashiria Muhimu vya Utendaji (KPI)",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/10-01-viashiria-muhimu-vya-utendaji/"
+      },
+      {
+       "number": "10.2",
+       "title": "Uboreshaji wa Ubora na Sayansi ya Uboreshaji",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/10-02-uboreshaji-wa-ubora-na-sayansi-ya-uboreshaji/"
+      },
+      {
+       "number": "10.3",
+       "title": "Usimamizi wa Maarifa na Uandishi wa Nyaraka",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/10-03-usimamizi-wa-maarifa-na-uandishi-wa-nyaraka/"
+      },
+      {
+       "number": "10.4",
+       "title": "Mwonekano kwa Mkurugenzi Mtendaji na Viongozi Wakuu",
+       "url": "https://digital-health-guide.github.io/sw-001/mada/10-04-mwonekano-kwa-mkurugenzi-mtendaji-na-viongozi-wakuu/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "zh-001",
    "label": "中文",
    "home": "https://digital-health-guide.github.io/zh-001/",

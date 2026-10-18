@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -874,6 +874,60 @@ const is = {
 	tryIndex: 'atriðisorðaskrána'
 };
 
+const sw = {
+	siteBrand: 'Mwongozo wa Afya ya Kidijitali',
+	skipToMain: 'Ruka hadi maudhui makuu',
+	siteHeader: 'Kichwa cha tovuti',
+	mainNav: 'Menyu kuu',
+	navContents: 'Yaliyomo',
+	navGlossary: 'Faharasa',
+	navIndex: 'Faharisi',
+	navStyleGuide: 'Mwongozo wa mtindo',
+	navSpecification: 'Vipimo',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Mandhari',
+	pickerLocale: 'Lugha',
+	pickerTextSize: 'Ukubwa wa maandishi',
+	pickerShare: 'Shiriki',
+	pickerLink: 'Viungo vya mradi',
+	pickerSearch: 'Tafuta',
+	pickerSearchInput: 'Maneno ya kutafuta',
+	pickerSearchSubmit: 'Tafuta',
+	pickerShareCopyLink: 'Nakili kiungo',
+	pickerShareCopied: 'Imenakiliwa',
+	breadcrumb: 'Njia ya kurasa',
+	breadcrumbTopics: 'Mada',
+	breadcrumbReference: 'Rejea',
+	onThisPage: 'Katika ukurasa huu',
+	headingAnchorPrefix: 'Kiungo cha',
+	topicNavigation: 'Urambazaji kati ya mada',
+	previous: 'Iliyotangulia',
+	next: 'Inayofuata',
+	editOnGitHub: 'Hariri ukurasa huu kwenye GitHub',
+	sourceOfTruth: 'kitabu ndicho chanzo cha ukweli; tovuti hii inakichapisha.',
+	siteFooter: 'Kijachini cha tovuti',
+	footerDescription:
+		'kitabu cha vitendo cha mazoea bora ya kutoa huduma za kidijitali katika mashirika ya afya na huduma za jamii.',
+	footerLedByBefore: ' Kinaongozwa na ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Kimejengwa kwa ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Vipimo',
+	notFoundHeading: 'Ukurasa haukupatikana',
+	errorHeading: 'Kuna tatizo limetokea',
+	notFoundBody: 'Hakuna ukurasa katika',
+	notFoundBodyEnd: 'Huenda kitabu kimeuhamisha au kuubadilisha jina.',
+	errorBodyFallback: 'Ukurasa haukuweza kupakiwa.',
+	tryPrefix: 'Jaribu',
+	tryTableOfContents: 'yaliyomo',
+	tryGlossary: 'faharasa',
+	tryOr: 'au',
+	tryIndex: 'faharisi'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -894,6 +948,8 @@ const TABLES = {
 	'ru-001': ru,
 	'sv-001': sv,
 	'sv-se': sv,
+	'sw-001': sw,
+	'sw-tz': sw,
 	'is-001': is,
 	'is-is': is,
 	'nl-001': nl,

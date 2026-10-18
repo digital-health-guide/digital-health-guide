@@ -76,6 +76,12 @@ export const HERO = {
  "sv-se": {
   "translations": "Översättningar: "
  },
+ "sw-001": {
+  "translations": "Tafsiri: "
+ },
+ "sw-tz": {
+  "translations": "Tafsiri: "
+ },
  "zh-001": {
   "translations": "翻译： "
  },
@@ -111,6 +117,8 @@ export const ENDONYMS = {
  "ru-001": "Русский",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
+ "sw-001": "Kiswahili",
+ "sw-tz": "Kiswahili (Tanzania)",
  "zh-001": "中文",
  "zh-cn": "简体中文"
 };
