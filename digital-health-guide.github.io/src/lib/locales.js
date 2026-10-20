@@ -8,7 +8,7 @@
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, bn-001, cy-001, cy-gb, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, ru-001, sv-001, sw-001, zh-001) — not by label, so
+// en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, ru-001, sv-001, sw-001, vi-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
@@ -32,6 +32,7 @@ export const LOCALES = [
 	{ slug: 'ru-001', label: 'Русский', hreflang: 'ru-001' },
 	{ slug: 'sv-001', label: 'Svenska', hreflang: 'sv-001' },
 	{ slug: 'sw-001', label: 'Kiswahili', hreflang: 'sw-001' },
+	{ slug: 'vi-001', label: 'Tiếng Việt', hreflang: 'vi-001' },
 	{ slug: 'zh-001', label: '中文', hreflang: 'zh-001' }
 ];
 
@@ -47,6 +48,7 @@ export const RETIRED_LOCALES = {
 	'nl-nl': 'nl-001',
 	'sv-se': 'sv-001',
 	'sw-tz': 'sw-001',
+	'vi-vn': 'vi-001',
 	'zh-cn': 'zh-001'
 };
 

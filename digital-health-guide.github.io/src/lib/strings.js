@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -928,6 +928,60 @@ const sw = {
 	tryIndex: 'faharisi'
 };
 
+const vi = {
+	siteBrand: 'Cẩm nang Y tế số',
+	skipToMain: 'Bỏ qua để đến nội dung chính',
+	siteHeader: 'Đầu trang web',
+	mainNav: 'Điều hướng chính',
+	navContents: 'Mục lục',
+	navGlossary: 'Bảng thuật ngữ',
+	navIndex: 'Chỉ mục',
+	navStyleGuide: 'Hướng dẫn văn phong',
+	navSpecification: 'Đặc tả',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Giao diện',
+	pickerLocale: 'Ngôn ngữ',
+	pickerTextSize: 'Cỡ chữ',
+	pickerShare: 'Chia sẻ',
+	pickerLink: 'Liên kết dự án',
+	pickerSearch: 'Tìm kiếm',
+	pickerSearchInput: 'Từ khóa tìm kiếm',
+	pickerSearchSubmit: 'Tìm kiếm',
+	pickerShareCopyLink: 'Sao chép liên kết',
+	pickerShareCopied: 'Đã sao chép',
+	breadcrumb: 'Đường dẫn trang',
+	breadcrumbTopics: 'Chủ đề',
+	breadcrumbReference: 'Tham khảo',
+	onThisPage: 'Trên trang này',
+	headingAnchorPrefix: 'Liên kết tới',
+	topicNavigation: 'Điều hướng giữa các chủ đề',
+	previous: 'Trước',
+	next: 'Tiếp theo',
+	editOnGitHub: 'Chỉnh sửa trang này trên GitHub',
+	sourceOfTruth: 'cuốn sách là nguồn sự thật; trang web này chỉ hiển thị nó.',
+	siteFooter: 'Chân trang web',
+	footerDescription:
+		'một cuốn sổ tay thực hành về những cách làm tốt nhất để cung cấp dịch vụ số trong các tổ chức y tế và chăm sóc xã hội.',
+	footerLedByBefore: ' Do ',
+	footerLedByAfter: ' dẫn dắt.',
+	footerBuiltWith: ' Xây dựng bằng ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Đặc tả',
+	notFoundHeading: 'Không tìm thấy trang',
+	errorHeading: 'Đã xảy ra sự cố',
+	notFoundBody: 'Không có trang nào tại',
+	notFoundBodyEnd: 'Có thể cuốn sách đã di chuyển hoặc đổi tên trang đó.',
+	errorBodyFallback: 'Không thể tải trang.',
+	tryPrefix: 'Hãy thử',
+	tryTableOfContents: 'mục lục',
+	tryGlossary: 'bảng thuật ngữ',
+	tryOr: 'hoặc',
+	tryIndex: 'chỉ mục'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -950,6 +1004,8 @@ const TABLES = {
 	'sv-se': sv,
 	'sw-001': sw,
 	'sw-tz': sw,
+	'vi-001': vi,
+	'vi-vn': vi,
 	'is-001': is,
 	'is-is': is,
 	'nl-001': nl,
