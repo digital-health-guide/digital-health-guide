@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -982,6 +982,60 @@ const vi = {
 	tryIndex: 'chỉ mục'
 };
 
+const pt = {
+	siteBrand: 'Guia de Saúde Digital',
+	skipToMain: 'Pular para o conteúdo principal',
+	siteHeader: 'Cabeçalho do site',
+	mainNav: 'Navegação principal',
+	navContents: 'Sumário',
+	navGlossary: 'Glossário',
+	navIndex: 'Índice remissivo',
+	navStyleGuide: 'Guia de estilo',
+	navSpecification: 'Especificação',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Idioma',
+	pickerTextSize: 'Tamanho do texto',
+	pickerShare: 'Compartilhar',
+	pickerLink: 'Links do projeto',
+	pickerSearch: 'Pesquisar',
+	pickerSearchInput: 'Termos de pesquisa',
+	pickerSearchSubmit: 'Pesquisar',
+	pickerShareCopyLink: 'Copiar link',
+	pickerShareCopied: 'Copiado',
+	breadcrumb: 'Trilha de navegação',
+	breadcrumbTopics: 'Tópicos',
+	breadcrumbReference: 'Referência',
+	onThisPage: 'Nesta página',
+	headingAnchorPrefix: 'Link para',
+	topicNavigation: 'Navegação entre tópicos',
+	previous: 'Anterior',
+	next: 'Próximo',
+	editOnGitHub: 'Editar esta página no GitHub',
+	sourceOfTruth: 'o livro é a fonte da verdade; este site apenas o exibe.',
+	siteFooter: 'Rodapé do site',
+	footerDescription:
+		'um manual prático das melhores práticas para entregar serviços digitais em organizações de saúde e de cuidados sociais.',
+	footerLedByBefore: ' Liderado por ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Construído com ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Especificação',
+	notFoundHeading: 'Página não encontrada',
+	errorHeading: 'Algo deu errado',
+	notFoundBody: 'Não há nenhuma página em',
+	notFoundBodyEnd: 'O livro pode ter movido ou renomeado essa página.',
+	errorBodyFallback: 'Não foi possível carregar a página.',
+	tryPrefix: 'Tente o',
+	tryTableOfContents: 'sumário',
+	tryGlossary: 'glossário',
+	tryOr: 'ou o',
+	tryIndex: 'índice remissivo'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -999,6 +1053,7 @@ const TABLES = {
 	'hi-001': hi,
 	'bn-001': bn,
 	'id-001': id,
+	'pt-001': pt,
 	'ru-001': ru,
 	'sv-001': sv,
 	'sv-se': sv,

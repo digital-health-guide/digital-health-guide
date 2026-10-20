@@ -67,6 +67,9 @@ export const HERO = {
  "nl-nl": {
   "translations": "Vertalingen: "
  },
+ "pt-001": {
+  "translations": "Traduções: "
+ },
  "ru-001": {
   "translations": "Переводы: "
  },
@@ -120,6 +123,7 @@ export const ENDONYMS = {
  "ko-kr": "한국어 (대한민국)",
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
+ "pt-001": "Português",
  "ru-001": "Русский",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",

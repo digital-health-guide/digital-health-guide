@@ -7350,6 +7350,438 @@
    ]
   },
   {
+   "slug": "pt-001",
+   "label": "Português",
+   "home": "https://digital-health-guide.github.io/pt-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Fundamentos",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Modos de trabalho em saúde e cuidados digitais",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-00-introdu%C3%A7%C3%A3o/"
+      },
+      {
+       "number": "1.1",
+       "title": "O modelo operacional",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-01-modelo-operacional/"
+      },
+      {
+       "number": "1.2",
+       "title": "Estratégia digital e roteiro",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-02-estrat%C3%A9gia-digital-e-roteiro/"
+      },
+      {
+       "number": "1.3",
+       "title": "Decisões baseadas em evidências",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-03-decis%C3%B5es-baseadas-em-evid%C3%AAncias/"
+      },
+      {
+       "number": "1.4",
+       "title": "Razões de risco",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-04-raz%C3%B5es-de-risco/"
+      },
+      {
+       "number": "1.5",
+       "title": "Panorama de regulação e conformidade",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-05-regula%C3%A7%C3%A3o-e-conformidade/"
+      },
+      {
+       "number": "1.6",
+       "title": "Segurança clínica e gestão de riscos",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-06-seguran%C3%A7a-cl%C3%ADnica/"
+      },
+      {
+       "number": "1.7",
+       "title": "Governança da informação, proteção de dados e cibersegurança",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-07-governan%C3%A7a-da-informa%C3%A7%C3%A3o-e-ciberseguran%C3%A7a/"
+      },
+      {
+       "number": "1.8",
+       "title": "Ética de dados, consentimento e confiança pública",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-08-%C3%A9tica-de-dados-consentimento-e-confian%C3%A7a/"
+      },
+      {
+       "number": "1.9",
+       "title": "Inclusão digital e acessibilidade",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-09-inclus%C3%A3o-digital-e-acessibilidade/"
+      },
+      {
+       "number": "1.10",
+       "title": "Proteção em serviços digitais",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/01-10-prote%C3%A7%C3%A3o-em-servi%C3%A7os-digitais/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "Gestão do fluxo de trabalho",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Entrada do trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/02-00-entrada-do-trabalho/"
+      },
+      {
+       "number": "2.1",
+       "title": "Triagem do trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/02-01-triagem-do-trabalho/"
+      },
+      {
+       "number": "2.2",
+       "title": "Priorização do trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/02-02-prioriza%C3%A7%C3%A3o-do-trabalho/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "O ciclo de vida da entrega",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Pesquisa com usuários e design de serviços",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-00-pesquisa-com-usu%C3%A1rios-e-design-de-servi%C3%A7os/"
+      },
+      {
+       "number": "3.1",
+       "title": "Design de conteúdo e letramento em saúde",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-01-design-de-conte%C3%BAdo-e-letramento-em-sa%C3%BAde/"
+      },
+      {
+       "number": "3.2",
+       "title": "Sistemas de design e prototipagem",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-02-sistemas-de-design-e-prototipagem/"
+      },
+      {
+       "number": "3.3",
+       "title": "Serviços digitais voltados a pacientes e cidadãos",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-03-servi%C3%A7os-voltados-a-pacientes-e-cidad%C3%A3os/"
+      },
+      {
+       "number": "3.4",
+       "title": "Fases de descoberta",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-04-fases-de-descoberta/"
+      },
+      {
+       "number": "3.5",
+       "title": "Ciclos de vida de entrega",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-05-ciclos-de-vida-de-entrega/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps e excelência em engenharia",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-06-devops-e-excel%C3%AAncia-em-engenharia/"
+      },
+      {
+       "number": "3.7",
+       "title": "Testes e garantia da qualidade",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-07-testes-e-garantia-da-qualidade/"
+      },
+      {
+       "number": "3.8",
+       "title": "Gestão de serviços e operação em produção",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-08-gest%C3%A3o-de-servi%C3%A7os-e-opera%C3%A7%C3%B5es/"
+      },
+      {
+       "number": "3.9",
+       "title": "Continuidade de negócios e recuperação de desastres",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-09-continuidade-de-neg%C3%B3cios-e-recupera%C3%A7%C3%A3o-de-desastres/"
+      },
+      {
+       "number": "3.10",
+       "title": "Preparação, resiliência e resposta a emergências",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-10-prepara%C3%A7%C3%A3o-e-resposta-a-emerg%C3%AAncias/"
+      },
+      {
+       "number": "3.11",
+       "title": "Telessaúde, consulta remota e enfermarias virtuais",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/03-11-telessa%C3%BAde-e-enfermarias-virtuais/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Tecnologia, arquitetura e dados",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Arquitetura técnica, nuvem e sistemas legados",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-00-arquitetura-t%C3%A9cnica-nuvem-e-sistemas-legados/"
+      },
+      {
+       "number": "4.1",
+       "title": "Plataformas e serviços compartilhados",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-01-plataformas-e-servi%C3%A7os-compartilhados/"
+      },
+      {
+       "number": "4.2",
+       "title": "Gestão de identidade e acesso",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-02-gest%C3%A3o-de-identidade-e-acesso/"
+      },
+      {
+       "number": "4.3",
+       "title": "Interoperabilidade e padrões de dados",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-03-interoperabilidade-e-padr%C3%B5es-de-dados/"
+      },
+      {
+       "number": "4.4",
+       "title": "Dispositivos conectados, IoT e engenharia clínica",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-04-dispositivos-conectados-e-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "Dados, análises e gestão da saúde populacional",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-05-dados-an%C3%A1lises-e-sa%C3%BAde-populacional/"
+      },
+      {
+       "number": "4.6",
+       "title": "Prontuários eletrônicos do paciente e sistemas clínicos",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-06-prontu%C3%A1rios-eletr%C3%B4nicos-do-paciente/"
+      },
+      {
+       "number": "4.7",
+       "title": "Apoio à decisão clínica e informática clínica",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-07-apoio-%C3%A0-decis%C3%A3o-cl%C3%ADnica/"
+      },
+      {
+       "number": "4.8",
+       "title": "Prescrição eletrônica e gestão de medicamentos",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-08-prescri%C3%A7%C3%A3o-eletr%C3%B4nica-e-medicamentos/"
+      },
+      {
+       "number": "4.9",
+       "title": "Qualidade de dados e gestão de dados mestres",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-09-qualidade-de-dados-e-mdm/"
+      },
+      {
+       "number": "4.10",
+       "title": "Ambientes seguros de dados e acesso a dados para pesquisa",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-10-ambientes-seguros-de-dados/"
+      },
+      {
+       "number": "4.11",
+       "title": "Dados de genômica e de medicina de precisão",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/04-11-gen%C3%B4mica-e-medicina-de-precis%C3%A3o/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Modos de entrega",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Trabalho conduzido por produto",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/05-00-trabalho-conduzido-por-produto/"
+      },
+      {
+       "number": "5.1",
+       "title": "Trabalho conduzido por projeto",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/05-01-trabalho-conduzido-por-projeto/"
+      },
+      {
+       "number": "5.2",
+       "title": "Trabalho conduzido por programa",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/05-02-trabalho-conduzido-por-programa/"
+      },
+      {
+       "number": "5.3",
+       "title": "Gestão de portfólio corporativo de projetos (EPPM)",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Planejamento de recursos empresariais (ERP)",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Dinheiro, valor e governança",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Gestão financeira e casos de negócio",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-00-gest%C3%A3o-financeira-e-casos-de-neg%C3%B3cio/"
+      },
+      {
+       "number": "6.1",
+       "title": "Economia da saúde",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-01-economia-da-sa%C3%BAde/"
+      },
+      {
+       "number": "6.2",
+       "title": "Realização de benefícios e gestão de valor",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-02-realiza%C3%A7%C3%A3o-de-benef%C3%ADcios-e-valor/"
+      },
+      {
+       "number": "6.3",
+       "title": "Aquisições e contratações",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-03-aquisi%C3%A7%C3%B5es-e-contrata%C3%A7%C3%B5es/"
+      },
+      {
+       "number": "6.4",
+       "title": "Governança e garantia",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-04-governan%C3%A7a-e-garantia/"
+      },
+      {
+       "number": "6.5",
+       "title": "Gestão de custos de tecnologia e FinOps em nuvem",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-05-custo-de-tecnologia-e-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Gestão de fornecedores e integração de serviços (SIAM)",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/06-06-fornecedores-e-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Pessoas, equipes e força de trabalho",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Estruturas de equipe, papéis e responsabilidades",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-00-estruturas-de-equipe-e-pap%C3%A9is/"
+      },
+      {
+       "number": "7.1",
+       "title": "Práticas de entrega ágil e saúde da equipe",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-01-entrega-%C3%A1gil-e-sa%C3%BAde-da-equipe/"
+      },
+      {
+       "number": "7.2",
+       "title": "Planejamento da força de trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-02-planejamento-da-for%C3%A7a-de-trabalho/"
+      },
+      {
+       "number": "7.3",
+       "title": "Estratégia da força de trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-03-estrat%C3%A9gia-da-for%C3%A7a-de-trabalho/"
+      },
+      {
+       "number": "7.4",
+       "title": "Competências digitais e desenvolvimento de capacidades",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-04-compet%C3%AAncias-e-capacidade-digitais/"
+      },
+      {
+       "number": "7.5",
+       "title": "Desenvolvimento de pessoas e da organização",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-05-desenvolvimento-de-pessoas-e-da-organiza%C3%A7%C3%A3o/"
+      },
+      {
+       "number": "7.6",
+       "title": "Igualdade, diversidade e inclusão na força de trabalho",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/07-06-equidade-diversidade-e-inclus%C3%A3o-na-for%C3%A7a-de-trabalho/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Mudança e inovação",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Implantação faseada da inovação",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-00-implanta%C3%A7%C3%A3o-faseada-da-inova%C3%A7%C3%A3o/"
+      },
+      {
+       "number": "8.1",
+       "title": "Gestão de mudanças",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-01-gest%C3%A3o-de-mudan%C3%A7as/"
+      },
+      {
+       "number": "8.2",
+       "title": "Comunicação e engajamento",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-02-comunica%C3%A7%C3%A3o-e-engajamento/"
+      },
+      {
+       "number": "8.3",
+       "title": "Ciência comportamental e adoção",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-03-ci%C3%AAncia-comportamental-e-ado%C3%A7%C3%A3o/"
+      },
+      {
+       "number": "8.4",
+       "title": "Governança de IA e de tecnologias emergentes",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-04-ia-e-tecnologias-emergentes/"
+      },
+      {
+       "number": "8.5",
+       "title": "Sustentabilidade e emissões líquidas zero",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-05-sustentabilidade-e-emiss%C3%B5es-l%C3%ADquidas-zero/"
+      },
+      {
+       "number": "8.6",
+       "title": "Pesquisa e avaliação em mundo real",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/08-06-pesquisa-e-avalia%C3%A7%C3%A3o-em-mundo-real/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Parcerias e governo",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Colaboração com organizações parceiras",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/09-00-colabora%C3%A7%C3%A3o-com-organiza%C3%A7%C3%B5es-parceiras/"
+      },
+      {
+       "number": "9.1",
+       "title": "Trabalho com governos locais e nacionais",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/09-01-trabalho-com-governos/"
+      },
+      {
+       "number": "9.2",
+       "title": "Saúde digital global e internacional",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/09-02-sa%C3%BAde-digital-global-e-internacional/"
+      },
+      {
+       "number": "9.3",
+       "title": "O digital nos cuidados sociais para adultos",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/09-03-cuidados-sociais-digitais-para-adultos/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Medição, melhoria, conhecimento e liderança",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Objetivos e resultados-chave (OKRs)",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/10-00-okrs/"
+      },
+      {
+       "number": "10.1",
+       "title": "Indicadores-chave de desempenho (KPIs)",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/10-01-kpis/"
+      },
+      {
+       "number": "10.2",
+       "title": "Melhoria da qualidade e ciência da melhoria",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/10-02-melhoria-da-qualidade/"
+      },
+      {
+       "number": "10.3",
+       "title": "Gestão do conhecimento e documentação",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/10-03-gest%C3%A3o-do-conhecimento/"
+      },
+      {
+       "number": "10.4",
+       "title": "Visibilidade para o CEO e a liderança sênior",
+       "url": "https://digital-health-guide.github.io/pt-001/t%C3%B3picos/10-04-visibilidade-para-a-lideran%C3%A7a/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "ru-001",
    "label": "Русский",
    "home": "https://digital-health-guide.github.io/ru-001/",
