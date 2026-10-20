@@ -9078,6 +9078,438 @@
    ]
   },
   {
+   "slug": "ur-001",
+   "label": "اردو",
+   "home": "https://digital-health-guide.github.io/ur-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "بنیادیں",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "ڈیجیٹل صحت اور نگہداشت میں کام کے طریقے",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-00-%D8%AA%D8%B9%D8%A7%D8%B1%D9%81/"
+      },
+      {
+       "number": "1.1",
+       "title": "آپریٹنگ ماڈل",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-01-%D8%A2%D9%BE%D8%B1%DB%8C%D9%B9%D9%86%DA%AF-%D9%85%D8%A7%DA%88%D9%84/"
+      },
+      {
+       "number": "1.2",
+       "title": "ڈیجیٹل حکمت عملی اور روڈ میپ سازی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-02-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84-%D8%AD%DA%A9%D9%85%D8%AA-%D8%B9%D9%85%D9%84%DB%8C-%D8%A7%D9%88%D8%B1-%D8%B1%D9%88%DA%88-%D9%85%DB%8C%D9%BE/"
+      },
+      {
+       "number": "1.3",
+       "title": "شواہد پر مبنی فیصلے",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-03-%D8%B4%D9%88%D8%A7%DB%81%D8%AF-%D9%BE%D8%B1-%D9%85%D8%A8%D9%86%DB%8C-%D9%81%DB%8C%D8%B5%D9%84%DB%92/"
+      },
+      {
+       "number": "1.4",
+       "title": "خطرے کے تناسب",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-04-%D8%AE%D8%B7%D8%B1%DB%92-%DA%A9%DB%92-%D8%AA%D9%86%D8%A7%D8%B3%D8%A8/"
+      },
+      {
+       "number": "1.5",
+       "title": "ضابطہ کاری اور تعمیل کا منظرنامہ",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-05-%D8%B6%D8%A7%D8%A8%D8%B7%DB%81-%DA%A9%D8%A7%D8%B1%DB%8C-%D8%A7%D9%88%D8%B1-%D8%AA%D8%B9%D9%85%DB%8C%D9%84/"
+      },
+      {
+       "number": "1.6",
+       "title": "طبی تحفظ اور خطرات کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-06-%D8%B7%D8%A8%DB%8C-%D8%AA%D8%AD%D9%81%D8%B8/"
+      },
+      {
+       "number": "1.7",
+       "title": "معلومات کی نظامت، ڈیٹا کا تحفظ اور سائبر سیکیورٹی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-07-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%DA%A9%DB%8C-%D9%86%D8%B8%D8%A7%D9%85%D8%AA-%D8%A7%D9%88%D8%B1-%D8%B3%D8%A7%D8%A6%D8%A8%D8%B1-%D8%B3%DB%8C%DA%A9%DB%8C%D9%88%D8%B1%D9%B9%DB%8C/"
+      },
+      {
+       "number": "1.8",
+       "title": "ڈیٹا اخلاقیات، رضامندی اور عوامی اعتماد",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-08-%DA%88%DB%8C%D9%B9%D8%A7-%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C%D8%A7%D8%AA-%D8%B1%D8%B6%D8%A7%D9%85%D9%86%D8%AF%DB%8C-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF/"
+      },
+      {
+       "number": "1.9",
+       "title": "ڈیجیٹل شمولیت اور رسائی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-09-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84-%D8%B4%D9%85%D9%88%D9%84%DB%8C%D8%AA-%D8%A7%D9%88%D8%B1-%D8%B1%D8%B3%D8%A7%D8%A6%DB%8C/"
+      },
+      {
+       "number": "1.10",
+       "title": "ڈیجیٹل خدمات میں تحفظ",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/01-10-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%DB%8C%DA%BA-%D8%AA%D8%AD%D9%81%D8%B8/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "کام کے بہاؤ کا انتظام",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "کام کی وصولی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/02-00-%DA%A9%D8%A7%D9%85-%DA%A9%DB%8C-%D9%88%D8%B5%D9%88%D9%84%DB%8C/"
+      },
+      {
+       "number": "2.1",
+       "title": "کام کی درجہ بندی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/02-01-%DA%A9%D8%A7%D9%85-%DA%A9%DB%8C-%D8%AF%D8%B1%D8%AC%DB%81-%D8%A8%D9%86%D8%AF%DB%8C/"
+      },
+      {
+       "number": "2.2",
+       "title": "کام کی ترجیح بندی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/02-02-%DA%A9%D8%A7%D9%85-%DA%A9%DB%8C-%D8%AA%D8%B1%D8%AC%DB%8C%D8%AD-%D8%A8%D9%86%D8%AF%DB%8C/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "ترسیل کا دورانیہ",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "صارف تحقیق اور خدمت کا ڈیزائن",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-00-%D8%B5%D8%A7%D8%B1%D9%81-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D8%A7%D9%88%D8%B1-%D8%AE%D8%AF%D9%85%D8%AA-%DA%A9%D8%A7-%DA%88%DB%8C%D8%B2%D8%A7%D8%A6%D9%86/"
+      },
+      {
+       "number": "3.1",
+       "title": "مواد کا ڈیزائن اور صحت خواندگی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-01-%D9%85%D9%88%D8%A7%D8%AF-%DA%A9%D8%A7-%DA%88%DB%8C%D8%B2%D8%A7%D8%A6%D9%86-%D8%A7%D9%88%D8%B1-%D8%B5%D8%AD%D8%AA-%D8%AE%D9%88%D8%A7%D9%86%D8%AF%DA%AF%DB%8C/"
+      },
+      {
+       "number": "3.2",
+       "title": "ڈیزائن سسٹم اور نمونہ سازی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-02-%DA%88%DB%8C%D8%B2%D8%A7%D8%A6%D9%86-%D8%B3%D8%B3%D9%B9%D9%85-%D8%A7%D9%88%D8%B1-%D9%86%D9%85%D9%88%D9%86%DB%81-%D8%B3%D8%A7%D8%B2%DB%8C/"
+      },
+      {
+       "number": "3.3",
+       "title": "مریض اور شہری کے لیے ڈیجیٹل خدمات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-03-%D9%85%D8%B1%DB%8C%D8%B6-%D8%A7%D9%88%D8%B1-%D8%B4%DB%81%D8%B1%DB%8C-%DA%A9%DB%92-%D9%84%DB%8C%DB%92-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"
+      },
+      {
+       "number": "3.4",
+       "title": "دریافتی مراحل",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-04-%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%DB%8C-%D9%85%D8%B1%D8%A7%D8%AD%D9%84/"
+      },
+      {
+       "number": "3.5",
+       "title": "ترسیل کے دورانیے",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-05-%D8%AA%D8%B1%D8%B3%DB%8C%D9%84-%DA%A9%DB%92-%D8%AF%D9%88%D8%B1%D8%A7%D9%86%DB%8C%DB%92/"
+      },
+      {
+       "number": "3.6",
+       "title": "ڈیو آپس اور انجینئرنگ کا معیار",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-06-%DA%88%DB%8C%D9%88-%D8%A2%D9%BE%D8%B3-%D8%A7%D9%88%D8%B1-%D8%A7%D9%86%D8%AC%DB%8C%D9%86%D8%A6%D8%B1%D9%86%DA%AF-%DA%A9%D8%A7-%D9%85%D8%B9%DB%8C%D8%A7%D8%B1/"
+      },
+      {
+       "number": "3.7",
+       "title": "جانچ اور معیار کی یقین دہانی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-07-%D8%AC%D8%A7%D9%86%DA%86-%D8%A7%D9%88%D8%B1-%D9%85%D8%B9%DB%8C%D8%A7%D8%B1-%DA%A9%DB%8C-%DB%8C%D9%82%DB%8C%D9%86-%D8%AF%DB%81%D8%A7%D9%86%DB%8C/"
+      },
+      {
+       "number": "3.8",
+       "title": "خدمات کا انتظام اور براہِ راست عملیات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-08-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85-%D8%A7%D9%88%D8%B1-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA/"
+      },
+      {
+       "number": "3.9",
+       "title": "کاروباری تسلسل اور آفت سے بحالی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-09-%DA%A9%D8%A7%D8%B1%D9%88%D8%A8%D8%A7%D8%B1%DB%8C-%D8%AA%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%88%D8%B1-%D8%A2%D9%81%D8%AA-%D8%B3%DB%92-%D8%A8%D8%AD%D8%A7%D9%84%DB%8C/"
+      },
+      {
+       "number": "3.10",
+       "title": "ہنگامی تیاری، لچک اور ردعمل",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-10-%DB%81%D9%86%DA%AF%D8%A7%D9%85%DB%8C-%D8%AA%DB%8C%D8%A7%D8%B1%DB%8C-%D8%A7%D9%88%D8%B1-%D8%B1%D8%AF%D8%B9%D9%85%D9%84/"
+      },
+      {
+       "number": "3.11",
+       "title": "ٹیلی ہیلتھ، دور سے مشاورت اور ورچوئل وارڈ",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/03-11-%D9%B9%DB%8C%D9%84%DB%8C-%DB%81%DB%8C%D9%84%D8%AA%DA%BE-%D8%A7%D9%88%D8%B1-%D9%88%D8%B1%DA%86%D9%88%D8%A6%D9%84-%D9%88%D8%A7%D8%B1%DA%88/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "ٹیکنالوجی، فن تعمیر اور ڈیٹا",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "تکنیکی فن تعمیر، کلاؤڈ اور پرانے نظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-00-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9%DB%8C-%D9%81%D9%86-%D8%AA%D8%B9%D9%85%DB%8C%D8%B1-%DA%A9%D9%84%D8%A7%D8%A4%DA%88-%D8%A7%D9%88%D8%B1-%D9%BE%D8%B1%D8%A7%D9%86%DB%92-%D9%86%D8%B8%D8%A7%D9%85/"
+      },
+      {
+       "number": "4.1",
+       "title": "پلیٹ فارم اور مشترکہ خدمات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-01-%D9%BE%D9%84%DB%8C%D9%B9-%D9%81%D8%A7%D8%B1%D9%85-%D8%A7%D9%88%D8%B1-%D9%85%D8%B4%D8%AA%D8%B1%DA%A9%DB%81-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA/"
+      },
+      {
+       "number": "4.2",
+       "title": "شناخت اور رسائی کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-02-%D8%B4%D9%86%D8%A7%D8%AE%D8%AA-%D8%A7%D9%88%D8%B1-%D8%B1%D8%B3%D8%A7%D8%A6%DB%8C-%DA%A9%D8%A7-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85/"
+      },
+      {
+       "number": "4.3",
+       "title": "باہمی عملیت اور ڈیٹا معیارات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-03-%D8%A8%D8%A7%DB%81%D9%85%DB%8C-%D8%B9%D9%85%D9%84%DB%8C%D8%AA-%D8%A7%D9%88%D8%B1-%DA%88%DB%8C%D9%B9%D8%A7-%D9%85%D8%B9%DB%8C%D8%A7%D8%B1%D8%A7%D8%AA/"
+      },
+      {
+       "number": "4.4",
+       "title": "منسلک آلات، آئی او ٹی اور طبی انجینئرنگ",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-04-%D9%85%D9%86%D8%B3%D9%84%DA%A9-%D8%A2%D9%84%D8%A7%D8%AA-%D8%A7%D9%88%D8%B1-%D8%A2%D8%A6%DB%8C-%D8%A7%D9%88-%D9%B9%DB%8C/"
+      },
+      {
+       "number": "4.5",
+       "title": "ڈیٹا، تجزیات اور آبادی کی صحت کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-05-%DA%88%DB%8C%D9%B9%D8%A7-%D8%AA%D8%AC%D8%B2%DB%8C%D8%A7%D8%AA-%D8%A7%D9%88%D8%B1-%D8%A2%D8%A8%D8%A7%D8%AF%DB%8C-%DA%A9%DB%8C-%D8%B5%D8%AD%D8%AA/"
+      },
+      {
+       "number": "4.6",
+       "title": "برقی مریض ریکارڈ اور طبی نظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-06-%D8%A8%D8%B1%D9%82%DB%8C-%D9%85%D8%B1%DB%8C%D8%B6-%D8%B1%DB%8C%DA%A9%D8%A7%D8%B1%DA%88/"
+      },
+      {
+       "number": "4.7",
+       "title": "طبی فیصلہ سازی کی معاونت اور طبی معلوماتیات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-07-%D8%B7%D8%A8%DB%8C-%D9%81%DB%8C%D8%B5%D9%84%DB%81-%D8%B3%D8%A7%D8%B2%DB%8C-%DA%A9%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/"
+      },
+      {
+       "number": "4.8",
+       "title": "برقی نسخہ نویسی اور ادویات کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-08-%D8%A8%D8%B1%D9%82%DB%8C-%D9%86%D8%B3%D8%AE%DB%81-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%A7%D9%88%D8%B1-%D8%A7%D8%AF%D9%88%DB%8C%D8%A7%D8%AA-%DA%A9%D8%A7-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85/"
+      },
+      {
+       "number": "4.9",
+       "title": "ڈیٹا کا معیار اور ماسٹر ڈیٹا کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-09-%DA%88%DB%8C%D9%B9%D8%A7-%DA%A9%D8%A7-%D9%85%D8%B9%DB%8C%D8%A7%D8%B1-%D8%A7%D9%88%D8%B1-%D9%85%D8%A7%D8%B3%D9%B9%D8%B1-%DA%88%DB%8C%D9%B9%D8%A7/"
+      },
+      {
+       "number": "4.10",
+       "title": "محفوظ ڈیٹا ماحول اور تحقیقی ڈیٹا تک رسائی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-10-%D9%85%D8%AD%D9%81%D9%88%D8%B8-%DA%88%DB%8C%D9%B9%D8%A7-%D9%85%D8%A7%D8%AD%D9%88%D9%84/"
+      },
+      {
+       "number": "4.11",
+       "title": "جینیات اور درست طب کا ڈیٹا",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/04-11-%D8%AC%DB%8C%D9%86%DB%8C%D8%A7%D8%AA-%D8%A7%D9%88%D8%B1-%D8%AF%D8%B1%D8%B3%D8%AA-%D8%B7%D8%A8/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "ترسیل کے انداز",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "مصنوعات پر مبنی کام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/05-00-%D9%85%D8%B5%D9%86%D9%88%D8%B9%D8%A7%D8%AA-%D9%BE%D8%B1-%D9%85%D8%A8%D9%86%DB%8C-%DA%A9%D8%A7%D9%85/"
+      },
+      {
+       "number": "5.1",
+       "title": "منصوبہ پر مبنی کام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/05-01-%D9%85%D9%86%D8%B5%D9%88%D8%A8%DB%81-%D9%BE%D8%B1-%D9%85%D8%A8%D9%86%DB%8C-%DA%A9%D8%A7%D9%85/"
+      },
+      {
+       "number": "5.2",
+       "title": "پروگرام پر مبنی کام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/05-02-%D9%BE%D8%B1%D9%88%DA%AF%D8%B1%D8%A7%D9%85-%D9%BE%D8%B1-%D9%85%D8%A8%D9%86%DB%8C-%DA%A9%D8%A7%D9%85/"
+      },
+      {
+       "number": "5.3",
+       "title": "انٹرپرائز پراجیکٹ پورٹ فولیو مینجمنٹ (EPPM)",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/05-03-%D8%A7%DB%8C-%D9%BE%DB%8C-%D9%BE%DB%8C-%D8%A7%DB%8C%D9%85/"
+      },
+      {
+       "number": "5.4",
+       "title": "انٹرپرائز ریسورس پلاننگ (ERP)",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/05-04-%D8%A7%DB%8C-%D8%A2%D8%B1-%D9%BE%DB%8C/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "رقم، قدر اور نظامت",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "مالی انتظام اور کاروباری مقدمات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-00-%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85-%D8%A7%D9%88%D8%B1-%DA%A9%D8%A7%D8%B1%D9%88%D8%A8%D8%A7%D8%B1%DB%8C-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA/"
+      },
+      {
+       "number": "6.1",
+       "title": "صحت کی معاشیات",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-01-%D8%B5%D8%AD%D8%AA-%DA%A9%DB%8C-%D9%85%D8%B9%D8%A7%D8%B4%DB%8C%D8%A7%D8%AA/"
+      },
+      {
+       "number": "6.2",
+       "title": "فوائد کا حصول اور قدر کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-02-%D9%81%D9%88%D8%A7%D8%A6%D8%AF-%DA%A9%D8%A7-%D8%AD%D8%B5%D9%88%D9%84-%D8%A7%D9%88%D8%B1-%D9%82%D8%AF%D8%B1/"
+      },
+      {
+       "number": "6.3",
+       "title": "خریداری اور تجارتی امور",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-03-%D8%AE%D8%B1%DB%8C%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D9%88%D8%B1-%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA%DB%8C-%D8%A7%D9%85%D9%88%D8%B1/"
+      },
+      {
+       "number": "6.4",
+       "title": "نظامت اور یقین دہانی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-04-%D9%86%D8%B8%D8%A7%D9%85%D8%AA-%D8%A7%D9%88%D8%B1-%DB%8C%D9%82%DB%8C%D9%86-%D8%AF%DB%81%D8%A7%D9%86%DB%8C/"
+      },
+      {
+       "number": "6.5",
+       "title": "ٹیکنالوجی کی لاگت کا انتظام اور کلاؤڈ فن آپس",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-05-%D9%B9%DB%8C%DA%A9%D9%86%D8%A7%D9%84%D9%88%D8%AC%DB%8C-%DA%A9%DB%8C-%D9%84%D8%A7%DA%AF%D8%AA-%D8%A7%D9%88%D8%B1-%D9%81%D9%86-%D8%A2%D9%BE%D8%B3/"
+      },
+      {
+       "number": "6.6",
+       "title": "فراہم کنندگان اور خدمات کے انضمام کا انتظام (SIAM)",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/06-06-%D9%81%D8%B1%D8%A7%DB%81%D9%85-%DA%A9%D9%86%D9%86%D8%AF%DB%81-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85-%D8%A7%D9%88%D8%B1-%D8%B3%DB%8C%D9%85/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "افراد، ٹیمیں اور افرادی قوت",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "ٹیم کے ڈھانچے، کردار اور ذمہ داریاں",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-00-%D9%B9%DB%8C%D9%85-%DA%A9%DB%92-%DA%88%DA%BE%D8%A7%D9%86%DA%86%DB%92-%D8%A7%D9%88%D8%B1-%DA%A9%D8%B1%D8%AF%D8%A7%D8%B1/"
+      },
+      {
+       "number": "7.1",
+       "title": "ایجائل ترسیل کے طریقے اور ٹیم کی صحت",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-01-%D8%A7%DB%8C%D8%AC%D8%A7%D8%A6%D9%84-%D8%AA%D8%B1%D8%B3%DB%8C%D9%84-%D8%A7%D9%88%D8%B1-%D9%B9%DB%8C%D9%85-%DA%A9%DB%8C-%D8%B5%D8%AD%D8%AA/"
+      },
+      {
+       "number": "7.2",
+       "title": "افرادی قوت کی منصوبہ بندی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-02-%D8%A7%D9%81%D8%B1%D8%A7%D8%AF%DB%8C-%D9%82%D9%88%D8%AA-%DA%A9%DB%8C-%D9%85%D9%86%D8%B5%D9%88%D8%A8%DB%81-%D8%A8%D9%86%D8%AF%DB%8C/"
+      },
+      {
+       "number": "7.3",
+       "title": "افرادی قوت کی حکمت عملی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-03-%D8%A7%D9%81%D8%B1%D8%A7%D8%AF%DB%8C-%D9%82%D9%88%D8%AA-%DA%A9%DB%8C-%D8%AD%DA%A9%D9%85%D8%AA-%D8%B9%D9%85%D9%84%DB%8C/"
+      },
+      {
+       "number": "7.4",
+       "title": "ڈیجیٹل مہارتیں اور صلاحیت سازی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-04-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84-%D9%85%DB%81%D8%A7%D8%B1%D8%AA%DB%8C%DA%BA-%D8%A7%D9%88%D8%B1-%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D8%AA-%D8%B3%D8%A7%D8%B2%DB%8C/"
+      },
+      {
+       "number": "7.5",
+       "title": "افراد اور تنظیمی ترقی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-05-%D8%A7%D9%81%D8%B1%D8%A7%D8%AF-%D8%A7%D9%88%D8%B1-%D8%AA%D9%86%D8%B8%DB%8C%D9%85%DB%8C-%D8%AA%D8%B1%D9%82%DB%8C/"
+      },
+      {
+       "number": "7.6",
+       "title": "افرادی قوت میں مساوات، تنوع اور شمولیت",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/07-06-%D8%A7%D9%81%D8%B1%D8%A7%D8%AF%DB%8C-%D9%82%D9%88%D8%AA-%D9%85%DB%8C%DA%BA-%D9%85%D8%B3%D8%A7%D9%88%D8%A7%D8%AA-%D8%AA%D9%86%D9%88%D8%B9-%D8%B4%D9%85%D9%88%D9%84%DB%8C%D8%AA/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "تبدیلی اور جدت",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "جدت کا مرحلہ وار نفاذ",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-00-%D8%AC%D8%AF%D8%AA-%DA%A9%D8%A7-%D9%85%D8%B1%D8%AD%D9%84%DB%81-%D9%88%D8%A7%D8%B1-%D9%86%D9%81%D8%A7%D8%B0/"
+      },
+      {
+       "number": "8.1",
+       "title": "تبدیلی کا انتظام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-01-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84%DB%8C-%DA%A9%D8%A7-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85/"
+      },
+      {
+       "number": "8.2",
+       "title": "ابلاغ اور شراکت",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-02-%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%A7%D9%88%D8%B1-%D8%B4%D8%B1%D8%A7%DA%A9%D8%AA/"
+      },
+      {
+       "number": "8.3",
+       "title": "رویے کی سائنس اور اپنانا",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-03-%D8%B1%D9%88%DB%8C%DB%92-%DA%A9%DB%8C-%D8%B3%D8%A7%D8%A6%D9%86%D8%B3-%D8%A7%D9%88%D8%B1-%D8%A7%D9%BE%D9%86%D8%A7%D9%86%D8%A7/"
+      },
+      {
+       "number": "8.4",
+       "title": "مصنوعی ذہانت اور ابھرتی ٹیکنالوجی کی نظامت",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-04-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D8%B0%DB%81%D8%A7%D9%86%D8%AA-%D8%A7%D9%88%D8%B1-%D8%A7%D8%A8%DA%BE%D8%B1%D8%AA%DB%8C-%D9%B9%DB%8C%DA%A9%D9%86%D8%A7%D9%84%D9%88%D8%AC%DB%8C/"
+      },
+      {
+       "number": "8.5",
+       "title": "پائیداری اور نیٹ زیرو",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-05-%D9%BE%D8%A7%D8%A6%DB%8C%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D9%88%D8%B1-%D9%86%DB%8C%D9%B9-%D8%B2%DB%8C%D8%B1%D9%88/"
+      },
+      {
+       "number": "8.6",
+       "title": "تحقیق اور حقیقی دنیا کی تشخیص",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/08-06-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D8%A7%D9%88%D8%B1-%D8%AD%D9%82%DB%8C%D9%82%DB%8C-%D8%AF%D9%86%DB%8C%D8%A7-%DA%A9%DB%8C-%D8%AA%D8%B4%D8%AE%DB%8C%D8%B5/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "شراکت داریاں اور حکومت",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "شراکت دار اداروں کے ساتھ تعاون",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/09-00-%D8%B4%D8%B1%D8%A7%DA%A9%D8%AA-%D8%AF%D8%A7%D8%B1-%D8%A7%D8%AF%D8%A7%D8%B1%D9%88%DA%BA-%DA%A9%DB%92-%D8%B3%D8%A7%D8%AA%DA%BE-%D8%AA%D8%B9%D8%A7%D9%88%D9%86/"
+      },
+      {
+       "number": "9.1",
+       "title": "مقامی اور قومی حکومتوں کے ساتھ کام",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/09-01-%D8%AD%DA%A9%D9%88%D9%85%D8%AA%D9%88%DA%BA-%DA%A9%DB%92-%D8%B3%D8%A7%D8%AA%DA%BE-%DA%A9%D8%A7%D9%85/"
+      },
+      {
+       "number": "9.2",
+       "title": "عالمی اور بین الاقوامی ڈیجیٹل صحت",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/09-02-%D8%B9%D8%A7%D9%84%D9%85%DB%8C-%D8%A7%D9%88%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D9%88%D8%A7%D9%85%DB%8C-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84-%D8%B5%D8%AD%D8%AA/"
+      },
+      {
+       "number": "9.3",
+       "title": "بالغوں کی سماجی نگہداشت میں ڈیجیٹل",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/09-03-%D8%A8%D8%A7%D9%84%D8%BA%D9%88%DA%BA-%DA%A9%DB%8C-%D8%B3%D9%85%D8%A7%D8%AC%DB%8C-%D9%86%DA%AF%DB%81%D8%AF%D8%A7%D8%B4%D8%AA-%D9%85%DB%8C%DA%BA-%DA%88%DB%8C%D8%AC%DB%8C%D9%B9%D9%84/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "پیمائش، بہتری، علم اور قیادت",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "مقاصد اور کلیدی نتائج (OKRs)",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/10-00-%D8%A7%D9%88-%DA%A9%DB%92-%D8%A2%D8%B1%D8%B2/"
+      },
+      {
+       "number": "10.1",
+       "title": "کلیدی کارکردگی اشاریے (KPIs)",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/10-01-%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%DA%A9%D8%A7%D8%B1%DA%A9%D8%B1%D8%AF%DA%AF%DB%8C-%D8%A7%D8%B4%D8%A7%D8%B1%DB%8C%DB%92/"
+      },
+      {
+       "number": "10.2",
+       "title": "معیار میں بہتری اور بہتری کی سائنس",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/10-02-%D9%85%D8%B9%DB%8C%D8%A7%D8%B1-%D9%85%DB%8C%DA%BA-%D8%A8%DB%81%D8%AA%D8%B1%DB%8C/"
+      },
+      {
+       "number": "10.3",
+       "title": "علم کا انتظام اور دستاویز سازی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/10-03-%D8%B9%D9%84%D9%85-%DA%A9%D8%A7-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85/"
+      },
+      {
+       "number": "10.4",
+       "title": "سی ای او اور اعلیٰ قیادت کے لیے نمائی",
+       "url": "https://digital-health-guide.github.io/ur-001/%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA/10-04-%D9%82%DB%8C%D8%A7%D8%AF%D8%AA-%DA%A9%DB%8C-%D9%86%D9%85%D8%A7%D8%A6%DB%8C/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "vi-001",
    "label": "Tiếng Việt",
    "home": "https://digital-health-guide.github.io/vi-001/",

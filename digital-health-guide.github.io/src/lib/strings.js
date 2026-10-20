@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -1036,6 +1036,60 @@ const pt = {
 	tryIndex: 'índice remissivo'
 };
 
+const ur = {
+	siteBrand: 'ڈیجیٹل ہیلتھ گائیڈ',
+	skipToMain: 'مرکزی مواد پر جائیں',
+	siteHeader: 'سائٹ کا ہیڈر',
+	mainNav: 'مرکزی',
+	navContents: 'فہرستِ مضامین',
+	navGlossary: 'اصطلاحات کی فرہنگ',
+	navIndex: 'اشاریہ',
+	navStyleGuide: 'اندازِ تحریر کی رہنمائی',
+	navSpecification: 'تفصیلی خاکہ',
+	navGitHub: 'GitHub',
+	pickerTheme: 'رنگوں کا انداز',
+	pickerLocale: 'زبان',
+	pickerTextSize: 'متن کا سائز',
+	pickerShare: 'شیئر کریں',
+	pickerLink: 'منصوبے کے لنکس',
+	pickerSearch: 'تلاش',
+	pickerSearchInput: 'تلاش کا متن',
+	pickerSearchSubmit: 'تلاش کریں',
+	pickerShareCopyLink: 'لنک کاپی کریں',
+	pickerShareCopied: 'کاپی ہو گیا',
+	breadcrumb: 'راستے کی نشاندہی',
+	breadcrumbTopics: 'موضوعات',
+	breadcrumbReference: 'حوالہ',
+	onThisPage: 'اس صفحے پر',
+	headingAnchorPrefix: 'لنک:',
+	topicNavigation: 'موضوعات کے درمیان رہنمائی',
+	previous: 'پچھلا',
+	next: 'اگلا',
+	editOnGitHub: 'اس صفحے میں GitHub پر ترمیم کریں',
+	sourceOfTruth: 'کتاب ہی سچ کا ماخذ ہے؛ یہ سائٹ اسے پیش کرتی ہے۔',
+	siteFooter: 'سائٹ کا فوٹر',
+	footerDescription:
+		'صحت اور سماجی نگہداشت کے اداروں میں ڈیجیٹل خدمات پہنچانے کے بہترین طریقوں کا عملی دستی۔',
+	footerLedByBefore: ' قیادت: ',
+	footerLedByAfter: '۔',
+	footerBuiltWith: ' بنایا گیا: ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'تفصیلی خاکہ',
+	notFoundHeading: 'صفحہ نہیں ملا',
+	errorHeading: 'کچھ غلط ہو گیا',
+	notFoundBody: 'یہاں کوئی صفحہ موجود نہیں:',
+	notFoundBodyEnd: 'ممکن ہے کتاب نے اسے منتقل یا اس کا نام بدل دیا ہو۔',
+	errorBodyFallback: 'صفحہ لوڈ نہیں ہو سکا۔',
+	tryPrefix: 'آزمائیں:',
+	tryTableOfContents: 'فہرستِ مضامین',
+	tryGlossary: 'اصطلاحات کی فرہنگ',
+	tryOr: 'یا',
+	tryIndex: 'اشاریہ'
+};
+
 const TABLES = {
 	'en-gb': en,
 	'en-us': en,
@@ -1059,6 +1113,7 @@ const TABLES = {
 	'sv-se': sv,
 	'sw-001': sw,
 	'sw-tz': sw,
+	'ur-001': ur,
 	'vi-001': vi,
 	'vi-vn': vi,
 	'is-001': is,
