@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -712,6 +712,60 @@ const ru = {
 };
 
 /** @type {Record<string, typeof en>} */
+const da = {
+	siteBrand: 'Digital sundhedsguide',
+	skipToMain: 'Gå til hovedindholdet',
+	siteHeader: 'Webstedets sidehoved',
+	mainNav: 'Hovedmenu',
+	navContents: 'Indhold',
+	navGlossary: 'Ordliste',
+	navIndex: 'Stikordsregister',
+	navStyleGuide: 'Stilguide',
+	navSpecification: 'Specifikation',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Sprog',
+	pickerTextSize: 'Tekststørrelse',
+	pickerShare: 'Del',
+	pickerLink: 'Projektlinks',
+	pickerSearch: 'Søg',
+	pickerSearchInput: 'Søgetekst',
+	pickerSearchSubmit: 'Søg',
+	pickerShareCopyLink: 'Kopiér link',
+	pickerShareCopied: 'Kopieret',
+	breadcrumb: 'Brødkrummesti',
+	breadcrumbTopics: 'Emner',
+	breadcrumbReference: 'Opslagsmateriale',
+	onThisPage: 'På denne side',
+	headingAnchorPrefix: 'Link til',
+	topicNavigation: 'Emnenavigation',
+	previous: 'Forrige',
+	next: 'Næste',
+	editOnGitHub: 'Redigér denne side på GitHub',
+	sourceOfTruth: 'bogen er sandhedskilden; dette websted viser den.',
+	siteFooter: 'Webstedets sidefod',
+	footerDescription:
+		'en praktisk håndbog med bedste praksis for levering af digitale tjenester i sundheds- og plejeorganisationer.',
+	footerLedByBefore: ' Ledet af ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Bygget med ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Specifikation',
+	notFoundHeading: 'Siden blev ikke fundet',
+	errorHeading: 'Noget gik galt',
+	notFoundBody: 'Der er ingen side på',
+	notFoundBodyEnd: 'Bogen kan have flyttet eller omdøbt den.',
+	errorBodyFallback: 'Siden kunne ikke indlæses.',
+	tryPrefix: 'Prøv',
+	tryTableOfContents: 'indholdet',
+	tryGlossary: 'ordlisten',
+	tryOr: 'eller',
+	tryIndex: 'stikordsregisteret'
+};
+
 const sv = {
 	siteBrand: 'Digital hälsoguide',
 	skipToMain: 'Hoppa till huvudinnehållet',
@@ -1098,6 +1152,7 @@ const TABLES = {
 	'ar-001': ar,
 	'cy-001': cyGb,
 	'cy-gb': cyGb,
+	'da-001': da,
 	'de-001': de,
 	'ja-001': ja,
 	'ko-001': ko,

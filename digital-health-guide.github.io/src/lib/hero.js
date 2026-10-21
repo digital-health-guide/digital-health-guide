@@ -13,6 +13,9 @@ export const HERO = {
  "cy-gb": {
   "translations": "Cyfieithiadau: "
  },
+ "da-001": {
+  "translations": "Oversættelser: "
+ },
  "de-001": {
   "translations": "Übersetzungen: "
  },
@@ -108,6 +111,7 @@ export const ENDONYMS = {
  "bn-001": "বাংলা",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
+ "da-001": "Dansk",
  "de-001": "Deutsch",
  "en-001": "English",
  "en-gb": "English (United Kingdom)",

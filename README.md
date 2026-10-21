@@ -114,7 +114,7 @@ The topics are ordered but self-contained; each ends with a maturity model and a
 
 ## Languages
 
-The book is published in twenty-four locales under [`locales/`](locales/): Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`, `cy-gb`), German (`de-001`), English (`en-001`, `en-gb`, `en-gb-oxendict`, `en-us`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`), Indonesian (`id-001`), Icelandic (`is-001`), Japanese (`ja-001`), Korean (`ko-001`), Dutch (`nl-001`), Portuguese (`pt-001`), Russian (`ru-001`), Swedish (`sv-001`), Swahili (`sw-001`), Urdu (`ur-001`), Vietnamese (`vi-001`) and Chinese (`zh-001`). Each locale has its own home page and table of contents (`locales/<locale>/index.md`) and one folder per topic; folder names are translated, and the leading `PP-CC-` number is shared by every locale. This README links the en-gb edition.
+The book is published in twenty-five locales under [`locales/`](locales/): Arabic (`ar-001`), Bengali (`bn-001`), Welsh (`cy-001`, `cy-gb`), Danish (`da-001`), German (`de-001`), English (`en-001`, `en-gb`, `en-gb-oxendict`, `en-us`), Spanish (`es-001`), French (`fr-001`), Hindi (`hi-001`), Indonesian (`id-001`), Icelandic (`is-001`), Japanese (`ja-001`), Korean (`ko-001`), Dutch (`nl-001`), Portuguese (`pt-001`), Russian (`ru-001`), Swedish (`sv-001`), Swahili (`sw-001`), Urdu (`ur-001`), Vietnamese (`vi-001`) and Chinese (`zh-001`). Each locale has its own home page and table of contents (`locales/<locale>/index.md`) and one folder per topic; folder names are translated, and the leading `PP-CC-` number is shared by every locale. This README links the en-gb edition.
 
 ## Website
 

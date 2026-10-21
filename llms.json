@@ -1734,6 +1734,438 @@
    ]
   },
   {
+   "slug": "da-001",
+   "label": "Dansk",
+   "home": "https://digital-health-guide.github.io/da-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Fundamentet",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Arbejdsmåder i digital sundhed og pleje",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-00-introduktion/"
+      },
+      {
+       "number": "1.1",
+       "title": "Driftsmodellen",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-01-driftsmodellen/"
+      },
+      {
+       "number": "1.2",
+       "title": "Digital strategi og køreplaner",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-02-digital-strategi-og-k%C3%B8replaner/"
+      },
+      {
+       "number": "1.3",
+       "title": "Evidensbaserede beslutninger",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-03-evidensbaserede-beslutninger/"
+      },
+      {
+       "number": "1.4",
+       "title": "Hazard ratioer",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-04-hazard-ratioer/"
+      },
+      {
+       "number": "1.5",
+       "title": "Regulering og overholdelse",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-05-regulering-og-overholdelse/"
+      },
+      {
+       "number": "1.6",
+       "title": "Klinisk sikkerhed og risikostyring",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-06-klinisk-sikkerhed/"
+      },
+      {
+       "number": "1.7",
+       "title": "Informationsstyring, databeskyttelse og cybersikkerhed",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-07-informationsstyring-og-cybersikkerhed/"
+      },
+      {
+       "number": "1.8",
+       "title": "Dataetik, samtykke og offentlig tillid",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-08-dataetik-samtykke-og-tillid/"
+      },
+      {
+       "number": "1.9",
+       "title": "Digital inklusion og tilgængelighed",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-09-digital-inklusion-og-tilg%C3%A6ngelighed/"
+      },
+      {
+       "number": "1.10",
+       "title": "Beskyttelse i digitale tjenester",
+       "url": "https://digital-health-guide.github.io/da-001/emner/01-10-beskyttelse-i-digitale-tjenester/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "Styring af arbejdets flow",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "Arbejdsindtag",
+       "url": "https://digital-health-guide.github.io/da-001/emner/02-00-arbejdsindtag/"
+      },
+      {
+       "number": "2.1",
+       "title": "Triagering af arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/02-01-triagering-af-arbejde/"
+      },
+      {
+       "number": "2.2",
+       "title": "Prioritering af arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/02-02-prioritering-af-arbejde/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Leveranceforløbet",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Brugerforskning og servicedesign",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-00-brugerforskning-og-servicedesign/"
+      },
+      {
+       "number": "3.1",
+       "title": "Indholdsdesign og sundhedskompetence",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-01-indholdsdesign-og-sundhedskompetence/"
+      },
+      {
+       "number": "3.2",
+       "title": "Designsystemer og prototyper",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-02-designsystemer-og-prototyper/"
+      },
+      {
+       "number": "3.3",
+       "title": "Patient- og borgervendte digitale tjenester",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-03-patient-og-borgervendte-tjenester/"
+      },
+      {
+       "number": "3.4",
+       "title": "Afdækningsfaser",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-04-afd%C3%A6kningsfaser/"
+      },
+      {
+       "number": "3.5",
+       "title": "Leveranceforløb",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-05-leveranceforl%C3%B8b/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps og teknisk excellence",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-06-devops-og-teknisk-excellence/"
+      },
+      {
+       "number": "3.7",
+       "title": "Test og kvalitetssikring",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-07-test-og-kvalitetssikring/"
+      },
+      {
+       "number": "3.8",
+       "title": "Servicestyring og drift",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-08-servicestyring-og-drift/"
+      },
+      {
+       "number": "3.9",
+       "title": "Forretningskontinuitet og katastrofeberedskab",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-09-forretningskontinuitet-og-katastrofeberedskab/"
+      },
+      {
+       "number": "3.10",
+       "title": "Beredskab, robusthed og indsats",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-10-beredskab-robusthed-og-indsats/"
+      },
+      {
+       "number": "3.11",
+       "title": "Telesundhed, fjernkonsultation og virtuelle afdelinger",
+       "url": "https://digital-health-guide.github.io/da-001/emner/03-11-telesundhed-og-virtuelle-afdelinger/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Teknologi, arkitektur og data",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Teknisk arkitektur, cloud og legacy",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-00-teknisk-arkitektur-cloud-og-legacy/"
+      },
+      {
+       "number": "4.1",
+       "title": "Platforme og fælles tjenester",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-01-platforme-og-f%C3%A6lles-tjenester/"
+      },
+      {
+       "number": "4.2",
+       "title": "Identitets- og adgangsstyring",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-02-identitets-og-adgangsstyring/"
+      },
+      {
+       "number": "4.3",
+       "title": "Interoperabilitet og datastandarder",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-03-interoperabilitet-og-datastandarder/"
+      },
+      {
+       "number": "4.4",
+       "title": "Tilsluttede enheder, IoT og klinisk teknik",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-04-tilsluttede-enheder-og-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "Data, analyse og styring af befolkningssundhed",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-05-data-analyse-og-befolkningssundhed/"
+      },
+      {
+       "number": "4.6",
+       "title": "Elektroniske patientjournaler og kliniske systemer",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-06-elektroniske-patientjournaler/"
+      },
+      {
+       "number": "4.7",
+       "title": "Klinisk beslutningsstøtte og klinisk informatik",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-07-klinisk-beslutningsst%C3%B8tte/"
+      },
+      {
+       "number": "4.8",
+       "title": "Elektronisk ordination og medicinhåndtering",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-08-elektronisk-ordination-og-medicinh%C3%A5ndtering/"
+      },
+      {
+       "number": "4.9",
+       "title": "Datakvalitet og stamdatastyring",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-09-datakvalitet-og-stamdata/"
+      },
+      {
+       "number": "4.10",
+       "title": "Sikre datamiljøer og adgang til forskningsdata",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-10-sikre-datamilj%C3%B8er/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomik og data til præcisionsmedicin",
+       "url": "https://digital-health-guide.github.io/da-001/emner/04-11-genomik-og-pr%C3%A6cisionsmedicin/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Leveranceformer",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Produktledet arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/05-00-produktledet-arbejde/"
+      },
+      {
+       "number": "5.1",
+       "title": "Projektledet arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/05-01-projektledet-arbejde/"
+      },
+      {
+       "number": "5.2",
+       "title": "Programledet arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/05-02-programledet-arbejde/"
+      },
+      {
+       "number": "5.3",
+       "title": "Virksomhedsdækkende projektporteføljestyring (EPPM)",
+       "url": "https://digital-health-guide.github.io/da-001/emner/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Virksomhedsressourceplanlægning (ERP)",
+       "url": "https://digital-health-guide.github.io/da-001/emner/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Penge, værdi og styring",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Økonomistyring og business cases",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-00-%C3%B8konomistyring-og-business-cases/"
+      },
+      {
+       "number": "6.1",
+       "title": "Sundhedsøkonomi",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-01-sundheds%C3%B8konomi/"
+      },
+      {
+       "number": "6.2",
+       "title": "Gevinstrealisering og værdistyring",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-02-gevinstrealisering-og-v%C3%A6rdistyring/"
+      },
+      {
+       "number": "6.3",
+       "title": "Indkøb og kommercielt arbejde",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-03-indk%C3%B8b-og-kommercielt-arbejde/"
+      },
+      {
+       "number": "6.4",
+       "title": "Styring og assurance",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-04-styring-og-assurance/"
+      },
+      {
+       "number": "6.5",
+       "title": "Teknologiomkostninger og cloud-FinOps",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-05-teknologiomkostninger-og-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Leverandørstyring og serviceintegration (SIAM)",
+       "url": "https://digital-health-guide.github.io/da-001/emner/06-06-leverand%C3%B8rstyring-og-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "Mennesker, teams og arbejdsstyrke",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Teamstrukturer, roller og ansvar",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-00-teamstrukturer-roller-og-ansvar/"
+      },
+      {
+       "number": "7.1",
+       "title": "Agil leverance og teamtrivsel",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-01-agil-leverance-og-teamtrivsel/"
+      },
+      {
+       "number": "7.2",
+       "title": "Bemandingsplanlægning",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-02-bemandingsplanl%C3%A6gning/"
+      },
+      {
+       "number": "7.3",
+       "title": "Arbejdsstyrkestrategi",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-03-arbejdsstyrkestrategi/"
+      },
+      {
+       "number": "7.4",
+       "title": "Digitale kompetencer og kompetenceopbygning",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-04-digitale-kompetencer/"
+      },
+      {
+       "number": "7.5",
+       "title": "Medarbejder- og organisationsudvikling",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-05-medarbejder-og-organisationsudvikling/"
+      },
+      {
+       "number": "7.6",
+       "title": "Ligestilling, mangfoldighed og inklusion i arbejdsstyrken",
+       "url": "https://digital-health-guide.github.io/da-001/emner/07-06-ligestilling-mangfoldighed-og-inklusion/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Forandring og innovation",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Indfasning af innovation",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-00-indfasning-af-innovation/"
+      },
+      {
+       "number": "8.1",
+       "title": "Forandringsledelse",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-01-forandringsledelse/"
+      },
+      {
+       "number": "8.2",
+       "title": "Kommunikation og inddragelse",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-02-kommunikation-og-inddragelse/"
+      },
+      {
+       "number": "8.3",
+       "title": "Adfærdsvidenskab og adoption",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-03-adf%C3%A6rdsvidenskab-og-adoption/"
+      },
+      {
+       "number": "8.4",
+       "title": "Styring af AI og ny teknologi",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-04-ai-og-ny-teknologi/"
+      },
+      {
+       "number": "8.5",
+       "title": "Bæredygtighed og nul-emission",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-05-b%C3%A6redygtighed-og-nul-emission/"
+      },
+      {
+       "number": "8.6",
+       "title": "Forskning og evaluering i praksis",
+       "url": "https://digital-health-guide.github.io/da-001/emner/08-06-forskning-og-evaluering-i-praksis/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Partnerskaber og myndigheder",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Samarbejde med partnerorganisationer",
+       "url": "https://digital-health-guide.github.io/da-001/emner/09-00-samarbejde-med-partnerorganisationer/"
+      },
+      {
+       "number": "9.1",
+       "title": "Samarbejde med lokale og nationale myndigheder",
+       "url": "https://digital-health-guide.github.io/da-001/emner/09-01-samarbejde-med-myndigheder/"
+      },
+      {
+       "number": "9.2",
+       "title": "Globalt og internationalt digitalt sundhedsvæsen",
+       "url": "https://digital-health-guide.github.io/da-001/emner/09-02-globalt-og-internationalt-digitalt-sundhedsv%C3%A6sen/"
+      },
+      {
+       "number": "9.3",
+       "title": "Digitalt i voksensocialområdet",
+       "url": "https://digital-health-guide.github.io/da-001/emner/09-03-digitalt-i-voksensocialomr%C3%A5det/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Måling, forbedring, viden og ledelse",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Mål og nøgleresultater (OKR'er)",
+       "url": "https://digital-health-guide.github.io/da-001/emner/10-00-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "Nøgleindikatorer (KPI'er)",
+       "url": "https://digital-health-guide.github.io/da-001/emner/10-01-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "Kvalitetsforbedring og forbedringsvidenskab",
+       "url": "https://digital-health-guide.github.io/da-001/emner/10-02-kvalitetsforbedring/"
+      },
+      {
+       "number": "10.3",
+       "title": "Vidensstyring og dokumentation",
+       "url": "https://digital-health-guide.github.io/da-001/emner/10-03-vidensstyring-og-dokumentation/"
+      },
+      {
+       "number": "10.4",
+       "title": "Synlighed for direktionen og øvrige ledere",
+       "url": "https://digital-health-guide.github.io/da-001/emner/10-04-synlighed-for-direktionen/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "de-001",
    "label": "Deutsch",
    "home": "https://digital-health-guide.github.io/de-001/",

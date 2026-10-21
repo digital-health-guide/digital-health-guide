@@ -124,6 +124,7 @@ The book is the source of truth; every page is plain prerendered HTML. Each topi
 - [বাংলা (bn-001)](https://digital-health-guide.github.io/bn-001/)
 - [Cymraeg (cy-001)](https://digital-health-guide.github.io/cy-001/)
 - [Cymraeg - Prydain Fawr (cy-gb)](https://digital-health-guide.github.io/cy-gb/)
+- [Dansk (da-001)](https://digital-health-guide.github.io/da-001/)
 - [Deutsch (de-001)](https://digital-health-guide.github.io/de-001/)
 - [English (en-001)](https://digital-health-guide.github.io/en-001/)
 - [English - Great Britain - Oxford (en-gb-oxendict)](https://digital-health-guide.github.io/en-gb-oxendict/)
