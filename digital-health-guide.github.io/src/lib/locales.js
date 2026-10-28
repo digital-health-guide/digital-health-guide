@@ -45,6 +45,7 @@ export const DEFAULT_LOCALE = 'en-gb';
 export const RETIRED_LOCALES = {
 	'de-de': 'de-001',
 	'hi-in': 'hi-001',
+	'id-id': 'id-001',
 	'is-is': 'is-001',
 	'ja-jp': 'ja-001',
 	'ko-kr': 'ko-001',
