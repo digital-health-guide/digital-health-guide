@@ -8,7 +8,7 @@
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, bn-001, cy-001, cy-gb, da-001, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, pt-001, ru-001, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
+// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, is-001, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
@@ -23,7 +23,11 @@ export const LOCALES = [
 	{ slug: 'en-gb-oxendict', label: 'English - Great Britain - Oxford', hreflang: 'en-GB-oxendict' },
 	{ slug: 'en-us', label: 'English - United States', hreflang: 'en-US' },
 	{ slug: 'es-001', label: 'Español', hreflang: 'es-001' },
+	{ slug: 'es-es', label: 'Español - España', hreflang: 'es-ES' },
+	{ slug: 'es-mx', label: 'Español - México', hreflang: 'es-MX' },
 	{ slug: 'fr-001', label: 'Français', hreflang: 'fr-001' },
+	{ slug: 'fr-ca', label: 'Français - Canada', hreflang: 'fr-CA' },
+	{ slug: 'fr-fr', label: 'Français - France', hreflang: 'fr-FR' },
 	{ slug: 'hi-001', label: 'हिन्दी', hreflang: 'hi-001' },
 	{ slug: 'id-001', label: 'Bahasa Indonesia', hreflang: 'id-001' },
 	{ slug: 'is-001', label: 'Íslenska', hreflang: 'is-001' },
@@ -31,6 +35,8 @@ export const LOCALES = [
 	{ slug: 'ko-001', label: '한국어', hreflang: 'ko-001' },
 	{ slug: 'nl-001', label: 'Nederlands', hreflang: 'nl-001' },
 	{ slug: 'pt-001', label: 'Português', hreflang: 'pt-001' },
+	{ slug: 'pt-br', label: 'Português - Brasil', hreflang: 'pt-BR' },
+	{ slug: 'pt-pt', label: 'Português - Portugal', hreflang: 'pt-PT' },
 	{ slug: 'ru-001', label: 'Русский', hreflang: 'ru-001' },
 	{ slug: 'sv-001', label: 'Svenska', hreflang: 'sv-001' },
 	{ slug: 'sw-001', label: 'Kiswahili', hreflang: 'sw-001' },

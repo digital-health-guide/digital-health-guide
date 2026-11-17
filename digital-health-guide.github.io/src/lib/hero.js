@@ -34,7 +34,19 @@ export const HERO = {
  "es-001": {
   "translations": "Traducciones: "
  },
+ "es-es": {
+  "translations": "Traducciones: "
+ },
+ "es-mx": {
+  "translations": "Traducciones: "
+ },
  "fr-001": {
+  "translations": "Traductions: "
+ },
+ "fr-ca": {
+  "translations": "Traductions: "
+ },
+ "fr-fr": {
   "translations": "Traductions: "
  },
  "hi-001": {
@@ -71,6 +83,12 @@ export const HERO = {
   "translations": "Vertalingen: "
  },
  "pt-001": {
+  "translations": "Traduções: "
+ },
+ "pt-br": {
+  "translations": "Traduções: "
+ },
+ "pt-pt": {
   "translations": "Traduções: "
  },
  "ru-001": {
@@ -118,7 +136,11 @@ export const ENDONYMS = {
  "en-gb-oxendict": "English (Great Britain, Oxford spelling)",
  "en-us": "English (United States)",
  "es-001": "Español",
+ "es-es": "Español (España)",
+ "es-mx": "Español (México)",
  "fr-001": "Français",
+ "fr-ca": "Français (Canada)",
+ "fr-fr": "Français (France)",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
@@ -131,6 +153,8 @@ export const ENDONYMS = {
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
  "pt-001": "Português",
+ "pt-br": "Português (Brasil)",
+ "pt-pt": "Português (Portugal)",
  "ru-001": "Русский",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",

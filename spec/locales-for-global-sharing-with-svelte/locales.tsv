@@ -10,7 +10,11 @@ en-gb	English - Great Britain	English - Great Britain
 en-gb-oxendict	English - Great Britain - Oxford	English - Great Britain - Oxford
 en-us	English - United States	English - United States
 es-001	Español	Spanish
+es-es	Español - España	Spanish (Spain)
+es-mx	Español - México	Spanish (Mexico)
 fr-001	Français	French
+fr-ca	Français - Canada	French (Canada)
+fr-fr	Français - France	French (France)
 hi-001	हिन्दी	Hindi
 id-001	Bahasa Indonesia	Indonesian
 id-id	Bahasa Indonesia - Indonesia	Indonesian (Indonesia)
@@ -19,6 +23,8 @@ ja-001	日本語	Japanese
 ko-001	한국어	Korean
 nl-001	Nederlands	Dutch
 pt-001	Português	Portuguese
+pt-br	Português - Brasil	Portuguese (Brazil)
+pt-pt	Português - Portugal	Portuguese (Portugal)
 ru-001	Русский	Russian
 sv-001	Svenska	Swedish
 sw-001	Kiswahili	Swahili
