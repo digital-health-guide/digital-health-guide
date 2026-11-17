@@ -4,7 +4,7 @@ Working instructions for AI agents in this repository. The specification in `spe
 
 ## What this repository is
 
-*Digital Health Guide*: a practical handbook of best practices for delivering digital services in health and social care, written as Markdown in 17 locales, plus the SvelteKit site that publishes it at <https://digital-health-guide.github.io/>.
+*Digital Health Guide*: a practical handbook of best practices for delivering digital services in health and social care, written as Markdown in 48 locales, plus the SvelteKit site that publishes it at <https://digital-health-guide.github.io/>.
 
 ## Layout
 
@@ -19,7 +19,7 @@ Working instructions for AI agents in this repository. The specification in `spe
 | `.github/workflows/deploy-site.yml` | Builds the site and publishes `build/` to the `gh-pages` branch of the `digital-health-guide.github.io` repository. |
 | `_sources/` | Raw grounding material, not published. |
 
-Locales: ar-001, bn-001, cy-001, cy-gb, da-001, de-001, en-001, en-gb (default, the source edition), en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, pt-001, ru-001, sv-001, sw-001, ur-001, vi-001, zh-001. English locales use `topics/` and English slugs; the others use translated names (e.g. `es-001/temas/01-00-introducción/`).
+Locales: ar-001, bn-001, cy-001, cy-gb, da-001, de-001, en-001, en-gb (default, the source edition), en-gb-oxendict, en-us, es-001, fr-001, hi-001, id-001, is-001, ja-001, ko-001, nl-001, pt-001, ru-001, sv-001, sw-001, ur-001, vi-001, zh-001, plus regional variants: ar-dz, ar-eg, bn-bd, bn-in, es-es, es-mx, fr-ca, fr-fr, hi-in, id-id, id-my, is-is, ja-jp, ko-kr, nl-nl, pt-br, pt-pt, ru-by, ru-ru, sv-se, sw-tz, vi-vn, zh-cn. English locales use `topics/` and English slugs; the others use translated names (e.g. `es-001/temas/01-00-introducción/`).
 
 ## Guides
 
