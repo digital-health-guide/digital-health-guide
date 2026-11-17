@@ -4,7 +4,19 @@ export const HERO = {
  "ar-001": {
   "translations": "الترجمات: "
  },
+ "ar-eg": {
+  "translations": "الترجمات: "
+ },
+ "ar-dz": {
+  "translations": "الترجمات: "
+ },
  "bn-001": {
+  "translations": "অনুবাদ: "
+ },
+ "bn-bd": {
+  "translations": "অনুবাদ: "
+ },
+ "bn-in": {
   "translations": "অনুবাদ: "
  },
  "cy-001": {
@@ -58,6 +70,9 @@ export const HERO = {
  "id-001": {
   "translations": "Terjemahan: "
  },
+ "id-my": {
+  "translations": "Terjemahan: "
+ },
  "is-001": {
   "translations": "Þýðingar: "
  },
@@ -94,6 +109,12 @@ export const HERO = {
  "ru-001": {
   "translations": "Переводы: "
  },
+ "ru-ru": {
+  "translations": "Переводы: "
+ },
+ "ru-by": {
+  "translations": "Переводы: "
+ },
  "sv-001": {
   "translations": "Översättningar: "
  },
@@ -126,7 +147,11 @@ export const HERO = {
 /** @type {Record<string, string>} */
 export const ENDONYMS = {
  "ar-001": "العربية",
+ "ar-eg": "العربية - مصر",
+ "ar-dz": "العربية - الجزائر",
  "bn-001": "বাংলা",
+ "bn-bd": "বাংলা - বাংলাদেশ",
+ "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
  "da-001": "Dansk",
@@ -144,6 +169,7 @@ export const ENDONYMS = {
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "id-my": "Bahasa Indonesia - Malaysia",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",
@@ -156,6 +182,8 @@ export const ENDONYMS = {
  "pt-br": "Português (Brasil)",
  "pt-pt": "Português (Portugal)",
  "ru-001": "Русский",
+ "ru-ru": "Русский - Россия",
+ "ru-by": "Русский - Беларусь",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",

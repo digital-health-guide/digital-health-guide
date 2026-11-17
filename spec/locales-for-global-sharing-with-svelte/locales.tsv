@@ -1,6 +1,10 @@
 slug_lowercase	endonym	exonym_en_001
 ar-001	العربية	Arabic
+ar-eg	العربية - مصر	Arabic (Egypt)
+ar-dz	العربية - الجزائر	Arabic (Algeria)
 bn-001	বাংলা	Bengali
+bn-bd	বাংলা - বাংলাদেশ	Bengali (Bangladesh)
+bn-in	বাংলা - ভারত	Bengali (India)
 cy-001	Cymraeg	Cymraeg
 cy-gb	Cymraeg - Prydain Fawr	Welsh - Great Britain
 da-001	Dansk	Danish
@@ -18,6 +22,7 @@ fr-fr	Français - France	French (France)
 hi-001	हिन्दी	Hindi
 id-001	Bahasa Indonesia	Indonesian
 id-id	Bahasa Indonesia - Indonesia	Indonesian (Indonesia)
+id-my	Bahasa Indonesia - Malaysia	Indonesian (Malaysia)
 is-001	Íslenska	Icelandic
 ja-001	日本語	Japanese
 ko-001	한국어	Korean
@@ -26,6 +31,8 @@ pt-001	Português	Portuguese
 pt-br	Português - Brasil	Portuguese (Brazil)
 pt-pt	Português - Portugal	Portuguese (Portugal)
 ru-001	Русский	Russian
+ru-ru	Русский - Россия	Russian (Russia)
+ru-by	Русский - Беларусь	Russian (Belarus)
 sv-001	Svenska	Swedish
 sw-001	Kiswahili	Swahili
 ur-001	اردو	Urdu

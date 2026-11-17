@@ -7,13 +7,17 @@
 // URLs (`/`, `/topics/…`) redirect to the `/en-gb/` equivalents.
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
-// Sorted alphabetically by slug (ar-001, bn-001, cy-001, cy-gb, da-001, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, is-001, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
+// Sorted alphabetically by slug (ar-001, ar-dz, ar-eg, bn-001, bn-bd, bn-in, cy-001, cy-gb, da-001, de-001, en-001, en-gb,
+// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, id-my, is-001, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, ru-by, ru-ru, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
 	{ slug: 'ar-001', label: 'العربية', hreflang: 'ar-001' },
+	{ slug: 'ar-eg', label: 'العربية - مصر', hreflang: 'ar-eg' },
+	{ slug: 'ar-dz', label: 'العربية - الجزائر', hreflang: 'ar-dz' },
 	{ slug: 'bn-001', label: 'বাংলা', hreflang: 'bn-001' },
+	{ slug: 'bn-bd', label: 'বাংলা - বাংলাদেশ', hreflang: 'bn-bd' },
+	{ slug: 'bn-in', label: 'বাংলা - ভারত', hreflang: 'bn-in' },
 	{ slug: 'cy-001', label: 'Cymraeg', hreflang: 'cy-001' },
 	{ slug: 'cy-gb', label: 'Cymraeg - Prydain Fawr', hreflang: 'cy-GB' },
 	{ slug: 'da-001', label: 'Dansk', hreflang: 'da-001' },
@@ -30,6 +34,7 @@ export const LOCALES = [
 	{ slug: 'fr-fr', label: 'Français - France', hreflang: 'fr-FR' },
 	{ slug: 'hi-001', label: 'हिन्दी', hreflang: 'hi-001' },
 	{ slug: 'id-001', label: 'Bahasa Indonesia', hreflang: 'id-001' },
+	{ slug: 'id-my', label: 'Bahasa Indonesia - Malaysia', hreflang: 'id-my' },
 	{ slug: 'is-001', label: 'Íslenska', hreflang: 'is-001' },
 	{ slug: 'ja-001', label: '日本語', hreflang: 'ja-001' },
 	{ slug: 'ko-001', label: '한국어', hreflang: 'ko-001' },
@@ -38,6 +43,8 @@ export const LOCALES = [
 	{ slug: 'pt-br', label: 'Português - Brasil', hreflang: 'pt-BR' },
 	{ slug: 'pt-pt', label: 'Português - Portugal', hreflang: 'pt-PT' },
 	{ slug: 'ru-001', label: 'Русский', hreflang: 'ru-001' },
+	{ slug: 'ru-ru', label: 'Русский - Россия', hreflang: 'ru-ru' },
+	{ slug: 'ru-by', label: 'Русский - Беларусь', hreflang: 'ru-by' },
 	{ slug: 'sv-001', label: 'Svenska', hreflang: 'sv-001' },
 	{ slug: 'sw-001', label: 'Kiswahili', hreflang: 'sw-001' },
 	{ slug: 'ur-001', label: 'اردو', hreflang: 'ur-001' },
