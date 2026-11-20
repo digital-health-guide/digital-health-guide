@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Italian (it-001, it-it), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Thai (th-001, th-th), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Italian (it-001, it-it), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Thai (th-001, th-th), Turkish (tr-001, tr-tr), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -385,6 +385,60 @@ const th = {
 	tryGlossary: 'อภิธานศัพท์',
 	tryOr: 'หรือ',
 	tryIndex: 'ดัชนี'
+};
+
+const tr = {
+	siteBrand: 'Dijital Sağlık Rehberi',
+	skipToMain: 'Ana içeriğe geç',
+	siteHeader: 'Site başlığı',
+	mainNav: 'Ana gezinme',
+	navContents: 'İçindekiler',
+	navGlossary: 'Sözlük',
+	navIndex: 'Dizin',
+	navStyleGuide: 'Stil rehberi',
+	navSpecification: 'Şartname',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Dil',
+	pickerTextSize: 'Metin boyutu',
+	pickerShare: 'Paylaş',
+	pickerLink: 'Proje bağlantıları',
+	pickerSearch: 'Ara',
+	pickerSearchInput: 'Arama metni',
+	pickerSearchSubmit: 'Ara',
+	pickerShareCopyLink: 'Bağlantıyı kopyala',
+	pickerShareCopied: 'Kopyalandı',
+	breadcrumb: 'Sayfa yolu',
+	breadcrumbTopics: 'Konular',
+	breadcrumbReference: 'Başvuru',
+	onThisPage: 'Bu sayfada',
+	headingAnchorPrefix: 'Şuraya bağlantı:',
+	topicNavigation: 'Konu gezintisi',
+	previous: 'Önceki',
+	next: 'Sonraki',
+	editOnGitHub: 'Bu sayfayı GitHub\'da düzenle',
+	sourceOfTruth: 'kitap doğruluk kaynağıdır; bu site onu sunar.',
+	siteFooter: 'Site alt bilgisi',
+	footerDescription:
+		'sağlık ve sosyal bakım kuruluşlarında dijital hizmet sunumu için iyi uygulamalara dair pratik bir el kitabı.',
+	footerLedByBefore: ' Yöneten: ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Altyapı: ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Şartname',
+	notFoundHeading: 'Sayfa bulunamadı',
+	errorHeading: 'Bir şeyler ters gitti',
+	notFoundBody: 'Şu adreste sayfa yok:',
+	notFoundBodyEnd: 'Kitap taşınmış veya yeniden adlandırılmış olabilir.',
+	errorBodyFallback: 'Sayfa yüklenemedi.',
+	tryPrefix: 'Şunlara göz atın:',
+	tryTableOfContents: 'içindekiler',
+	tryGlossary: 'sözlük',
+	tryOr: 'veya',
+	tryIndex: 'dizin'
 };
 
 const fr = {
@@ -1293,6 +1347,8 @@ const TABLES = {
 	'sw-tz': sw,
 	'th-001': th,
 	'th-th': th,
+	'tr-001': tr,
+	'tr-tr': tr,
 	'ur-001': ur,
 	'vi-001': vi,
 	'vi-vn': vi,

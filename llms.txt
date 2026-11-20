@@ -158,6 +158,8 @@ The book is the source of truth; every page is plain prerendered HTML. Each topi
 - [Kiswahili (sw-001)](https://digital-health-guide.github.io/sw-001/)
 - [ไทย (th-001)](https://digital-health-guide.github.io/th-001/)
 - [ไทย - ประเทศไทย (th-th)](https://digital-health-guide.github.io/th-th/)
+- [Türkçe (tr-001)](https://digital-health-guide.github.io/tr-001/)
+- [Türkçe - Türkiye (tr-tr)](https://digital-health-guide.github.io/tr-tr/)
 - [اردو (ur-001)](https://digital-health-guide.github.io/ur-001/)
 - [Tiếng Việt (vi-001)](https://digital-health-guide.github.io/vi-001/)
 - [中文 (zh-001)](https://digital-health-guide.github.io/zh-001/)

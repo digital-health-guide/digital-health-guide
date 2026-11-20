@@ -16854,6 +16854,870 @@
    ]
   },
   {
+   "slug": "tr-001",
+   "label": "Türkçe",
+   "home": "https://digital-health-guide.github.io/tr-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Temeller",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Dijital Sağlık ve Bakımda Çalışma Biçimleri",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-00-giri%C5%9F/"
+      },
+      {
+       "number": "1.1",
+       "title": "İşletme Modeli",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-01-i%C5%9Fletme-modeli/"
+      },
+      {
+       "number": "1.2",
+       "title": "Dijital Strateji ve Yol Haritası",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-02-dijital-strateji-yol-haritas%C4%B1/"
+      },
+      {
+       "number": "1.3",
+       "title": "Kanıta Dayalı Kararlar",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-03-kan%C4%B1ta-dayal%C4%B1-kararlar/"
+      },
+      {
+       "number": "1.4",
+       "title": "Tehlike Oranları",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-04-tehlike-oranlar%C4%B1/"
+      },
+      {
+       "number": "1.5",
+       "title": "Mevzuat ve Uyum Ortamı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-05-mevzuat-uyum/"
+      },
+      {
+       "number": "1.6",
+       "title": "Klinik Güvenlik ve Risk Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-06-klinik-g%C3%BCvenlik/"
+      },
+      {
+       "number": "1.7",
+       "title": "Bilgi Yönetişimi, Veri Koruma ve Siber Güvenlik",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-07-bilgi-y%C3%B6neti%C5%9Fimi-siber-g%C3%BCvenlik/"
+      },
+      {
+       "number": "1.8",
+       "title": "Veri Etiği, Rıza ve Kamu Güveni",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-08-veri-eti%C4%9Fi-r%C4%B1za-kamu-g%C3%BCveni/"
+      },
+      {
+       "number": "1.9",
+       "title": "Dijital Kapsayıcılık ve Erişilebilirlik",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-09-dijital-kapsay%C4%B1c%C4%B1l%C4%B1k-eri%C5%9Filebilirlik/"
+      },
+      {
+       "number": "1.10",
+       "title": "Dijital Hizmetlerde Korunma (Safeguarding)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/01-10-dijital-hizmetlerde-korunma/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "İş Akışını Yönetmek",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "İş Talebi Alımı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/02-00-i%C5%9F-talebi-al%C4%B1m%C4%B1/"
+      },
+      {
+       "number": "2.1",
+       "title": "İş Triyajı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/02-01-i%C5%9F-triyaj%C4%B1/"
+      },
+      {
+       "number": "2.2",
+       "title": "İş Önceliklendirme",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/02-02-i%C5%9F-%C3%B6nceliklendirme/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Teslimat Yaşam Döngüsü",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Kullanıcı Araştırması ve Hizmet Tasarımı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-00-kullan%C4%B1c%C4%B1-ara%C5%9Ft%C4%B1rmas%C4%B1-hizmet-tasar%C4%B1m%C4%B1/"
+      },
+      {
+       "number": "3.1",
+       "title": "İçerik Tasarımı ve Sağlık Okuryazarlığı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-01-i%C3%A7erik-tasar%C4%B1m%C4%B1-sa%C4%9Fl%C4%B1k-okuryazarl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "3.2",
+       "title": "Tasarım Sistemleri ve Prototipleme",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-02-tasar%C4%B1m-sistemleri-prototipleme/"
+      },
+      {
+       "number": "3.3",
+       "title": "Hasta ve Vatandaşa Yönelik Dijital Hizmetler",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-03-hasta-vatanda%C5%9F-odakl%C4%B1-dijital-hizmetler/"
+      },
+      {
+       "number": "3.4",
+       "title": "Keşif Aşamaları",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-04-ke%C5%9Fif-a%C5%9Famalar%C4%B1/"
+      },
+      {
+       "number": "3.5",
+       "title": "Teslimat Yaşam Döngüleri",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-05-teslimat-ya%C5%9Fam-d%C3%B6ng%C3%BCleri/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps ve Mühendislik Mükemmelliği",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-06-devops-m%C3%BChendislik-m%C3%BCkemmelli%C4%9Fi/"
+      },
+      {
+       "number": "3.7",
+       "title": "Test ve Kalite Güvencesi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-07-test-kalite-g%C3%BCvencesi/"
+      },
+      {
+       "number": "3.8",
+       "title": "Hizmet Yönetimi ve Canlı Operasyonlar",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-08-hizmet-y%C3%B6netimi-canl%C4%B1-operasyonlar/"
+      },
+      {
+       "number": "3.9",
+       "title": "İş Sürekliliği ve Felaket Kurtarma",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-09-i%C5%9F-s%C3%BCreklili%C4%9Fi-felaket-kurtarma/"
+      },
+      {
+       "number": "3.10",
+       "title": "Acil Durum Hazırlığı, Dayanıklılık ve Müdahale",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-10-acil-durum-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-m%C3%BCdahale/"
+      },
+      {
+       "number": "3.11",
+       "title": "Uzaktan Sağlık, Uzaktan Muayene ve Sanal Servisler",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/03-11-uzaktan-sa%C4%9Fl%C4%B1k-sanal-servisler/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Teknoloji, Mimari ve Veri",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Teknik Mimari, Bulut ve Eski Sistemler",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-00-teknik-mimari-bulut-eski-sistemler/"
+      },
+      {
+       "number": "4.1",
+       "title": "Platformlar ve Ortak Hizmetler",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-01-platformlar-ortak-hizmetler/"
+      },
+      {
+       "number": "4.2",
+       "title": "Kimlik ve Erişim Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-02-kimlik-eri%C5%9Fim-y%C3%B6netimi/"
+      },
+      {
+       "number": "4.3",
+       "title": "Birlikte Çalışabilirlik ve Veri Standartları",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-03-birlikte-%C3%A7al%C4%B1%C5%9Fabilirlik-veri-standartlar%C4%B1/"
+      },
+      {
+       "number": "4.4",
+       "title": "Bağlı Cihazlar, IoT ve Klinik Mühendislik",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-04-ba%C4%9Fl%C4%B1-cihazlar-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "Veri, Analitik ve Nüfus Sağlığı Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-05-veri-analitik-n%C3%BCfus-sa%C4%9Fl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "4.6",
+       "title": "Elektronik Hasta Kayıtları ve Klinik Sistemler",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-06-elektronik-hasta-kay%C4%B1tlar%C4%B1/"
+      },
+      {
+       "number": "4.7",
+       "title": "Klinik Karar Desteği ve Klinik Bilişim",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-07-klinik-karar-deste%C4%9Fi/"
+      },
+      {
+       "number": "4.8",
+       "title": "Elektronik Reçeteleme ve İlaç Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-08-elektronik-re%C3%A7ete-ila%C3%A7-y%C3%B6netimi/"
+      },
+      {
+       "number": "4.9",
+       "title": "Veri Kalitesi ve Ana Veri Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-09-veri-kalitesi-ana-veri/"
+      },
+      {
+       "number": "4.10",
+       "title": "Güvenli Veri Ortamları ve Araştırma Verisine Erişim",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-10-g%C3%BCvenli-veri-ortamlar%C4%B1/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomik ve Hassas Tıp Verisi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/04-11-genomik-hassas-t%C4%B1p/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Teslimat Biçimleri",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Ürün Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/05-00-%C3%BCr%C3%BCn-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.1",
+       "title": "Proje Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/05-01-proje-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.2",
+       "title": "Program Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/05-02-program-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.3",
+       "title": "Kurumsal Proje Portföy Yönetimi (EPPM)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Kurumsal Kaynak Planlaması (ERP)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Para, Değer ve Yönetişim",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Finansal Yönetim ve İş Vakaları",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-00-finansal-y%C3%B6netim-i%C5%9F-vakalar%C4%B1/"
+      },
+      {
+       "number": "6.1",
+       "title": "Sağlık Ekonomisi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-01-sa%C4%9Fl%C4%B1k-ekonomisi/"
+      },
+      {
+       "number": "6.2",
+       "title": "Fayda Gerçekleştirme ve Değer Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-02-fayda-ger%C3%A7ekle%C5%9Ftirme-de%C4%9Fer/"
+      },
+      {
+       "number": "6.3",
+       "title": "Tedarik ve Ticari Yönetim",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-03-tedarik-ticari-y%C3%B6netim/"
+      },
+      {
+       "number": "6.4",
+       "title": "Yönetişim ve Güvence",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-04-y%C3%B6neti%C5%9Fim-ve-g%C3%BCvence/"
+      },
+      {
+       "number": "6.5",
+       "title": "Teknoloji Maliyet Yönetimi ve Bulut FinOps",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-05-teknoloji-maliyeti-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Tedarikçi ve Hizmet Entegrasyonu Yönetimi (SIAM)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/06-06-tedarik%C3%A7i-ve-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "İnsanlar, Ekipler ve İş Gücü",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Ekip Yapıları, Roller ve Sorumluluklar",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-00-ekip-yap%C4%B1lar%C4%B1-ve-roller/"
+      },
+      {
+       "number": "7.1",
+       "title": "Çevik Teslimat Uygulamaları ve Ekip Sağlığı",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-01-%C3%A7evik-teslimat-ve-ekip-sa%C4%9Fl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "7.2",
+       "title": "İş Gücü Planlaması",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-02-i%C5%9F-g%C3%BCc%C3%BC-planlamas%C4%B1/"
+      },
+      {
+       "number": "7.3",
+       "title": "İş Gücü Stratejisi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-03-i%C5%9F-g%C3%BCc%C3%BC-stratejisi/"
+      },
+      {
+       "number": "7.4",
+       "title": "Dijital Beceriler ve Yetkinlik Geliştirme",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-04-dijital-beceriler-ve-yetkinlik/"
+      },
+      {
+       "number": "7.5",
+       "title": "İnsan ve Kurumsal Gelişim",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-05-insan-ve-kurumsal-geli%C5%9Fim/"
+      },
+      {
+       "number": "7.6",
+       "title": "İş Gücünde Eşitlik, Çeşitlilik ve Kapsayıcılık",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/07-06-i%C5%9F-g%C3%BCc%C3%BCnde-e%C5%9Fitlik-%C3%A7e%C5%9Fitlilik/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Değişim ve Yenilik",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Yeniliğin Aşamalı Olarak Devreye Alınması",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-00-yenili%C4%9Fin-a%C5%9Famaland%C4%B1r%C4%B1lmas%C4%B1/"
+      },
+      {
+       "number": "8.1",
+       "title": "Değişim Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-01-de%C4%9Fi%C5%9Fim-y%C3%B6netimi/"
+      },
+      {
+       "number": "8.2",
+       "title": "İletişim ve Katılım",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-02-ileti%C5%9Fim-ve-kat%C4%B1l%C4%B1m/"
+      },
+      {
+       "number": "8.3",
+       "title": "Davranış Bilimi ve Benimseme",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-03-davran%C4%B1%C5%9F-bilimi-ve-benimseme/"
+      },
+      {
+       "number": "8.4",
+       "title": "Yapay Zekâ ve Gelişmekte Olan Teknolojilerin Yönetişimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-04-yapay-zek%C3%A2-y%C3%B6neti%C5%9Fimi/"
+      },
+      {
+       "number": "8.5",
+       "title": "Sürdürülebilirlik ve Net Sıfır",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-05-s%C3%BCrd%C3%BCr%C3%BClebilirlik-ve-net-s%C4%B1f%C4%B1r/"
+      },
+      {
+       "number": "8.6",
+       "title": "Araştırma ve Gerçek Dünya Değerlendirmesi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/08-06-ara%C5%9Ft%C4%B1rma-ger%C3%A7ek-d%C3%BCnya-de%C4%9Ferlendirmesi/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Ortaklıklar ve Kamu",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Ortak Kuruluşlarla İş Birliği",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/09-00-ortak-kurulu%C5%9Flarla-i%C5%9F-birli%C4%9Fi/"
+      },
+      {
+       "number": "9.1",
+       "title": "Yerel ve Ulusal Hükümetlerle Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/09-01-h%C3%BCk%C3%BCmetlerle-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "9.2",
+       "title": "Küresel ve Uluslararası Dijital Sağlık",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/09-02-k%C3%BCresel-uluslararas%C4%B1-dijital-sa%C4%9Fl%C4%B1k/"
+      },
+      {
+       "number": "9.3",
+       "title": "Yetişkin Sosyal Bakımında Dijital",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/09-03-yeti%C5%9Fkin-sosyal-bak%C4%B1mda-dijital/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Ölçme, İyileştirme, Bilgi ve Liderlik",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Hedefler ve Anahtar Sonuçlar (OKR'ler)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/10-00-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "Temel Performans Göstergeleri (KPI'lar)",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/10-01-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "Kalite İyileştirme ve İyileştirme Bilimi",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/10-02-kalite-iyile%C5%9Ftirme/"
+      },
+      {
+       "number": "10.3",
+       "title": "Bilgi Yönetimi ve Dokümantasyon",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/10-03-bilgi-y%C3%B6netimi/"
+      },
+      {
+       "number": "10.4",
+       "title": "CEO ve Üst Düzey Liderler İçin Görünürlük",
+       "url": "https://digital-health-guide.github.io/tr-001/konular/10-04-liderlik-g%C3%B6r%C3%BCn%C3%BCrl%C3%BC%C4%9F%C3%BC/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tr-tr",
+   "label": "Türkçe - Türkiye",
+   "home": "https://digital-health-guide.github.io/tr-tr/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "Temeller",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "Dijital Sağlık ve Bakımda Çalışma Biçimleri",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-00-giri%C5%9F/"
+      },
+      {
+       "number": "1.1",
+       "title": "İşletme Modeli",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-01-i%C5%9Fletme-modeli/"
+      },
+      {
+       "number": "1.2",
+       "title": "Dijital Strateji ve Yol Haritası",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-02-dijital-strateji-yol-haritas%C4%B1/"
+      },
+      {
+       "number": "1.3",
+       "title": "Kanıta Dayalı Kararlar",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-03-kan%C4%B1ta-dayal%C4%B1-kararlar/"
+      },
+      {
+       "number": "1.4",
+       "title": "Tehlike Oranları",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-04-tehlike-oranlar%C4%B1/"
+      },
+      {
+       "number": "1.5",
+       "title": "Mevzuat ve Uyum Ortamı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-05-mevzuat-uyum/"
+      },
+      {
+       "number": "1.6",
+       "title": "Klinik Güvenlik ve Risk Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-06-klinik-g%C3%BCvenlik/"
+      },
+      {
+       "number": "1.7",
+       "title": "Bilgi Yönetişimi, Veri Koruma ve Siber Güvenlik",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-07-bilgi-y%C3%B6neti%C5%9Fimi-siber-g%C3%BCvenlik/"
+      },
+      {
+       "number": "1.8",
+       "title": "Veri Etiği, Rıza ve Kamu Güveni",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-08-veri-eti%C4%9Fi-r%C4%B1za-kamu-g%C3%BCveni/"
+      },
+      {
+       "number": "1.9",
+       "title": "Dijital Kapsayıcılık ve Erişilebilirlik",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-09-dijital-kapsay%C4%B1c%C4%B1l%C4%B1k-eri%C5%9Filebilirlik/"
+      },
+      {
+       "number": "1.10",
+       "title": "Dijital Hizmetlerde Korunma (Safeguarding)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/01-10-dijital-hizmetlerde-korunma/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "İş Akışını Yönetmek",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "İş Talebi Alımı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/02-00-i%C5%9F-talebi-al%C4%B1m%C4%B1/"
+      },
+      {
+       "number": "2.1",
+       "title": "İş Triyajı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/02-01-i%C5%9F-triyaj%C4%B1/"
+      },
+      {
+       "number": "2.2",
+       "title": "İş Önceliklendirme",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/02-02-i%C5%9F-%C3%B6nceliklendirme/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "Teslimat Yaşam Döngüsü",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "Kullanıcı Araştırması ve Hizmet Tasarımı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-00-kullan%C4%B1c%C4%B1-ara%C5%9Ft%C4%B1rmas%C4%B1-hizmet-tasar%C4%B1m%C4%B1/"
+      },
+      {
+       "number": "3.1",
+       "title": "İçerik Tasarımı ve Sağlık Okuryazarlığı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-01-i%C3%A7erik-tasar%C4%B1m%C4%B1-sa%C4%9Fl%C4%B1k-okuryazarl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "3.2",
+       "title": "Tasarım Sistemleri ve Prototipleme",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-02-tasar%C4%B1m-sistemleri-prototipleme/"
+      },
+      {
+       "number": "3.3",
+       "title": "Hasta ve Vatandaşa Yönelik Dijital Hizmetler",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-03-hasta-vatanda%C5%9F-odakl%C4%B1-dijital-hizmetler/"
+      },
+      {
+       "number": "3.4",
+       "title": "Keşif Aşamaları",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-04-ke%C5%9Fif-a%C5%9Famalar%C4%B1/"
+      },
+      {
+       "number": "3.5",
+       "title": "Teslimat Yaşam Döngüleri",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-05-teslimat-ya%C5%9Fam-d%C3%B6ng%C3%BCleri/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps ve Mühendislik Mükemmelliği",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-06-devops-m%C3%BChendislik-m%C3%BCkemmelli%C4%9Fi/"
+      },
+      {
+       "number": "3.7",
+       "title": "Test ve Kalite Güvencesi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-07-test-kalite-g%C3%BCvencesi/"
+      },
+      {
+       "number": "3.8",
+       "title": "Hizmet Yönetimi ve Canlı Operasyonlar",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-08-hizmet-y%C3%B6netimi-canl%C4%B1-operasyonlar/"
+      },
+      {
+       "number": "3.9",
+       "title": "İş Sürekliliği ve Felaket Kurtarma",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-09-i%C5%9F-s%C3%BCreklili%C4%9Fi-felaket-kurtarma/"
+      },
+      {
+       "number": "3.10",
+       "title": "Acil Durum Hazırlığı, Dayanıklılık ve Müdahale",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-10-acil-durum-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-m%C3%BCdahale/"
+      },
+      {
+       "number": "3.11",
+       "title": "Uzaktan Sağlık, Uzaktan Muayene ve Sanal Servisler",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/03-11-uzaktan-sa%C4%9Fl%C4%B1k-sanal-servisler/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "Teknoloji, Mimari ve Veri",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "Teknik Mimari, Bulut ve Eski Sistemler",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-00-teknik-mimari-bulut-eski-sistemler/"
+      },
+      {
+       "number": "4.1",
+       "title": "Platformlar ve Ortak Hizmetler",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-01-platformlar-ortak-hizmetler/"
+      },
+      {
+       "number": "4.2",
+       "title": "Kimlik ve Erişim Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-02-kimlik-eri%C5%9Fim-y%C3%B6netimi/"
+      },
+      {
+       "number": "4.3",
+       "title": "Birlikte Çalışabilirlik ve Veri Standartları",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-03-birlikte-%C3%A7al%C4%B1%C5%9Fabilirlik-veri-standartlar%C4%B1/"
+      },
+      {
+       "number": "4.4",
+       "title": "Bağlı Cihazlar, IoT ve Klinik Mühendislik",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-04-ba%C4%9Fl%C4%B1-cihazlar-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "Veri, Analitik ve Nüfus Sağlığı Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-05-veri-analitik-n%C3%BCfus-sa%C4%9Fl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "4.6",
+       "title": "Elektronik Hasta Kayıtları ve Klinik Sistemler",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-06-elektronik-hasta-kay%C4%B1tlar%C4%B1/"
+      },
+      {
+       "number": "4.7",
+       "title": "Klinik Karar Desteği ve Klinik Bilişim",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-07-klinik-karar-deste%C4%9Fi/"
+      },
+      {
+       "number": "4.8",
+       "title": "Elektronik Reçeteleme ve İlaç Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-08-elektronik-re%C3%A7ete-ila%C3%A7-y%C3%B6netimi/"
+      },
+      {
+       "number": "4.9",
+       "title": "Veri Kalitesi ve Ana Veri Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-09-veri-kalitesi-ana-veri/"
+      },
+      {
+       "number": "4.10",
+       "title": "Güvenli Veri Ortamları ve Araştırma Verisine Erişim",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-10-g%C3%BCvenli-veri-ortamlar%C4%B1/"
+      },
+      {
+       "number": "4.11",
+       "title": "Genomik ve Hassas Tıp Verisi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/04-11-genomik-hassas-t%C4%B1p/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "Teslimat Biçimleri",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "Ürün Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/05-00-%C3%BCr%C3%BCn-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.1",
+       "title": "Proje Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/05-01-proje-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.2",
+       "title": "Program Odaklı Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/05-02-program-odakl%C4%B1-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "5.3",
+       "title": "Kurumsal Proje Portföy Yönetimi (EPPM)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "Kurumsal Kaynak Planlaması (ERP)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "Para, Değer ve Yönetişim",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "Finansal Yönetim ve İş Vakaları",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-00-finansal-y%C3%B6netim-i%C5%9F-vakalar%C4%B1/"
+      },
+      {
+       "number": "6.1",
+       "title": "Sağlık Ekonomisi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-01-sa%C4%9Fl%C4%B1k-ekonomisi/"
+      },
+      {
+       "number": "6.2",
+       "title": "Fayda Gerçekleştirme ve Değer Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-02-fayda-ger%C3%A7ekle%C5%9Ftirme-de%C4%9Fer/"
+      },
+      {
+       "number": "6.3",
+       "title": "Tedarik ve Ticari Yönetim",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-03-tedarik-ticari-y%C3%B6netim/"
+      },
+      {
+       "number": "6.4",
+       "title": "Yönetişim ve Güvence",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-04-y%C3%B6neti%C5%9Fim-ve-g%C3%BCvence/"
+      },
+      {
+       "number": "6.5",
+       "title": "Teknoloji Maliyet Yönetimi ve Bulut FinOps",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-05-teknoloji-maliyeti-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "Tedarikçi ve Hizmet Entegrasyonu Yönetimi (SIAM)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/06-06-tedarik%C3%A7i-ve-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "İnsanlar, Ekipler ve İş Gücü",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "Ekip Yapıları, Roller ve Sorumluluklar",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-00-ekip-yap%C4%B1lar%C4%B1-ve-roller/"
+      },
+      {
+       "number": "7.1",
+       "title": "Çevik Teslimat Uygulamaları ve Ekip Sağlığı",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-01-%C3%A7evik-teslimat-ve-ekip-sa%C4%9Fl%C4%B1%C4%9F%C4%B1/"
+      },
+      {
+       "number": "7.2",
+       "title": "İş Gücü Planlaması",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-02-i%C5%9F-g%C3%BCc%C3%BC-planlamas%C4%B1/"
+      },
+      {
+       "number": "7.3",
+       "title": "İş Gücü Stratejisi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-03-i%C5%9F-g%C3%BCc%C3%BC-stratejisi/"
+      },
+      {
+       "number": "7.4",
+       "title": "Dijital Beceriler ve Yetkinlik Geliştirme",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-04-dijital-beceriler-ve-yetkinlik/"
+      },
+      {
+       "number": "7.5",
+       "title": "İnsan ve Kurumsal Gelişim",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-05-insan-ve-kurumsal-geli%C5%9Fim/"
+      },
+      {
+       "number": "7.6",
+       "title": "İş Gücünde Eşitlik, Çeşitlilik ve Kapsayıcılık",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/07-06-i%C5%9F-g%C3%BCc%C3%BCnde-e%C5%9Fitlik-%C3%A7e%C5%9Fitlilik/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "Değişim ve Yenilik",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "Yeniliğin Aşamalı Olarak Devreye Alınması",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-00-yenili%C4%9Fin-a%C5%9Famaland%C4%B1r%C4%B1lmas%C4%B1/"
+      },
+      {
+       "number": "8.1",
+       "title": "Değişim Yönetimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-01-de%C4%9Fi%C5%9Fim-y%C3%B6netimi/"
+      },
+      {
+       "number": "8.2",
+       "title": "İletişim ve Katılım",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-02-ileti%C5%9Fim-ve-kat%C4%B1l%C4%B1m/"
+      },
+      {
+       "number": "8.3",
+       "title": "Davranış Bilimi ve Benimseme",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-03-davran%C4%B1%C5%9F-bilimi-ve-benimseme/"
+      },
+      {
+       "number": "8.4",
+       "title": "Yapay Zekâ ve Gelişmekte Olan Teknolojilerin Yönetişimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-04-yapay-zek%C3%A2-y%C3%B6neti%C5%9Fimi/"
+      },
+      {
+       "number": "8.5",
+       "title": "Sürdürülebilirlik ve Net Sıfır",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-05-s%C3%BCrd%C3%BCr%C3%BClebilirlik-ve-net-s%C4%B1f%C4%B1r/"
+      },
+      {
+       "number": "8.6",
+       "title": "Araştırma ve Gerçek Dünya Değerlendirmesi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/08-06-ara%C5%9Ft%C4%B1rma-ger%C3%A7ek-d%C3%BCnya-de%C4%9Ferlendirmesi/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "Ortaklıklar ve Kamu",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "Ortak Kuruluşlarla İş Birliği",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/09-00-ortak-kurulu%C5%9Flarla-i%C5%9F-birli%C4%9Fi/"
+      },
+      {
+       "number": "9.1",
+       "title": "Yerel ve Ulusal Hükümetlerle Çalışma",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/09-01-h%C3%BCk%C3%BCmetlerle-%C3%A7al%C4%B1%C5%9Fma/"
+      },
+      {
+       "number": "9.2",
+       "title": "Küresel ve Uluslararası Dijital Sağlık",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/09-02-k%C3%BCresel-uluslararas%C4%B1-dijital-sa%C4%9Fl%C4%B1k/"
+      },
+      {
+       "number": "9.3",
+       "title": "Yetişkin Sosyal Bakımında Dijital",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/09-03-yeti%C5%9Fkin-sosyal-bak%C4%B1mda-dijital/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "Ölçme, İyileştirme, Bilgi ve Liderlik",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "Hedefler ve Anahtar Sonuçlar (OKR'ler)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/10-00-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "Temel Performans Göstergeleri (KPI'lar)",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/10-01-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "Kalite İyileştirme ve İyileştirme Bilimi",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/10-02-kalite-iyile%C5%9Ftirme/"
+      },
+      {
+       "number": "10.3",
+       "title": "Bilgi Yönetimi ve Dokümantasyon",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/10-03-bilgi-y%C3%B6netimi/"
+      },
+      {
+       "number": "10.4",
+       "title": "CEO ve Üst Düzey Liderler İçin Görünürlük",
+       "url": "https://digital-health-guide.github.io/tr-tr/konular/10-04-liderlik-g%C3%B6r%C3%BCn%C3%BCrl%C3%BC%C4%9F%C3%BC/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "ur-001",
    "label": "اردو",
    "home": "https://digital-health-guide.github.io/ur-001/",
