@@ -55,14 +55,18 @@ export const LOCALES = [
 	{ slug: 'tr-tr', label: 'Türkçe - Türkiye', hreflang: 'tr-TR' },
 	{ slug: 'ur-001', label: 'اردو', hreflang: 'ur-001' },
 	{ slug: 'vi-001', label: 'Tiếng Việt', hreflang: 'vi-001' },
-	{ slug: 'zh-001', label: '中文', hreflang: 'zh-001' }
+	{ slug: 'zh-001', label: '中文', hreflang: 'zh-001' },
+	{ slug: 'zh-th', label: '中文 - 泰国', hreflang: 'zh-TH' },
+	{ slug: 'hi-np', label: 'हिन्दी - नेपाल', hreflang: 'hi-NP' },
+	{ slug: 'cy-ar', label: 'Cymraeg - Ariannin', hreflang: 'cy-AR' },
+	{ slug: 'de-de', label: 'Deutsch - Deutschland', hreflang: 'de-DE' },
+	{ slug: 'de-at', label: 'Deutsch - Österreich', hreflang: 'de-AT' }
 ];
 
 export const DEFAULT_LOCALE = 'en-gb';
 
 /** @type {Record<string, string>} Retired locale slugs -> the slug that replaced them; their URLs redirect. */
 export const RETIRED_LOCALES = {
-	'de-de': 'de-001',
 	'hi-in': 'hi-001',
 	'id-id': 'id-001',
 	'is-is': 'is-001',

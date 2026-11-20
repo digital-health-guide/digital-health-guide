@@ -25,10 +25,19 @@ export const HERO = {
  "cy-gb": {
   "translations": "Cyfieithiadau: "
  },
+ "cy-ar": {
+  "translations": "Cyfieithiadau: "
+ },
  "da-001": {
   "translations": "Oversættelser: "
  },
  "de-001": {
+  "translations": "Übersetzungen: "
+ },
+ "de-at": {
+  "translations": "Übersetzungen: "
+ },
+ "de-de": {
   "translations": "Übersetzungen: "
  },
  "en-001": {
@@ -65,6 +74,9 @@ export const HERO = {
   "translations": "अनुवाद: "
  },
  "hi-in": {
+  "translations": "अनुवाद: "
+ },
+ "hi-np": {
   "translations": "अनुवाद: "
  },
  "id-001": {
@@ -159,7 +171,10 @@ export const HERO = {
  },
  "zh-cn": {
   "translations": "翻译： "
- }
+ },
+ "zh-th": {
+  "translations": "翻译： "
+ },
 };
 
 /** @type {Record<string, string>} */
@@ -172,8 +187,11 @@ export const ENDONYMS = {
  "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
+ "cy-ar": "Cymraeg (Ariannin)",
  "da-001": "Dansk",
  "de-001": "Deutsch",
+ "de-at": "Deutsch (Österreich)",
+ "de-de": "Deutsch (Deutschland)",
  "en-001": "English",
  "en-gb": "English (Great Britain)",
  "en-gb-oxendict": "English (Great Britain, Oxford spelling)",
@@ -186,6 +204,7 @@ export const ENDONYMS = {
  "fr-fr": "Français (France)",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
+ "hi-np": "हिन्दी (नेपाल)",
  "id-001": "Bahasa Indonesia",
  "id-my": "Bahasa Indonesia - Malaysia",
  "is-001": "Íslenska",
@@ -216,5 +235,6 @@ export const ENDONYMS = {
  "vi-001": "Tiếng Việt",
  "vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
- "zh-cn": "简体中文"
+ "zh-cn": "简体中文",
+ "zh-th": "简体中文 (泰国)",
 };
