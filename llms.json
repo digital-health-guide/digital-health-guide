@@ -15990,6 +15990,870 @@
    ]
   },
   {
+   "slug": "th-001",
+   "label": "ไทย",
+   "home": "https://digital-health-guide.github.io/th-001/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "พื้นฐาน",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "วิธีการทำงานในสุขภาพและการดูแลดิจิทัล",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-00-%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.1",
+       "title": "แบบจำลองการดำเนินงาน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-01-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B3%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.2",
+       "title": "กลยุทธ์ดิจิทัลและการทำโร้ดแมป",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-02-%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5-%E0%B9%82%E0%B8%A3%E0%B9%89%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%9B/"
+      },
+      {
+       "number": "1.3",
+       "title": "การตัดสินใจที่ขับเคลื่อนด้วยหลักฐาน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%90%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.4",
+       "title": "อัตราส่วนฮาซาร์ด (Hazard Ratios)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-04-%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AE%E0%B8%B2%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94/"
+      },
+      {
+       "number": "1.5",
+       "title": "ภูมิทัศน์ด้านกฎระเบียบและการปฏิบัติตามข้อกำหนด",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-05-%E0%B8%81%E0%B8%8E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%95%E0%B8%B2%E0%B8%A1/"
+      },
+      {
+       "number": "1.6",
+       "title": "ความปลอดภัยทางคลินิกและการจัดการความเสี่ยง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-06-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81/"
+      },
+      {
+       "number": "1.7",
+       "title": "ธรรมาภิบาลสารสนเทศ การคุ้มครองข้อมูล และความมั่นคงปลอดภัยไซเบอร์",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-07-%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C/"
+      },
+      {
+       "number": "1.8",
+       "title": "จริยธรรมข้อมูล ความยินยอม และความไว้วางใจของสาธารณะ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-08-%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%84%E0%B8%A7%E0%B9%89%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%88/"
+      },
+      {
+       "number": "1.9",
+       "title": "การรวมทุกคนเข้าสู่โลกดิจิทัลและการเข้าถึง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-09-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%84%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87/"
+      },
+      {
+       "number": "1.10",
+       "title": "การคุ้มครอง (safeguarding) ในบริการดิจิทัล",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-10-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "การบริหารการไหลของงาน",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "การรับงานเข้า",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2/"
+      },
+      {
+       "number": "2.1",
+       "title": "การคัดกรองงาน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "2.2",
+       "title": "การจัดลำดับความสำคัญของงาน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "วงจรชีวิตการส่งมอบ",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "การวิจัยผู้ใช้และการออกแบบบริการ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-00-%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "3.1",
+       "title": "การออกแบบเนื้อหาและความรู้ด้านสุขภาพ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "3.2",
+       "title": "ระบบออกแบบและการสร้างต้นแบบ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-02-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A/"
+      },
+      {
+       "number": "3.3",
+       "title": "บริการดิจิทัลสำหรับผู้ป่วยและประชาชน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-03-%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99/"
+      },
+      {
+       "number": "3.4",
+       "title": "ระยะการค้นพบ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-04-%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%9A/"
+      },
+      {
+       "number": "3.5",
+       "title": "วงจรการส่งมอบ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-05-%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%AD%E0%B8%9A/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps และความเป็นเลิศทางวิศวกรรม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-06-devops-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "3.7",
+       "title": "การทดสอบและการประกันคุณภาพ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-07-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "3.8",
+       "title": "การจัดการบริการและการปฏิบัติการ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-08-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "3.9",
+       "title": "ความต่อเนื่องทางธุรกิจและการกู้คืนจากภัยพิบัติ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-09-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88-%E0%B8%81%E0%B8%B9%E0%B9%89%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%9E%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4/"
+      },
+      {
+       "number": "3.10",
+       "title": "การเตรียมความพร้อม ความยืดหยุ่น และการรับมือเหตุฉุกเฉิน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-10-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%89%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%89%E0%B8%B4%E0%B8%99/"
+      },
+      {
+       "number": "3.11",
+       "title": "เทเลเฮลท์ การให้คำปรึกษาทางไกล และหอผู้ป่วยเสมือน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-11-%E0%B9%80%E0%B8%97%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%AE%E0%B8%A5%E0%B8%97%E0%B9%8C-%E0%B8%AB%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "เทคโนโลยี สถาปัตยกรรม และข้อมูล",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "สถาปัตยกรรมเทคนิค คลาวด์ และระบบเดิม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-00-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1-%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B9%8C-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1/"
+      },
+      {
+       "number": "4.1",
+       "title": "แพลตฟอร์มและบริการร่วม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-01-%E0%B9%81%E0%B8%9E%E0%B8%A5%E0%B8%95%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A1-%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1/"
+      },
+      {
+       "number": "4.2",
+       "title": "การจัดการตัวตนและการเข้าถึง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%95%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87/"
+      },
+      {
+       "number": "4.3",
+       "title": "การทำงานร่วมกันและมาตรฐานข้อมูล",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5/"
+      },
+      {
+       "number": "4.4",
+       "title": "อุปกรณ์เชื่อมต่อ ไอโอที และวิศวกรรมคลินิก",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-04-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "ข้อมูล การวิเคราะห์ และการบริหารจัดการสุขภาพประชากร",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-05-%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%A3/"
+      },
+      {
+       "number": "4.6",
+       "title": "เวชระเบียนอิเล็กทรอนิกส์และระบบทางคลินิก",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-06-%E0%B9%80%E0%B8%A7%E0%B8%8A%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/"
+      },
+      {
+       "number": "4.7",
+       "title": "ระบบสนับสนุนการตัดสินใจทางคลินิกและสารสนเทศทางคลินิก",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-07-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81/"
+      },
+      {
+       "number": "4.8",
+       "title": "การสั่งยาอิเล็กทรอนิกส์และการบริหารจัดการยา",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-08-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/"
+      },
+      {
+       "number": "4.9",
+       "title": "คุณภาพข้อมูลและการบริหารจัดการข้อมูลหลัก",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-09-%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/"
+      },
+      {
+       "number": "4.10",
+       "title": "สภาพแวดล้อมข้อมูลปลอดภัยและการเข้าถึงข้อมูลเพื่อการวิจัย",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-10-%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2/"
+      },
+      {
+       "number": "4.11",
+       "title": "ข้อมูลจีโนมิกส์และการแพทย์แม่นยำ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-11-%E0%B8%88%E0%B8%B5%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B8%A2%E0%B8%B3/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "รูปแบบการส่งมอบ",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "การทำงานแบบยึดผลิตภัณฑ์เป็นแกน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A2%E0%B8%B6%E0%B8%94%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%81%E0%B8%99/"
+      },
+      {
+       "number": "5.1",
+       "title": "การทำงานแบบนำด้วยโครงการ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "5.2",
+       "title": "การทำงานแบบนำด้วยโปรแกรม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "5.3",
+       "title": "การบริหารพอร์ตโฟลิโอโครงการระดับองค์กร (EPPM)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "การวางแผนทรัพยากรองค์กร (ERP)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "เงิน คุณค่า และธรรมาภิบาล",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "การบริหารการเงินและกรณีธุรกิจ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88/"
+      },
+      {
+       "number": "6.1",
+       "title": "เศรษฐศาสตร์สุขภาพ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-01-%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "6.2",
+       "title": "การรับรู้ประโยชน์และการบริหารคุณค่า",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B9%88%E0%B8%B2/"
+      },
+      {
+       "number": "6.3",
+       "title": "การจัดซื้อจัดจ้างและพาณิชย์",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%93%E0%B8%B4%E0%B8%8A%E0%B8%A2%E0%B9%8C/"
+      },
+      {
+       "number": "6.4",
+       "title": "การกำกับดูแลและการให้ความเชื่อมั่น",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-04-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%99/"
+      },
+      {
+       "number": "6.5",
+       "title": "การบริหารต้นทุนเทคโนโลยีและ FinOps บนคลาวด์",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-05-%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%B0-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "การบริหารผู้ขายและการบูรณาการบริการ (SIAM)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-06-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "บุคลากร ทีม และกำลังคน",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "โครงสร้างทีม บทบาท และความรับผิดชอบ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-00-%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%97%E0%B8%9A%E0%B8%B2%E0%B8%97/"
+      },
+      {
+       "number": "7.1",
+       "title": "แนวปฏิบัติการส่งมอบแบบ Agile และสุขภาพของทีม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-01-agile-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B8%A1/"
+      },
+      {
+       "number": "7.2",
+       "title": "การวางแผนกำลังคน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      },
+      {
+       "number": "7.3",
+       "title": "กลยุทธ์กำลังคน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-03-%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      },
+      {
+       "number": "7.4",
+       "title": "ทักษะดิจิทัลและการสร้างขีดความสามารถ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-04-%E0%B8%97%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B0%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B8%B5%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5/"
+      },
+      {
+       "number": "7.5",
+       "title": "การพัฒนาบุคลากรและองค์กร",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-05-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3/"
+      },
+      {
+       "number": "7.6",
+       "title": "ความเสมอภาค ความหลากหลาย และการรวมทุกคนของกำลังคน",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-06-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "การเปลี่ยนแปลงและนวัตกรรม",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "การแบ่งระยะการนำนวัตกรรมมาใช้",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "8.1",
+       "title": "การบริหารการเปลี่ยนแปลง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87/"
+      },
+      {
+       "number": "8.2",
+       "title": "การสื่อสารและการมีส่วนร่วม",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1/"
+      },
+      {
+       "number": "8.3",
+       "title": "พฤติกรรมศาสตร์และการนำไปใช้",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-03-%E0%B8%9E%E0%B8%A4%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%B3%E0%B9%84%E0%B8%9B%E0%B9%83%E0%B8%8A%E0%B9%89/"
+      },
+      {
+       "number": "8.4",
+       "title": "ธรรมาภิบาลปัญญาประดิษฐ์และเทคโนโลยีเกิดใหม่",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-04-%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88/"
+      },
+      {
+       "number": "8.5",
+       "title": "ความยั่งยืนและเน็ตซีโร",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-05-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%99%E0%B9%87%E0%B8%95%E0%B8%8B%E0%B8%B5%E0%B9%82%E0%B8%A3/"
+      },
+      {
+       "number": "8.6",
+       "title": "การวิจัยและการประเมินในโลกจริง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-06-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "ความร่วมมือและภาครัฐ",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "การทำงานร่วมกับองค์กรพันธมิตร",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3/"
+      },
+      {
+       "number": "9.1",
+       "title": "การทำงานร่วมกับรัฐบาลท้องถิ่นและระดับชาติ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%9A%E0%B8%B2%E0%B8%A5/"
+      },
+      {
+       "number": "9.2",
+       "title": "สุขภาพดิจิทัลระดับโลกและระดับนานาชาติ",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-02-%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81/"
+      },
+      {
+       "number": "9.3",
+       "title": "ดิจิทัลในการดูแลทางสังคมสำหรับผู้ใหญ่",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "การวัดผล การปรับปรุง ความรู้ และภาวะผู้นำ",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "วัตถุประสงค์และผลลัพธ์หลัก (OKR)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-00-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "ตัวชี้วัดผลการดำเนินงานหลัก (KPI)",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-01-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "การปรับปรุงคุณภาพและศาสตร์แห่งการปรับปรุง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "10.3",
+       "title": "การจัดการความรู้และการจัดทำเอกสาร",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89/"
+      },
+      {
+       "number": "10.4",
+       "title": "การมองเห็นสำหรับ CEO และผู้นำระดับสูง",
+       "url": "https://digital-health-guide.github.io/th-001/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-04-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%99%E0%B8%B3/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "th-th",
+   "label": "ไทย - ประเทศไทย",
+   "home": "https://digital-health-guide.github.io/th-th/",
+   "parts": [
+    {
+     "number": "1",
+     "title": "พื้นฐาน",
+     "topics": [
+      {
+       "number": "1.0",
+       "title": "วิธีการทำงานในสุขภาพและการดูแลดิจิทัล",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-00-%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.1",
+       "title": "แบบจำลองการดำเนินงาน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-01-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%88%E0%B8%B3%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.2",
+       "title": "กลยุทธ์ดิจิทัลและการทำโร้ดแมป",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-02-%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5-%E0%B9%82%E0%B8%A3%E0%B9%89%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%9B/"
+      },
+      {
+       "number": "1.3",
+       "title": "การตัดสินใจที่ขับเคลื่อนด้วยหลักฐาน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%90%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "1.4",
+       "title": "อัตราส่วนฮาซาร์ด (Hazard Ratios)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-04-%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%AE%E0%B8%B2%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94/"
+      },
+      {
+       "number": "1.5",
+       "title": "ภูมิทัศน์ด้านกฎระเบียบและการปฏิบัติตามข้อกำหนด",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-05-%E0%B8%81%E0%B8%8E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%95%E0%B8%B2%E0%B8%A1/"
+      },
+      {
+       "number": "1.6",
+       "title": "ความปลอดภัยทางคลินิกและการจัดการความเสี่ยง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-06-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81/"
+      },
+      {
+       "number": "1.7",
+       "title": "ธรรมาภิบาลสารสนเทศ การคุ้มครองข้อมูล และความมั่นคงปลอดภัยไซเบอร์",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-07-%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C/"
+      },
+      {
+       "number": "1.8",
+       "title": "จริยธรรมข้อมูล ความยินยอม และความไว้วางใจของสาธารณะ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-08-%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%84%E0%B8%A7%E0%B9%89%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%88/"
+      },
+      {
+       "number": "1.9",
+       "title": "การรวมทุกคนเข้าสู่โลกดิจิทัลและการเข้าถึง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-09-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%84%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87/"
+      },
+      {
+       "number": "1.10",
+       "title": "การคุ้มครอง (safeguarding) ในบริการดิจิทัล",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/01-10-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5/"
+      }
+     ]
+    },
+    {
+     "number": "2",
+     "title": "การบริหารการไหลของงาน",
+     "topics": [
+      {
+       "number": "2.0",
+       "title": "การรับงานเข้า",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2/"
+      },
+      {
+       "number": "2.1",
+       "title": "การคัดกรองงาน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      },
+      {
+       "number": "2.2",
+       "title": "การจัดลำดับความสำคัญของงาน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/02-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%84%E0%B8%B1%E0%B8%8D%E0%B8%87%E0%B8%B2%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "3",
+     "title": "วงจรชีวิตการส่งมอบ",
+     "topics": [
+      {
+       "number": "3.0",
+       "title": "การวิจัยผู้ใช้และการออกแบบบริการ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-00-%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "3.1",
+       "title": "การออกแบบเนื้อหาและความรู้ด้านสุขภาพ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "3.2",
+       "title": "ระบบออกแบบและการสร้างต้นแบบ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-02-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A/"
+      },
+      {
+       "number": "3.3",
+       "title": "บริการดิจิทัลสำหรับผู้ป่วยและประชาชน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-03-%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99/"
+      },
+      {
+       "number": "3.4",
+       "title": "ระยะการค้นพบ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-04-%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%9A/"
+      },
+      {
+       "number": "3.5",
+       "title": "วงจรการส่งมอบ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-05-%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%AD%E0%B8%9A/"
+      },
+      {
+       "number": "3.6",
+       "title": "DevOps และความเป็นเลิศทางวิศวกรรม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-06-devops-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "3.7",
+       "title": "การทดสอบและการประกันคุณภาพ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-07-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "3.8",
+       "title": "การจัดการบริการและการปฏิบัติการ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-08-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "3.9",
+       "title": "ความต่อเนื่องทางธุรกิจและการกู้คืนจากภัยพิบัติ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-09-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88-%E0%B8%81%E0%B8%B9%E0%B9%89%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%9E%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4/"
+      },
+      {
+       "number": "3.10",
+       "title": "การเตรียมความพร้อม ความยืดหยุ่น และการรับมือเหตุฉุกเฉิน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-10-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%89%E0%B8%B8%E0%B8%81%E0%B9%80%E0%B8%89%E0%B8%B4%E0%B8%99/"
+      },
+      {
+       "number": "3.11",
+       "title": "เทเลเฮลท์ การให้คำปรึกษาทางไกล และหอผู้ป่วยเสมือน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/03-11-%E0%B9%80%E0%B8%97%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%AE%E0%B8%A5%E0%B8%97%E0%B9%8C-%E0%B8%AB%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "4",
+     "title": "เทคโนโลยี สถาปัตยกรรม และข้อมูล",
+     "topics": [
+      {
+       "number": "4.0",
+       "title": "สถาปัตยกรรมเทคนิค คลาวด์ และระบบเดิม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-00-%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1-%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B9%8C-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1/"
+      },
+      {
+       "number": "4.1",
+       "title": "แพลตฟอร์มและบริการร่วม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-01-%E0%B9%81%E0%B8%9E%E0%B8%A5%E0%B8%95%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A1-%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1/"
+      },
+      {
+       "number": "4.2",
+       "title": "การจัดการตัวตนและการเข้าถึง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%95%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87/"
+      },
+      {
+       "number": "4.3",
+       "title": "การทำงานร่วมกันและมาตรฐานข้อมูล",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5/"
+      },
+      {
+       "number": "4.4",
+       "title": "อุปกรณ์เชื่อมต่อ ไอโอที และวิศวกรรมคลินิก",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-04-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD-iot/"
+      },
+      {
+       "number": "4.5",
+       "title": "ข้อมูล การวิเคราะห์ และการบริหารจัดการสุขภาพประชากร",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-05-%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%A3/"
+      },
+      {
+       "number": "4.6",
+       "title": "เวชระเบียนอิเล็กทรอนิกส์และระบบทางคลินิก",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-06-%E0%B9%80%E0%B8%A7%E0%B8%8A%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/"
+      },
+      {
+       "number": "4.7",
+       "title": "ระบบสนับสนุนการตัดสินใจทางคลินิกและสารสนเทศทางคลินิก",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-07-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81/"
+      },
+      {
+       "number": "4.8",
+       "title": "การสั่งยาอิเล็กทรอนิกส์และการบริหารจัดการยา",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-08-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/"
+      },
+      {
+       "number": "4.9",
+       "title": "คุณภาพข้อมูลและการบริหารจัดการข้อมูลหลัก",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-09-%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81/"
+      },
+      {
+       "number": "4.10",
+       "title": "สภาพแวดล้อมข้อมูลปลอดภัยและการเข้าถึงข้อมูลเพื่อการวิจัย",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-10-%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2/"
+      },
+      {
+       "number": "4.11",
+       "title": "ข้อมูลจีโนมิกส์และการแพทย์แม่นยำ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/04-11-%E0%B8%88%E0%B8%B5%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B8%A2%E0%B8%B3/"
+      }
+     ]
+    },
+    {
+     "number": "5",
+     "title": "รูปแบบการส่งมอบ",
+     "topics": [
+      {
+       "number": "5.0",
+       "title": "การทำงานแบบยึดผลิตภัณฑ์เป็นแกน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A2%E0%B8%B6%E0%B8%94%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%81%E0%B8%99/"
+      },
+      {
+       "number": "5.1",
+       "title": "การทำงานแบบนำด้วยโครงการ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3/"
+      },
+      {
+       "number": "5.2",
+       "title": "การทำงานแบบนำด้วยโปรแกรม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "5.3",
+       "title": "การบริหารพอร์ตโฟลิโอโครงการระดับองค์กร (EPPM)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-03-eppm/"
+      },
+      {
+       "number": "5.4",
+       "title": "การวางแผนทรัพยากรองค์กร (ERP)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/05-04-erp/"
+      }
+     ]
+    },
+    {
+     "number": "6",
+     "title": "เงิน คุณค่า และธรรมาภิบาล",
+     "topics": [
+      {
+       "number": "6.0",
+       "title": "การบริหารการเงินและกรณีธุรกิจ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88/"
+      },
+      {
+       "number": "6.1",
+       "title": "เศรษฐศาสตร์สุขภาพ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-01-%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "6.2",
+       "title": "การรับรู้ประโยชน์และการบริหารคุณค่า",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B9%88%E0%B8%B2/"
+      },
+      {
+       "number": "6.3",
+       "title": "การจัดซื้อจัดจ้างและพาณิชย์",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%93%E0%B8%B4%E0%B8%8A%E0%B8%A2%E0%B9%8C/"
+      },
+      {
+       "number": "6.4",
+       "title": "การกำกับดูแลและการให้ความเชื่อมั่น",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-04-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%99/"
+      },
+      {
+       "number": "6.5",
+       "title": "การบริหารต้นทุนเทคโนโลยีและ FinOps บนคลาวด์",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-05-%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%B0-finops/"
+      },
+      {
+       "number": "6.6",
+       "title": "การบริหารผู้ขายและการบูรณาการบริการ (SIAM)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/06-06-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0-siam/"
+      }
+     ]
+    },
+    {
+     "number": "7",
+     "title": "บุคลากร ทีม และกำลังคน",
+     "topics": [
+      {
+       "number": "7.0",
+       "title": "โครงสร้างทีม บทบาท และความรับผิดชอบ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-00-%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%97%E0%B8%9A%E0%B8%B2%E0%B8%97/"
+      },
+      {
+       "number": "7.1",
+       "title": "แนวปฏิบัติการส่งมอบแบบ Agile และสุขภาพของทีม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-01-agile-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B8%A1/"
+      },
+      {
+       "number": "7.2",
+       "title": "การวางแผนกำลังคน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      },
+      {
+       "number": "7.3",
+       "title": "กลยุทธ์กำลังคน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-03-%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      },
+      {
+       "number": "7.4",
+       "title": "ทักษะดิจิทัลและการสร้างขีดความสามารถ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-04-%E0%B8%97%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B0%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B8%B5%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5/"
+      },
+      {
+       "number": "7.5",
+       "title": "การพัฒนาบุคลากรและองค์กร",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-05-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3/"
+      },
+      {
+       "number": "7.6",
+       "title": "ความเสมอภาค ความหลากหลาย และการรวมทุกคนของกำลังคน",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/07-06-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%99/"
+      }
+     ]
+    },
+    {
+     "number": "8",
+     "title": "การเปลี่ยนแปลงและนวัตกรรม",
+     "topics": [
+      {
+       "number": "8.0",
+       "title": "การแบ่งระยะการนำนวัตกรรมมาใช้",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1/"
+      },
+      {
+       "number": "8.1",
+       "title": "การบริหารการเปลี่ยนแปลง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87/"
+      },
+      {
+       "number": "8.2",
+       "title": "การสื่อสารและการมีส่วนร่วม",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1/"
+      },
+      {
+       "number": "8.3",
+       "title": "พฤติกรรมศาสตร์และการนำไปใช้",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-03-%E0%B8%9E%E0%B8%A4%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%B3%E0%B9%84%E0%B8%9B%E0%B9%83%E0%B8%8A%E0%B9%89/"
+      },
+      {
+       "number": "8.4",
+       "title": "ธรรมาภิบาลปัญญาประดิษฐ์และเทคโนโลยีเกิดใหม่",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-04-%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88/"
+      },
+      {
+       "number": "8.5",
+       "title": "ความยั่งยืนและเน็ตซีโร",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-05-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%99%E0%B9%87%E0%B8%95%E0%B8%8B%E0%B8%B5%E0%B9%82%E0%B8%A3/"
+      },
+      {
+       "number": "8.6",
+       "title": "การวิจัยและการประเมินในโลกจริง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/08-06-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87/"
+      }
+     ]
+    },
+    {
+     "number": "9",
+     "title": "ความร่วมมือและภาครัฐ",
+     "topics": [
+      {
+       "number": "9.0",
+       "title": "การทำงานร่วมกับองค์กรพันธมิตร",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-00-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3/"
+      },
+      {
+       "number": "9.1",
+       "title": "การทำงานร่วมกับรัฐบาลท้องถิ่นและระดับชาติ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-01-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%9A%E0%B8%B2%E0%B8%A5/"
+      },
+      {
+       "number": "9.2",
+       "title": "สุขภาพดิจิทัลระดับโลกและระดับนานาชาติ",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-02-%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81/"
+      },
+      {
+       "number": "9.3",
+       "title": "ดิจิทัลในการดูแลทางสังคมสำหรับผู้ใหญ่",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/09-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88/"
+      }
+     ]
+    },
+    {
+     "number": "10",
+     "title": "การวัดผล การปรับปรุง ความรู้ และภาวะผู้นำ",
+     "topics": [
+      {
+       "number": "10.0",
+       "title": "วัตถุประสงค์และผลลัพธ์หลัก (OKR)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-00-okr/"
+      },
+      {
+       "number": "10.1",
+       "title": "ตัวชี้วัดผลการดำเนินงานหลัก (KPI)",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-01-kpi/"
+      },
+      {
+       "number": "10.2",
+       "title": "การปรับปรุงคุณภาพและศาสตร์แห่งการปรับปรุง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-02-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/"
+      },
+      {
+       "number": "10.3",
+       "title": "การจัดการความรู้และการจัดทำเอกสาร",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-03-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89/"
+      },
+      {
+       "number": "10.4",
+       "title": "การมองเห็นสำหรับ CEO และผู้นำระดับสูง",
+       "url": "https://digital-health-guide.github.io/th-th/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%82%E0%B9%89%E0%B8%AD/10-04-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%99%E0%B8%B3/"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "ur-001",
    "label": "اردو",
    "home": "https://digital-health-guide.github.io/ur-001/",

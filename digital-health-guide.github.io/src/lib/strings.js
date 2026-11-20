@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Italian (it-001, it-it), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Italian (it-001, it-it), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Thai (th-001, th-th), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -331,6 +331,60 @@ const it = {
 	tryGlossary: 'il glossario',
 	tryOr: 'oppure l\'',
 	tryIndex: 'indice analitico'
+};
+
+const th = {
+	siteBrand: 'คู่มือสุขภาพดิจิทัล',
+	skipToMain: 'ข้ามไปยังเนื้อหาหลัก',
+	siteHeader: 'ส่วนหัวของเว็บไซต์',
+	mainNav: 'การนำทางหลัก',
+	navContents: 'สารบัญ',
+	navGlossary: 'อภิธานศัพท์',
+	navIndex: 'ดัชนี',
+	navStyleGuide: 'คู่มือรูปแบบ',
+	navSpecification: 'ข้อกำหนด',
+	navGitHub: 'GitHub',
+	pickerTheme: 'ธีม',
+	pickerLocale: 'ภาษา',
+	pickerTextSize: 'ขนาดตัวอักษร',
+	pickerShare: 'แชร์',
+	pickerLink: 'ลิงก์โครงการ',
+	pickerSearch: 'ค้นหา',
+	pickerSearchInput: 'ข้อความที่ต้องการค้นหา',
+	pickerSearchSubmit: 'ค้นหา',
+	pickerShareCopyLink: 'คัดลอกลิงก์',
+	pickerShareCopied: 'คัดลอกแล้ว',
+	breadcrumb: 'เส้นทางนำทาง',
+	breadcrumbTopics: 'หัวข้อ',
+	breadcrumbReference: 'อ้างอิง',
+	onThisPage: 'ในหน้านี้',
+	headingAnchorPrefix: 'ลิงก์ไปยัง',
+	topicNavigation: 'การนำทางระหว่างหัวข้อ',
+	previous: 'ก่อนหน้า',
+	next: 'ถัดไป',
+	editOnGitHub: 'แก้ไขหน้านี้บน GitHub',
+	sourceOfTruth: 'หนังสือคือแหล่งข้อมูลที่เชื่อถือได้ เว็บไซต์นี้เพียงนำเสนอหนังสือ',
+	siteFooter: 'ส่วนท้ายของเว็บไซต์',
+	footerDescription:
+		'คู่มือเชิงปฏิบัติว่าด้วยแนวปฏิบัติที่ดีในการให้บริการดิจิทัลแก่องค์กรด้านสุขภาพและการดูแลทางสังคม',
+	footerLedByBefore: ' นำโดย ',
+	footerLedByAfter: '',
+	footerBuiltWith: ' สร้างด้วย ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'ข้อกำหนด',
+	notFoundHeading: 'ไม่พบหน้านี้',
+	errorHeading: 'เกิดข้อผิดพลาดบางอย่าง',
+	notFoundBody: 'ไม่มีหน้าที่',
+	notFoundBodyEnd: 'หนังสืออาจถูกย้ายหรือเปลี่ยนชื่อ',
+	errorBodyFallback: 'ไม่สามารถโหลดหน้านี้ได้',
+	tryPrefix: 'ลองดู',
+	tryTableOfContents: 'สารบัญ',
+	tryGlossary: 'อภิธานศัพท์',
+	tryOr: 'หรือ',
+	tryIndex: 'ดัชนี'
 };
 
 const fr = {
@@ -1237,6 +1291,8 @@ const TABLES = {
 	'sv-se': sv,
 	'sw-001': sw,
 	'sw-tz': sw,
+	'th-001': th,
+	'th-th': th,
 	'ur-001': ur,
 	'vi-001': vi,
 	'vi-vn': vi,

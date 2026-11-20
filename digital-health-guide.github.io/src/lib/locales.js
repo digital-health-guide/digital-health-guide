@@ -8,7 +8,7 @@
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, ar-dz, ar-eg, bn-001, bn-bd, bn-in, cy-001, cy-gb, da-001, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, id-my, is-001, it-001, it-it, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, ru-by, ru-ru, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
+// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, id-my, is-001, it-001, it-it, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, ru-by, ru-ru, sv-001, sw-001, th-001, th-th, ur-001, vi-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
@@ -49,6 +49,8 @@ export const LOCALES = [
 	{ slug: 'ru-by', label: 'Русский - Беларусь', hreflang: 'ru-by' },
 	{ slug: 'sv-001', label: 'Svenska', hreflang: 'sv-001' },
 	{ slug: 'sw-001', label: 'Kiswahili', hreflang: 'sw-001' },
+	{ slug: 'th-001', label: 'ไทย', hreflang: 'th-001' },
+	{ slug: 'th-th', label: 'ไทย - ประเทศไทย', hreflang: 'th-TH' },
 	{ slug: 'ur-001', label: 'اردو', hreflang: 'ur-001' },
 	{ slug: 'vi-001', label: 'Tiếng Việt', hreflang: 'vi-001' },
 	{ slug: 'zh-001', label: '中文', hreflang: 'zh-001' }
