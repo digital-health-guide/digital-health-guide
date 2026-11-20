@@ -79,6 +79,12 @@ export const HERO = {
  "is-is": {
   "translations": "Þýðingar: "
  },
+ "it-001": {
+  "translations": "Traduzioni: "
+ },
+ "it-it": {
+  "translations": "Traduzioni: "
+ },
  "ja-001": {
   "translations": "翻訳： "
  },
@@ -172,6 +178,8 @@ export const ENDONYMS = {
  "id-my": "Bahasa Indonesia - Malaysia",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
+ "it-001": "Italiano",
+ "it-it": "Italiano (Italia)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",

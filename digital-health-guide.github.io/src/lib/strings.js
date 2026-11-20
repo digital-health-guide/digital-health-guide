@@ -6,7 +6,7 @@
 //
 // The four English locales (en-gb, en-us, en-gb-oxendict, en-001) share one
 // table: none of these short UI strings has a US/UK/Oxford spelling
-// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
+// difference. Arabic (ar-001), Welsh (cy-001, cy-gb), Danish (da-001), German (de-001), Japanese (ja-001), Korean (ko-001), Icelandic (is-001, is-is), Italian (it-001, it-it), Dutch (nl-001, nl-nl), Portuguese (pt-001), Swedish (sv-001, sv-se), Swahili (sw-001, sw-tz), Urdu (ur-001), Vietnamese (vi-001, vi-vn), Chinese (zh-001), Spanish
 // (es-001), French (fr-001), Hindi (hi-001), Indonesian (id-001), Bengali (bn-001), and Russian (ru-001) each need their own.
 
 const en = {
@@ -277,6 +277,60 @@ const es = {
 	tryGlossary: 'glosario',
 	tryOr: 'o el',
 	tryIndex: 'índice'
+};
+
+const it = {
+	siteBrand: 'Guida alla Salute Digitale',
+	skipToMain: 'Vai al contenuto principale',
+	siteHeader: 'Intestazione del sito',
+	mainNav: 'Navigazione principale',
+	navContents: 'Indice dei contenuti',
+	navGlossary: 'Glossario',
+	navIndex: 'Indice analitico',
+	navStyleGuide: 'Guida di stile',
+	navSpecification: 'Specifica',
+	navGitHub: 'GitHub',
+	pickerTheme: 'Tema',
+	pickerLocale: 'Lingua',
+	pickerTextSize: 'Dimensione del testo',
+	pickerShare: 'Condividi',
+	pickerLink: 'Link del progetto',
+	pickerSearch: 'Cerca',
+	pickerSearchInput: 'Testo da cercare',
+	pickerSearchSubmit: 'Cerca',
+	pickerShareCopyLink: 'Copia il link',
+	pickerShareCopied: 'Copiato',
+	breadcrumb: 'Percorso di navigazione',
+	breadcrumbTopics: 'Argomenti',
+	breadcrumbReference: 'Riferimento',
+	onThisPage: 'In questa pagina',
+	headingAnchorPrefix: 'Link a',
+	topicNavigation: 'Navigazione tra gli argomenti',
+	previous: 'Precedente',
+	next: 'Successivo',
+	editOnGitHub: 'Modifica questa pagina su GitHub',
+	sourceOfTruth: 'il libro è la fonte di verità; questo sito lo presenta.',
+	siteFooter: 'Piè di pagina del sito',
+	footerDescription:
+		'un manuale pratico di buone pratiche per erogare servizi digitali nelle organizzazioni sanitarie e di assistenza sociale.',
+	footerLedByBefore: ' Guidato da ',
+	footerLedByAfter: '.',
+	footerBuiltWith: ' Realizzato con ',
+	footerLilyLink: 'Lily Design System',
+	footerGitHub: 'GitHub',
+	footerGitLab: 'GitLab',
+	footerCodeberg: 'Codeberg',
+	footerSpecification: 'Specifica',
+	notFoundHeading: 'Pagina non trovata',
+	errorHeading: 'Qualcosa è andato storto',
+	notFoundBody: 'Non c\'è nessuna pagina in',
+	notFoundBodyEnd: 'Il libro potrebbe essere stato spostato o rinominato.',
+	errorBodyFallback: 'Non è stato possibile caricare la pagina.',
+	tryPrefix: 'Prova con l\'',
+	tryTableOfContents: 'indice dei contenuti',
+	tryGlossary: 'il glossario',
+	tryOr: 'oppure l\'',
+	tryIndex: 'indice analitico'
 };
 
 const fr = {
@@ -1156,6 +1210,8 @@ const TABLES = {
 	'cy-gb': cyGb,
 	'da-001': da,
 	'de-001': de,
+	'it-001': it,
+	'it-it': it,
 	'ja-001': ja,
 	'ko-001': ko,
 	'zh-001': zhCn,

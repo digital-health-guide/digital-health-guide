@@ -8,7 +8,7 @@
 
 /** @type {{ slug: string, label: string, hreflang: string }[]} */
 // Sorted alphabetically by slug (ar-001, ar-dz, ar-eg, bn-001, bn-bd, bn-in, cy-001, cy-gb, da-001, de-001, en-001, en-gb,
-// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, id-my, is-001, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, ru-by, ru-ru, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
+// en-gb-oxendict, en-us, es-001, es-es, es-mx, fr-001, fr-ca, fr-fr, hi-001, id-001, id-my, is-001, it-001, it-it, ja-001, ko-001, nl-001, pt-001, pt-br, pt-pt, ru-001, ru-by, ru-ru, sv-001, sw-001, ur-001, vi-001, zh-001) — not by label, so
 // "English - Great Britain" sorts before "English - Great Britain - Oxford"
 // rather than by the language name.
 export const LOCALES = [
@@ -36,6 +36,8 @@ export const LOCALES = [
 	{ slug: 'id-001', label: 'Bahasa Indonesia', hreflang: 'id-001' },
 	{ slug: 'id-my', label: 'Bahasa Indonesia - Malaysia', hreflang: 'id-my' },
 	{ slug: 'is-001', label: 'Íslenska', hreflang: 'is-001' },
+	{ slug: 'it-001', label: 'Italiano', hreflang: 'it-001' },
+	{ slug: 'it-it', label: 'Italiano - Italia', hreflang: 'it-IT' },
 	{ slug: 'ja-001', label: '日本語', hreflang: 'ja-001' },
 	{ slug: 'ko-001', label: '한국어', hreflang: 'ko-001' },
 	{ slug: 'nl-001', label: 'Nederlands', hreflang: 'nl-001' },
