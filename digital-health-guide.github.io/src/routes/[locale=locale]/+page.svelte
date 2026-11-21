@@ -4,4 +4,4 @@
 	let { data } = $props();
 </script>
 
-<HomePage doc={data.doc} alternates={data.alternates} />
+<HomePage doc={data.doc} alternates={data.alternates} tileHrefs={data.tileHrefs} />

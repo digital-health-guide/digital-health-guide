@@ -69,6 +69,11 @@ function topicHrefFor(locale) {
 	return (number) => routeByNumber.get(number) ?? null;
 }
 
+/** The route of topic `number` (e.g. "3.4") in one locale, or null when that locale lacks it. */
+export function topicRoute(locale, number) {
+	return topicHrefFor(locale)(number);
+}
+
 /**
  * Every route this site publishes.
  *
